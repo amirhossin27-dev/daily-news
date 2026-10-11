@@ -19,7 +19,7 @@
   --learn-soft: #e1f3eb;
   --shadow: 0 1px 2px rgba(20, 20, 30, .04), 0 4px 16px rgba(20, 20, 30, .05);
   --radius: 14px;
-  --font-ui: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-read: "Source Serif 4", Georgia, "Times New Roman", serif;
   color-scheme: light;
 }
