@@ -1,4 +1,4 @@
-/* Daily Brief: Liste, Filter, Artikelansicht und Vorlesefunktion (Web Speech API). */
+/* Daily Brief: Liste, Suche, Artikelansicht und Vorlesefunktion (Web Speech API). */
 (function () {
   'use strict';
 
@@ -33,7 +33,8 @@
   };
 
   var view = document.getElementById('view');
-  var state = { articles: [], loaded: false, error: null, labels: new Set(), edition: 'alle', q: '' };
+  var state = { articles: [], loaded: false, error: null, q: '' };
+  var search = document.getElementById('q');
 
   /* ---------- Hilfen ---------- */
 
@@ -68,10 +69,9 @@
 
   function chip(name, opts) {
     opts = opts || {};
-    var tag = opts.href ? 'a' : opts.plain ? 'span' : 'button';
-    var attrs = opts.href ? ' href="' + esc(opts.href) + '"' : opts.plain ? '' : ' type="button" aria-pressed="' + (opts.pressed ? 'true' : 'false') + '" data-label="' + esc(name) + '"';
-    return '<' + tag + ' class="chip' + (opts.small ? ' small' : '') + '"' + attrs + ' style="--c:' + labelColor(name) + '">' +
-      '<span class="dot"></span>' + esc(name) + (opts.count != null ? ' <span class="count">' + opts.count + '</span>' : '') + '</' + tag + '>';
+    var tag = opts.href ? 'a' : 'span';
+    return '<' + tag + ' class="chip' + (opts.small ? ' small' : '') + '"' + (opts.href ? ' href="' + esc(opts.href) + '"' : '') +
+      ' style="--c:' + labelColor(name) + '"><span class="dot"></span>' + esc(name) + '</' + tag + '>';
   }
 
   function editionBadge(a) {
@@ -103,8 +103,6 @@
   function filtered() {
     var q = state.q.trim().toLowerCase();
     return state.articles.filter(function (a) {
-      if (state.edition !== 'alle' && a.edition !== state.edition) return false;
-      if (state.labels.size && !a.labels.some(function (l) { return state.labels.has(l); })) return false;
       if (q) {
         var hay = (a.title + ' ' + a.summary + ' ' + a.labels.join(' ')).toLowerCase();
         if (hay.indexOf(q) === -1) return false;
@@ -118,55 +116,22 @@
       view.innerHTML = '<div class="empty">Die Artikel konnten nicht geladen werden. Bitte später erneut versuchen.</div>';
       return;
     }
-    var counts = {};
-    state.articles.forEach(function (a) { a.labels.forEach(function (l) { counts[l] = (counts[l] || 0) + 1; }); });
-    var labelNames = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b, 'de'); });
-
-    var html = '<section class="intro"><h1>Das Wichtigste des Tages.</h1>' +
-      '<p>Dreimal täglich eine kompakte Lage: Wirtschaft, Krypto, Iran, USA und Naher Osten. Mit Quellen, klar gekennzeichneten Gerüchten und etwas zum Nachdenken.</p></section>';
-
-    html += '<section class="filters" aria-label="Filter">' +
-      '<div class="filter-row">' +
-        '<label class="search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>' +
-        '<input id="q" type="search" placeholder="Suchen…" aria-label="Artikel durchsuchen" value="' + esc(state.q) + '"></label>' +
-        '<div class="seg" role="group" aria-label="Ausgabe">' +
-          ['alle', 'morgen', 'mittag', 'abend'].map(function (e) {
-            return '<button type="button" data-edition="' + e + '" aria-pressed="' + (state.edition === e) + '">' + (e === 'alle' ? 'Alle' : EDITIONS[e].name) + '</button>';
-          }).join('') +
-        '</div>' +
-      '</div>' +
-      '<div class="chips" role="group" aria-label="Themen">' +
-        labelNames.map(function (l) { return chip(l, { pressed: state.labels.has(l), count: counts[l] }); }).join('') +
-        (state.labels.size ? '<button type="button" class="clear-btn" id="clearLabels">Filter zurücksetzen</button>' : '') +
-      '</div>' +
-    '</section>';
-
-    html += '<div id="list"></div>';
-    view.innerHTML = html;
+    view.innerHTML = '<section class="intro"><h1>Das Wichtigste des Tages.</h1>' +
+      '<p>Dreimal täglich eine kompakte Lage: Wirtschaft, Krypto, Iran, USA und Naher Osten. Mit Quellen, klar gekennzeichneten Gerüchten und etwas zum Nachdenken.</p></section>' +
+      '<div id="list"></div>';
     renderList();
-
-    var q = document.getElementById('q');
-    q.addEventListener('input', function () { state.q = q.value; renderList(); });
-    view.querySelectorAll('[data-edition]').forEach(function (b) {
-      b.addEventListener('click', function () { state.edition = b.dataset.edition; saveFilters(); renderHome(); });
-    });
-    view.querySelectorAll('.chips [data-label]').forEach(function (b) {
-      b.addEventListener('click', function () {
-        var l = b.dataset.label;
-        if (state.labels.has(l)) state.labels.delete(l); else state.labels.add(l);
-        saveFilters(); renderHome();
-      });
-    });
-    var clr = document.getElementById('clearLabels');
-    if (clr) clr.addEventListener('click', function () { state.labels.clear(); saveFilters(); renderHome(); });
   }
 
   function renderList() {
     var list = document.getElementById('list');
     var items = filtered();
     if (!state.articles.length) { list.innerHTML = '<div class="empty">Noch keine Artikel. Die erste Ausgabe folgt in Kürze.</div>'; return; }
-    if (!items.length) { list.innerHTML = '<div class="empty">Keine Artikel für diese Auswahl.</div>'; return; }
-    var isUnfiltered = !state.labels.size && state.edition === 'alle' && !state.q.trim();
+    if (!items.length) {
+      list.innerHTML = '<div class="empty">Keine Treffer für „' + esc(state.q.trim()) + '“. <button type="button" class="link-btn" id="clearSearch">Suche löschen</button></div>';
+      document.getElementById('clearSearch').addEventListener('click', function () { setSearch(''); search.focus(); });
+      return;
+    }
+    var isUnfiltered = !state.q.trim();
     var groups = []; var byDate = {};
     items.forEach(function (a) {
       if (!byDate[a.date]) { byDate[a.date] = []; groups.push(a.date); }
@@ -183,18 +148,32 @@
     return '<a class="card' + (hero ? ' hero' : '') + '" href="#/artikel/' + encodeURIComponent(a.id) + '">' +
       '<div class="meta">' + editionBadge(a) + '<span>' + a.reading_minutes + ' Min. Lesezeit</span><span>· ' + a.sources.length + ' Quellen</span></div>' +
       '<h2>' + esc(a.title) + '</h2><p>' + esc(a.summary) + '</p>' +
-      '<div class="labels">' + a.labels.map(function (l) { return chip(l, { small: true, plain: true }); }).join('') + '</div>' +
+      '<div class="labels">' + a.labels.map(function (l) { return chip(l, { small: true }); }).join('') + '</div>' +
     '</a>';
   }
 
-  // Filter gelten nur für die aktuelle Sitzung, damit beim nächsten Besuch wieder alles sichtbar ist.
-  function saveFilters() {
-    try { sessionStorage.setItem('db-filters', JSON.stringify({ labels: Array.from(state.labels), edition: state.edition })); } catch (e) {}
+  function setSearch(q) {
+    state.q = q; search.value = q;
+    if ((location.hash || '#/').replace(/\?.*$/, '') !== '#/') location.hash = '#/';
+    else if (document.getElementById('list')) renderList();
+    else renderHome();
   }
-  function loadFilters() {
-    var f = null; try { f = JSON.parse(sessionStorage.getItem('db-filters')); } catch (e) {}
-    if (f) { state.labels = new Set(f.labels || []); state.edition = f.edition || 'alle'; }
-  }
+
+  search.addEventListener('input', function () { setSearch(search.value); });
+  search.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') { setSearch(''); search.blur(); } });
+
+  /* ---------- Hinweis „Keine Anlageberatung“ ---------- */
+
+  function disclaimerHidden() { return store.get('db-hide-disclaimer', false); }
+  function applyDisclaimer() { document.documentElement.classList.toggle('no-disclaimer', !!disclaimerHidden()); }
+  document.addEventListener('click', function (ev) {
+    var b = ev.target.closest && ev.target.closest('[data-hide-disclaimer], [data-show-disclaimer]');
+    if (!b) return;
+    store.set('db-hide-disclaimer', b.hasAttribute('data-hide-disclaimer'));
+    applyDisclaimer();
+    if (b.hasAttribute('data-show-disclaimer')) toast('Der Hinweis wird wieder angezeigt.');
+  });
+  applyDisclaimer();
 
   /* ---------- Artikel ---------- */
 
@@ -247,9 +226,10 @@
             '<div class="meta">' + editionBadge(a) + '<span>' + esc(fmtLong.format(parseDate(a.date))) + '</span><span>· ' + a.reading_minutes + ' Min.</span></div>' +
             '<h1 data-tts>' + esc(a.title) + '</h1>' +
             '<p class="lede" data-tts>' + esc(a.summary) + '</p>' +
-            '<div class="labels">' + a.labels.map(function (l) { return chip(l, { small: true, href: '#/?label=' + encodeURIComponent(l) }); }).join('') + '</div>' +
+            '<div class="labels">' + a.labels.map(function (l) { return chip(l, { small: true, href: '#/?q=' + encodeURIComponent(l) }); }).join('') + '</div>' +
             '<button class="listen-cta" type="button" id="listenCta"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Artikel anhören</button>' +
-            (hasCrypto ? '<p class="notice">Keine Anlageberatung. Kursangaben und Einschätzungen zu Kryptowährungen dienen nur der Information.</p>' : '') +
+            (hasCrypto ? '<p class="notice disclaimer"><span>Keine Anlageberatung. Kursangaben und Einschätzungen zu Kryptowährungen dienen nur der Information.</span>' +
+              '<button type="button" class="notice-close" data-hide-disclaimer aria-label="Hinweis ausblenden" title="Ausblenden"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></p>' : '') +
           '</header>' +
           '<div class="prose" id="prose">' + body + '</div>' +
           '<section class="sources" id="quellen"><h2>Quellen</h2><p class="muted">' + esc(e.long) + ' vom ' + esc(fmtLong.format(parseDate(a.date))) + '. Zahlen und Zitate stammen aus diesen Quellen; Einordnungen sind als solche markiert.</p><ol>' +
@@ -290,6 +270,7 @@
       '<li>Spekulation und eigene Einordnung sind eigens markiert und von Fakten getrennt.</li>' +
       '<li>Weniger ist mehr: höchstens drei bis vier Themen pro Ausgabe, dazu ein Gedanke zum Nachdenken und ein Begriff zum Lernen.</li>' +
       '<li>Keine Anlageberatung. Kursbewegungen werden berichtet und erklärt, nicht empfohlen.</li></ul>' +
+      '<p class="only-hidden">Du hast den Hinweis „Keine Anlageberatung“ ausgeblendet. <button type="button" class="link-btn" data-show-disclaimer>Wieder anzeigen</button></p>' +
       '<h2>Vorlesen</h2><p>Jeder Artikel kann vorgelesen werden. Die Geschwindigkeit stellst du in der Leiste unten ein (0,5× bis 2×). Unter den Einstellungen kannst du eine Stimme wählen und das automatische Vorlesen beim Öffnen eines Artikels einschalten. Die Stimmen kommen von deinem Gerät; auf manchen Browsern muss das erste Vorlesen per Tippen gestartet werden.</p>' +
       '<h2>Wer schreibt hier?</h2><p>Die Artikel recherchiert und schreibt Claude, ein KI-Assistent, für Amir. KI kann Fehler machen. Bei wichtigen Entscheidungen bitte die verlinkten Originalquellen lesen.</p>' +
       '</div></div>';
@@ -492,8 +473,8 @@
     var m;
     if ((m = h.match(/^#\/artikel\/(.+)$/))) { renderArticle(decodeURIComponent(m[1])); window.scrollTo(0, 0); return; }
     if (h === '#/info') { renderInfo(); window.scrollTo(0, 0); return; }
-    if ((m = h.match(/[?&]label=([^&]+)/))) {
-      state.labels = new Set([decodeURIComponent(m[1])]); saveFilters();
+    if ((m = h.match(/[?&]q=([^&]+)/))) {
+      state.q = decodeURIComponent(m[1]); search.value = state.q;
       history.replaceState(null, '', '#/');
     }
     renderHome();
@@ -519,6 +500,5 @@
   });
 
   window.addEventListener('hashchange', route);
-  loadFilters();
   loadIndex().then(route);
 })();
