@@ -1,0 +1,141 @@
+{
+ "generated": "2026-10-11T19:59:22+00:00",
+ "articles": [
+  {
+   "id": "2026-10-11-abend",
+   "file": "2026-10-11-abend.md",
+   "title": "Hormus-Gespräche stocken, Riad unter Beschuss, und eine Woche, die über Zinsen entscheidet",
+   "summary": "Iran nennt die US-Antwort „unzureichend“, Angriffe auf Riads Flughafen eskalieren, und am Mittwoch zeigen US-Inflationsdaten, wie stark die Energiepreise durchschlagen. Dazu: Abflüsse bei Krypto-ETFs und warum „Glamsterdam ist live“ nur halb stimmt.",
+   "date": "2026-10-11",
+   "edition": "abend",
+   "time": "21:55",
+   "labels": [
+    "Iran",
+    "USA",
+    "Naher Osten",
+    "Wirtschaft",
+    "Märkte",
+    "Zinsen",
+    "Deutschland",
+    "Bitcoin",
+    "Ethereum",
+    "Hedera",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live Updates: Iran calls U.S. response \"insufficient\" amid stalled talks to end the war",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+     "type": "news",
+     "date": "2026-10-11"
+    },
+    {
+     "id": 2,
+     "title": "Trump says US won't strike Iran before midterms as blockade continues",
+     "publisher": "WJLA (Sinclair)",
+     "url": "https://wjla.com/news/nation-world/president-donald-trump-says-us-united-states-wont-strike-iran-islamic-republic-before-november-3-midterm-elections-as-blockade-continues-military-operations-operation-epic-fury",
+     "type": "news",
+     "date": "2026-10-08"
+    },
+    {
+     "id": 3,
+     "title": "Houthi attack on Riyadh airport killed three Saudi nationals",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
+     "type": "news",
+     "date": "2026-10-09"
+    },
+    {
+     "id": 4,
+     "title": "Liveblog, 11. Oktober 2026: Netanyahu convenes security officials amid concerns of Iran escalation",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-11-2026/",
+     "type": "news",
+     "date": "2026-10-11"
+    },
+    {
+     "id": 5,
+     "title": "Markets News, Oct. 9, 2026: Stocks Rise as Oil Prices, Treasury Yields Stabilize",
+     "publisher": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-9-2026-105547352.html",
+     "type": "news",
+     "date": "2026-10-09"
+    },
+    {
+     "id": 6,
+     "title": "The Week Ahead: US September CPI and PPI Set for Release, Bank Earnings Season Kicks Off, TSMC in Focus",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262210228-weekly-preview-us-september-cpi-ppi-wall-street-banks-earnings-tsmc-tradingkey",
+     "type": "analysis",
+     "date": "2026-10-10"
+    },
+    {
+     "id": 7,
+     "title": "Bundesregierung hebt Wachstumsprognose auf 1,3 Prozent",
+     "publisher": "etailment (nach Manager Magazin)",
+     "url": "https://www.etailment.de/magazin/2026-10-09-bundesregierung-hebt-wachstumsprognose-auf-13-prozent",
+     "type": "news",
+     "date": "2026-10-09"
+    },
+    {
+     "id": 8,
+     "title": "Bitcoin Action Recap. Week of Oct 5-10, 2026",
+     "publisher": "Delta Signal (Substack)",
+     "url": "https://deltasignal.substack.com/p/bitcoin-action-recap-week-of-oct",
+     "type": "analysis",
+     "date": "2026-10-10"
+    },
+    {
+     "id": 9,
+     "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+     "publisher": "The Block (Daten: SoSoValue)",
+     "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+     "type": "data",
+     "date": "2026-10-10"
+    },
+    {
+     "id": 10,
+     "title": "Ethereum's Glamsterdam test runs near 200 million gas per block after upgrade",
+     "publisher": "CoinDesk",
+     "url": "https://coindesk.com/tech/2026/10/08/ethereum-s-glamsterdam-test-runs-near-200-million-gas-per-block-after-upgrade",
+     "type": "news",
+     "date": "2026-10-08"
+    },
+    {
+     "id": 11,
+     "title": "Ethereum News Oktober 2026: Glamsterdam live, ETF-Abflüsse bei 360 Millionen …",
+     "publisher": "finanznachrichten.de",
+     "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69805556-ethereum-news-oktober-2026-glamsterdam-live-etf-abfluesse-bei-360-millionen-und-ein-presale-zieht-kapital-an-712.htm",
+     "type": "news"
+    },
+    {
+     "id": 12,
+     "title": "Hedera Price Prediction: Hitachi Out, HBAR Slips Back",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/hedera-price-prediction-hitachi-council-ibm-jump/",
+     "type": "news",
+     "date": "2026-10-08"
+    },
+    {
+     "id": 13,
+     "title": "Iran war live: Injuries after new Houthi attack on Saudi Arabia's airport",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis",
+     "type": "news",
+     "date": "2026-10-11"
+    },
+    {
+     "id": 14,
+     "title": "Choose the Right Azure Region for You",
+     "publisher": "Microsoft",
+     "url": "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/",
+     "type": "official"
+    }
+   ],
+   "words": 1240,
+   "reading_minutes": 6
+  }
+ ]
+}
