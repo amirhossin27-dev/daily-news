@@ -1,6 +1,60 @@
 {
- "generated": "2026-10-12T04:54:27+00:00",
+ "generated": "2026-10-12T09:56:32+00:00",
  "articles": [
+  {
+   "id": "2026-10-12-mittag",
+   "file": "2026-10-12-mittag.md",
+   "title": "Europas Banken legen zu, die EU räumt bei Stablecoins auf, und die Huthi drohen per X",
+   "summary": "Europäische Aktien steigen leicht, Händler rechnen im Dezember mit einer EZB-Zinserhöhung. Die EU-Aufsicht ESMA verlangt das Aus für nicht MiCA-konforme Stablecoins. Und die Huthi warnen auf X alle Reisenden vor saudischen Flughäfen.",
+   "date": "2026-10-12",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Zinsen",
+    "Krypto",
+    "Ethereum",
+    "Naher Osten",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European shares climb on bank gains, focus turns to earnings season",
+     "publisher": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/european-shares-climb-on-bank-gains-focus-turns-to-earnings-season-ce785ddcde80f22d",
+     "type": "news",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 2,
+     "title": "This Week in Crypto Law (October 11, 2026)",
+     "publisher": "Bitcoin.com News (Gastbeitrag Kelman Law)",
+     "url": "https://news.bitcoin.com/regulation-and-legal/this-week-in-crypto-law-october-11-2026/",
+     "type": "analysis",
+     "date": "2026-10-11"
+    },
+    {
+     "id": 3,
+     "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
+     "type": "news",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 4,
+     "title": "Saudi Arabia extends airport closure as Houthis threaten more attacks",
+     "publisher": "ABC News (Australien)",
+     "url": "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872",
+     "type": "news",
+     "date": "2026-10-11"
+    }
+   ],
+   "words": 800,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-12-morgen",
    "file": "2026-10-12-morgen.md",
