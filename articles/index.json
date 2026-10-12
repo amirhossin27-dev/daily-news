@@ -1,6 +1,78 @@
 {
- "generated": "2026-10-11T19:59:22+00:00",
+ "generated": "2026-10-12T04:54:27+00:00",
  "articles": [
+  {
+   "id": "2026-10-12-morgen",
+   "file": "2026-10-12-morgen.md",
+   "title": "Teheran bietet Riad Vermittlung an, Trump verkündet eine Waffenruhe, die keiner bestätigt",
+   "summary": "Irans Außenminister telefoniert mit Saudi-Arabien und bietet Hilfe im Konflikt mit den Huthi an. Trumps „Energie-Waffenruhe“ zwischen Russland und der Ukraine hielt keine Stunden. Dazu: Gold über 4.200 Dollar, ein starker Yuan und eine leichte Erholung bei Bitcoin.",
+   "date": "2026-10-12",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie",
+    "Märkte",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Iran's FM urges diplomacy in call with Saudi counterpart",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/12/irans-fm-urges-diplomacy-in-call-with-saudi-counterpart",
+     "type": "news",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 2,
+     "title": "investingLive Asia-Pacific market news: Gulf strikes, truce doubts",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-gulf-strikes-truce-doubts/",
+     "type": "news",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 3,
+     "title": "Trump says Russia and Ukraine agreed to immediate energy ceasefire",
+     "publisher": "Axios",
+     "url": "https://www.axios.com/2026/10/11/trump-russia-ukraine-energy-ceasefire-zelensky",
+     "type": "news",
+     "date": "2026-10-11"
+    },
+    {
+     "id": 4,
+     "title": "Bitcoin Nears US$84,000, Ethereum Gains As Crypto Market Rebounds",
+     "publisher": "BusinessToday (Daten: CoinGecko)",
+     "url": "https://businesstoday.com.my/2026/10/12/bitcoin-nears-us84000-ethereum-gains-as-crypto-market-rebounds",
+     "type": "data",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 5,
+     "title": "Live Updates: Iran calls U.S. response \"insufficient\" amid stalled talks to end the war",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+     "type": "news",
+     "date": "2026-10-11"
+    },
+    {
+     "id": 6,
+     "title": "Trump says Iran \"ready to fold up,\" after threatening post-midterm attacks",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/",
+     "type": "news",
+     "date": "2026-10-01"
+    }
+   ],
+   "words": 876,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-11-abend",
    "file": "2026-10-11-abend.md",
