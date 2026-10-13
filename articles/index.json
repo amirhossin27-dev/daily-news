@@ -1,6 +1,69 @@
 {
- "generated": "2026-10-13T04:57:02+00:00",
+ "generated": "2026-10-13T09:56:09+00:00",
  "articles": [
+  {
+   "id": "2026-10-13-mittag",
+   "file": "2026-10-13-mittag.md",
+   "title": "Infineon im Sog der Chip-Sorgen, ein französischer Käufer für eine deutsche Mittelstandsbank und Riad bleibt bis Samstag zu",
+   "summary": "Der DAX steigt trotz des Chip-Ausverkaufs in Asien, Infineon verliert deutlich. Crédit Agricole kauft die Düsseldorfer IKB. Bitcoin hat sich über 83.000 Dollar erholt. Und Saudi-Arabien untersucht, warum seine Luftabwehr versagt hat.",
+   "date": "2026-10-13",
+   "edition": "mittag",
+   "time": "12:08",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "Krypto",
+    "Bitcoin",
+    "Naher Osten",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Germany Stock Market Index (DE40)",
+     "publisher": "Trading Economics",
+     "url": "https://tradingeconomics.com/germany/stock-market",
+     "type": "data",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 2,
+     "title": "Newsquawk Daily European Equity Opening News - 13th October 2026",
+     "publisher": "Newsquawk",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---13th-october-2026",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 3,
+     "title": "Crédit Agricole accelerates its expansion in Germany and signs an agreement to acquire IKB Deutsche Industriebank",
+     "publisher": "Crédit Agricole S.A. (Pressemitteilung via GlobeNewswire)",
+     "url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/credit-agricole-sa-crdit-agricole-accelerates-its-expansion-in-germany-and-signs-an-agreement-to-acquire-ikb-deutsche-industriebank/2444072",
+     "type": "official",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 4,
+     "title": "Tokenized SanDisk bets saw more liquidations than XRP as Asia's chip rout wipes out $800 million",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/13/tokenized-sandisk-bets-saw-more-liquidations-than-xrp-as-asia-s-chip-rout-wipes-out-usd800-million",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 5,
+     "title": "Riyadh airport shut till October 17 as Saudis probe how defence systems failed in Houthi attack",
+     "publisher": "India TV News",
+     "url": "https://www.indiatvnews.com/news/world/riyadh-airport-shut-till-october-17-as-saudis-probe-how-defence-systems-failed-in-houthi-attack-updates-2026-10-13-1056785",
+     "type": "news",
+     "date": "2026-10-13"
+    }
+   ],
+   "words": 792,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-13-morgen",
    "file": "2026-10-13-morgen.md",
