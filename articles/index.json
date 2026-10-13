@@ -1,6 +1,69 @@
 {
- "generated": "2026-10-12T15:53:55+00:00",
+ "generated": "2026-10-13T04:56:53+00:00",
  "articles": [
+  {
+   "id": "2026-10-13-morgen",
+   "file": "2026-10-13-morgen.md",
+   "title": "Kospi bricht ein, Bitcoin rutscht unter 82.000 Dollar, und heute legen die Banken ihre Zahlen vor",
+   "summary": "Südkoreas Börse fällt am Morgen um rund 6 %, Krypto-Anleger verlieren bei Zwangsverkäufen über 770 Millionen Dollar. Am Nachmittag eröffnen JPMorgan, Goldman Sachs und Citi die Berichtssaison der US-Banken. Am Golf wächst die internationale Ablehnung der Huthi-Angriffe.",
+   "date": "2026-10-13",
+   "edition": "morgen",
+   "time": "07:15",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Naher Osten",
+    "Iran",
+    "Tech"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million",
+     "publisher": "The Block",
+     "url": "https://theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+     "type": "news",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today (Oct. 12, 2026): S&P 500 moderates as Wall Street gears up for earnings",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-12-2026-dow-futures-climb-as-wall-street-gears-up-for-busy-week",
+     "type": "news",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 3,
+     "title": "JPMorgan Chase (NYSE:JPM) Q3 2026 Earnings Preview",
+     "publisher": "Financial Modeling Prep",
+     "url": "https://site.financialmodelingprep.com/market-news/jpmorgan-chase-q3-2026-earnings-preview",
+     "type": "analysis",
+     "date": "2026-10-09"
+    },
+    {
+     "id": 4,
+     "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+     "type": "news",
+     "date": "2026-10-11"
+    },
+    {
+     "id": 5,
+     "title": "Iran Update, October 11, 2026",
+     "publisher": "Critical Threats (AEI) und ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-11-2026",
+     "type": "analysis",
+     "date": "2026-10-11"
+    }
+   ],
+   "words": 784,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-12-abend",
    "file": "2026-10-12-abend.md",
