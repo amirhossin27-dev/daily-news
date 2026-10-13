@@ -1,6 +1,69 @@
 {
- "generated": "2026-10-13T09:56:18+00:00",
+ "generated": "2026-10-13T15:55:06+00:00",
  "articles": [
+  {
+   "id": "2026-10-13-abend",
+   "file": "2026-10-13-abend.md",
+   "title": "Goldman glänzt, JPMorgan verfehlt, und die Huthi nehmen Aramco ins Visier",
+   "summary": "Die US-Banken liefern ein gespaltenes Bild: Goldman übertrifft die Erwartungen deutlich, JPMorgan verfehlt sie, Jamie Dimon mahnt zur Vorsicht. Am Golf fordern die Huthi Zivilisten auf, Aramco-Anlagen zu meiden. Morgen entscheidet die US-Inflation über die Zinsfrage.",
+   "date": "2026-10-13",
+   "edition": "abend",
+   "time": "17:58",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "Naher Osten",
+    "Iran",
+    "Energie",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "JPMorgan profit misses analyst estimates as Jamie Dimon warns economic forces 'shift under the surface'",
+     "publisher": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/article/jpmorgan-profit-misses-analyst-estimates-as-jamie-dimon-warns-economic-forces-shift-under-the-surface-112446859.html",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 2,
+     "title": "Goldman Sachs Rises on Equities-Led Earnings Beat; JPMorgan Chase Treads Water, Wells Fargo Declines 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/10/13/goldman-sachs-rises-on-equities-led-earnings-beat-jpmorgan-chase-treads-water-wells-fargo-declines-3/",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today (Oct. 13, 2026): Nasdaq edges lower as banks report earnings",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 4,
+     "title": "Live Updates: Houthis threaten U.S. with \"swift and painful\" response if it joins Saudi Arabia's strikes",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 5,
+     "title": "Bitcoin Price Faces CPI Reckoning as Analysts Eye $81,300 Support",
+     "publisher": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/bitcoin-price-faces-cpi-reckoning-as-analysts-eye-81300-support/",
+     "type": "analysis",
+     "date": "2026-10-12"
+    }
+   ],
+   "words": 770,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-13-mittag",
    "file": "2026-10-13-mittag.md",
