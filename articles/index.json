@@ -1,6 +1,55 @@
 {
- "generated": "2026-10-14T04:54:28+00:00",
+ "generated": "2026-10-14T09:54:43+00:00",
  "articles": [
+  {
+   "id": "2026-10-14-mittag",
+   "file": "2026-10-14-mittag.md",
+   "title": "ASML kommt mit der Nachfrage nicht hinterher, Öl bleibt über 106 Dollar, und Iran setzt auf neue Taktiken in Hormus",
+   "summary": "Der Chipausrüster ASML hebt die Prognose und zieht Europas Tech-Werte nach dem Ausverkauf vom Dienstag wieder hoch. Der Ölpreis steigt nach dem Treffer in Dhahran. Laut Reuters will Teheran über Hormus die US-Wahlen beeinflussen.",
+   "date": "2026-10-14",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Zinsen",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European shares edge higher as ASML's AI demand outlook boosts tech",
+     "publisher": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/european-shares-edge-higher-as-asml-s-ai-demand-outlook-boosts-tech-ce785dd2da8af525",
+     "type": "news",
+     "date": "2026-10-14"
+    },
+    {
+     "id": 2,
+     "title": "Oil prices climb as Saudi supply fears counter Russian diesel relief",
+     "publisher": "Nation Thailand (Reuters)",
+     "url": "https://www.nationthailand.com/news/world/40072236",
+     "type": "news",
+     "date": "2026-10-14"
+    },
+    {
+     "id": 3,
+     "title": "Crypto Daily Market Report, October 14, 2026",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+     "type": "data",
+     "date": "2026-10-14"
+    }
+   ],
+   "words": 700,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-14-morgen",
    "file": "2026-10-14-morgen.md",
