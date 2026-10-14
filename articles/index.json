@@ -1,6 +1,70 @@
 {
- "generated": "2026-10-13T15:55:06+00:00",
+ "generated": "2026-10-14T04:54:28+00:00",
  "articles": [
+  {
+   "id": "2026-10-14-morgen",
+   "file": "2026-10-14-morgen.md",
+   "title": "Rakete trifft Aramco-Gebäude in Dhahran, Chinas Fabrikpreise steigen so schnell wie seit 2022 nicht, und heute kommt die US-Inflation",
+   "summary": "Nach saudischen Angriffen auf Treibstofflager im Jemen trifft eine Huthi-Rakete ein Verwaltungsgebäude von Aramco. In China steigen die Erzeugerpreise um 5 %, die Verbraucherpreise kaum. Am Nachmittag zeigt die US-Inflation, ob die Fed im Oktober nachlegt.",
+   "date": "2026-10-14",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "Naher Osten",
+    "Energie",
+    "Iran",
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "Geopolitik",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Aramco building attacked after Saudi-led coalition hits Houthi site",
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/aramco-building-on-fire-after-saudi-led-coalition-hits-houthi-site/",
+     "type": "news",
+     "date": "2026-10-14"
+    },
+    {
+     "id": 2,
+     "title": "China factory inflation hits 5%, fastest in over four years, as CPI lags at 0.9%",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/news/china-factory-inflation-hits-5-fastest-in-over-four-years-as-cpi-lags-at-0-9/",
+     "type": "data",
+     "date": "2026-10-14"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today (Oct. 13, 2026): Nasdaq, S&P 500 flat as mixed bank earnings and chip weakness weigh on stocks",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 4,
+     "title": "Markets News, Oct. 13, 2026: Major Indexes End Slightly Lower on Busy Earnings Day",
+     "publisher": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-104049191.html",
+     "type": "news",
+     "date": "2026-10-13"
+    },
+    {
+     "id": 5,
+     "title": "US CPI Data: Inflation May Hit 3.7%, What to Expect for Bitcoin?",
+     "publisher": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/14/us-cpi-data-inflation-may-hit-3-7-what-to-expect-for-bitcoin/",
+     "type": "analysis",
+     "date": "2026-10-14"
+    }
+   ],
+   "words": 718,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-13-abend",
    "file": "2026-10-13-abend.md",
