@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-14T09:54:54+00:00",
+ "generated": "2026-10-14T15:53:03+00:00",
  "articles": [
+  {
+   "id": "2026-10-14-abend",
+   "file": "2026-10-14-abend.md",
+   "title": "US-Inflation bei 3,7 %, Zinserhöhung im Oktober wieder möglich, und in Hormus sinkt ein Containerschiff",
+   "summary": "Die US-Inflation fiel heißer aus als erwartet. Die Wahrscheinlichkeit einer Fed-Zinserhöhung noch im Oktober hat sich mehr als verdoppelt, Bitcoin und Bankaktien geben nach. In der Straße von Hormus wurden zwei Containerschiffe getroffen, eines sank.",
+   "date": "2026-10-14",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "Bitcoin",
+    "Krypto",
+    "Iran",
+    "Naher Osten",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+     "type": "news",
+     "date": "2026-10-14"
+    },
+    {
+     "id": 2,
+     "title": "Wall St slides as hot CPI data fuels rate-hike bets; chips, banks weigh",
+     "publisher": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+     "type": "news",
+     "date": "2026-10-14"
+    },
+    {
+     "id": 3,
+     "title": "Two Singapore-Registered Vessels Hit In Strait Of Hormuz, One Sinks",
+     "publisher": "Bernama",
+     "url": "https://www.bernama.com/en/world/news.php?id=2620479",
+     "type": "news",
+     "date": "2026-10-14"
+    }
+   ],
+   "words": 680,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-14-mittag",
    "file": "2026-10-14-mittag.md",
