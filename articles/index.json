@@ -1,6 +1,62 @@
 {
- "generated": "2026-10-15T09:55:18+00:00",
+ "generated": "2026-10-15T15:53:13+00:00",
  "articles": [
+  {
+   "id": "2026-10-15-abend",
+   "file": "2026-10-15-abend.md",
+   "title": "Erzeugerpreise plus 6,3 %, TSMC mit Rekordgewinn und trotzdem im Minus, und Washington will mehr Öl aus den Reserven",
+   "summary": "Nach der Verbraucherinflation überrascht auch die Teuerung bei den Herstellern nach oben. Anleger flüchten in Gold und Anleihen, Tech-Werte fallen weiter. Die USA drängen die IEA, mehr Öl freizugeben. Das Wort des Tages: Stagflation.",
+   "date": "2026-10-15",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Energie",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "September 2026 PPI: How Much of the 1.3% Jump Was Energy",
+     "publisher": "StockTitan (Daten: BLS)",
+     "url": "https://www.stocktitan.net/articles/september-2026-ppi-energy-share",
+     "type": "data",
+     "date": "2026-10-15"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today (Oct. 15, 2026): S&P 500 edges lower as tech sell-off continues",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-15-2026",
+     "type": "news",
+     "date": "2026-10-15"
+    },
+    {
+     "id": 3,
+     "title": "US IEA nations oil release",
+     "publisher": "Transport Topics (Bloomberg)",
+     "url": "https://www.ttnews.com/articles/us-iea-nations-oil-release",
+     "type": "news",
+     "date": "2026-10-15"
+    },
+    {
+     "id": 4,
+     "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
+     "type": "news",
+     "date": "2026-10-15"
+    }
+   ],
+   "words": 605,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-15-mittag",
    "file": "2026-10-15-mittag.md",
