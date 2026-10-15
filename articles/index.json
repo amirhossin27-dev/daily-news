@@ -1,6 +1,54 @@
 {
- "generated": "2026-10-15T04:54:38+00:00",
+ "generated": "2026-10-15T09:55:07+00:00",
  "articles": [
+  {
+   "id": "2026-10-15-mittag",
+   "file": "2026-10-15-mittag.md",
+   "title": "Europas Chipwerte im Sog, die Notreserven werden knapp, und Ethereum-Entwickler beraten über Glamsterdam",
+   "summary": "Europas Technologiewerte steuern auf den schwersten Tag seit Juli zu, ASML und Infineon verlieren kräftig. Die IEA berät heute über weitere Freigaben aus den Ölreserven, die US-Reserve ist so klein wie seit 1982 nicht. Am Nachmittag sprechen Ethereum-Entwickler über das nächste Upgrade.",
+   "date": "2026-10-15",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Zinsen",
+    "Energie",
+    "USA",
+    "Krypto",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European shares slip as tech rout offsets earnings support",
+     "publisher": "Reuters via Investing.com",
+     "url": "https://za.investing.com/news/economy-news/european-shares-slip-as-tech-rout-offsets-earnings-support-4505853",
+     "type": "news",
+     "date": "2026-10-15"
+    },
+    {
+     "id": 2,
+     "title": "The IEA wants to empty its oil reserves faster. A federal watchdog says the U.S. isn't ready for what comes next",
+     "publisher": "Fortune",
+     "url": "https://fortune.com/2026/10/12/global-emergency-oil-stocks-iea-strategic-petroleum-reserve-gao/",
+     "type": "analysis",
+     "date": "2026-10-12"
+    },
+    {
+     "id": 3,
+     "title": "Ethereum Developers Set Oct. 15 Call as Glamsterdam Testing Continues",
+     "publisher": "TokenPost",
+     "url": "https://www.tokenpost.com/news/technology/30926",
+     "type": "news",
+     "date": "2026-10-13"
+    }
+   ],
+   "words": 642,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-15-morgen",
    "file": "2026-10-15-morgen.md",
