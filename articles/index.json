@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:53:13+00:00",
+ "generated": "2026-10-15T15:53:23+00:00",
  "articles": [
   {
    "id": "2026-10-15-abend",
@@ -40,7 +40,7 @@
     {
      "id": 3,
      "title": "US IEA nations oil release",
-     "publisher": "Transport Topics (Bloomberg)",
+     "publisher": "Transport Topics",
      "url": "https://www.ttnews.com/articles/us-iea-nations-oil-release",
      "type": "news",
      "date": "2026-10-15"
@@ -54,7 +54,7 @@
      "date": "2026-10-15"
     }
    ],
-   "words": 605,
+   "words": 606,
    "reading_minutes": 3
   },
   {
