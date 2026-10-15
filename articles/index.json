@@ -1,6 +1,63 @@
 {
- "generated": "2026-10-14T15:53:14+00:00",
+ "generated": "2026-10-15T04:54:28+00:00",
  "articles": [
+  {
+   "id": "2026-10-15-morgen",
+   "file": "2026-10-15-morgen.md",
+   "title": "Kospi minus 8 %, Nikkei minus 4,8 %: Die heiße US-Inflation erreicht Asien mit voller Wucht",
+   "summary": "Nach dem stärksten Tagesverlust des Nasdaq seit Wochen brechen Asiens Chipwerte ein, Samsung und SK Hynix verlieren zweistellig oder fast. Bitcoin fällt unter 81.000 Dollar. In Hormus wurden seit Sonntag mindestens zehn Schiffe angegriffen.",
+   "date": "2026-10-15",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "Märkte",
+    "Tech",
+    "KI",
+    "USA",
+    "Zinsen",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stock Market Today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026",
+     "type": "news",
+     "date": "2026-10-14"
+    },
+    {
+     "id": 2,
+     "title": "Asian stocks slide as US inflation stokes rate fears; Kospi plunges",
+     "publisher": "Reuters via Business Standard",
+     "url": "https://www.business-standard.com/markets/news/asian-stocks-slide-as-us-inflation-stokes-rate-fears-kospi-plunges-5-6-126101500075_1.html",
+     "type": "news",
+     "date": "2026-10-15"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin drops below $81,000 as risk-off sentiment weighs on Asian equities",
+     "publisher": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+     "type": "news",
+     "date": "2026-10-15"
+    },
+    {
+     "id": 4,
+     "title": "Live Updates: Houthis launch new attack on Saudi capital as Trump mulls U.S. role",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+     "type": "news",
+     "date": "2026-10-14"
+    }
+   ],
+   "words": 722,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-14-abend",
    "file": "2026-10-14-abend.md",
