@@ -1,6 +1,55 @@
 {
- "generated": "2026-10-16T09:55:09+00:00",
+ "generated": "2026-10-16T15:53:22+00:00",
  "articles": [
+  {
+   "id": "2026-10-16-abend",
+   "file": "2026-10-16-abend.md",
+   "title": "Warsh legt sich nicht fest, Iran knüpft Hormus an einen US-Abzug, und die KI-Schuldenfrage bleibt",
+   "summary": "Fed-Chef Kevin Warsh nennt KI die folgenreichste Veränderung seines Lebens, gibt aber kein Zinssignal. Irans Armee erklärt, Hormus öffne sich erst, wenn die USA die Region verlassen. An der Wall Street endet eine nervöse Woche ruhiger.",
+   "date": "2026-10-16",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "KI",
+    "Tech",
+    "Märkte",
+    "Iran",
+    "Naher Osten",
+    "Energie",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Fed's Warsh sees AI boosting productivity but gives no signal on next rate hike",
+     "publisher": "Euronews",
+     "url": "https://www.euronews.com/2026/10/16/feds-warsh-sees-ai-boosting-productivity-but-gives-no-signal-on-next-rate-hike",
+     "type": "news",
+     "date": "2026-10-16"
+    },
+    {
+     "id": 2,
+     "title": "Live Updates: Iran says Strait of Hormuz will reopen if U.S. leaves the region",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+     "type": "news",
+     "date": "2026-10-16"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today (Oct. 16, 2026): S&P 500 edges higher as tech stocks struggle",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026",
+     "type": "news",
+     "date": "2026-10-16"
+    }
+   ],
+   "words": 685,
+   "reading_minutes": 4
+  },
   {
    "id": "2026-10-16-mittag",
    "file": "2026-10-16-mittag.md",
