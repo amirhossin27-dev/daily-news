@@ -1,6 +1,54 @@
 {
- "generated": "2026-10-16T04:54:22+00:00",
+ "generated": "2026-10-16T09:54:58+00:00",
  "articles": [
+  {
+   "id": "2026-10-16-mittag",
+   "file": "2026-10-16-mittag.md",
+   "title": "Europa auf Zwei-Wochen-Hoch, Fed-Vertreter bremsen die Zinswetten, und Energie treibt die Euro-Inflation",
+   "summary": "Der STOXX 600 steuert auf ein Wochenplus zu, Schneider Electric hebt erneut die Prognose. Zwei Fed-Vertreterinnen sehen keine Eile, die Wahrscheinlichkeit einer Zinserhöhung im Oktober fällt. Energie verteuerte sich in der Eurozone im September um fast 19 %.",
+   "date": "2026-10-16",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Zinsen",
+    "USA",
+    "Energie",
+    "Deutschland",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European stocks gain as Schneider lifts sentiment; inflation data awaited",
+     "publisher": "Reuters via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-gain-schneider-lifts-071956174.html",
+     "type": "news",
+     "date": "2026-10-16"
+    },
+    {
+     "id": 2,
+     "title": "Bitcoin Holds Near $82,000 as Fed Officials Cool October Hike Bets",
+     "publisher": "Blockhead",
+     "url": "https://www.blockhead.co/2026/10/16/bitcoin-holds-near-82-000-as-fed-officials-cool-october-hike-bets/",
+     "type": "news",
+     "date": "2026-10-16"
+    },
+    {
+     "id": 3,
+     "title": "Euro area annual inflation up to 3.8% (flash estimate)",
+     "publisher": "Eurostat",
+     "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
+     "type": "official",
+     "date": "2026-10-02"
+    }
+   ],
+   "words": 572,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-16-morgen",
    "file": "2026-10-16-morgen.md",
