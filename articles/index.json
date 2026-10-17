@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-17T09:56:11+00:00",
+ "generated": "2026-10-17T15:52:20+00:00",
  "articles": [
+  {
+   "id": "2026-10-17-abend",
+   "file": "2026-10-17-abend.md",
+   "title": "Iran bietet Vermittlung im Saudi-Huthi-Konflikt an, Berichte über iranische Geheimdiensthilfe, und die Woche von Meta, Tesla und SAP",
+   "summary": "Irans Außenminister wirbt in Bagdad für einen politischen Prozess zwischen Riad und den Huthis, während laut Wall Street Journal Teheran die Huthis operativ unterstützt. Dazu der Ausblick auf eine Woche voller Quartalszahlen großer Tech-Konzerne.",
+   "date": "2026-10-17",
+   "edition": "abend",
+   "time": "17:52",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Israel",
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Iran backs 'political process' to resolve Saudi-Houthi conflict: FM",
+     "publisher": "Business Recorder",
+     "url": "https://www.brecorder.com/news/40444684/iran-backs-political-process-to-resolve-saudi-houthi-conflict-fm",
+     "type": "news",
+     "date": "2026-10-17"
+    },
+    {
+     "id": 2,
+     "title": "Iran aiding Houthis with intelligence amid conflict against Saudi Arabia: Report",
+     "publisher": "The Tribune (ANI, nach Wall Street Journal)",
+     "url": "https://www.tribuneindia.com/news/world/iran-aiding-houthis-with-intelligence-amid-conflict-against-saudi-arabia-report",
+     "type": "news",
+     "date": "2026-10-17"
+    },
+    {
+     "id": 3,
+     "title": "Earnings Calendar for the Week of October 19, 2026",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-19-2026",
+     "type": "data",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 427,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-17-mittag",
    "file": "2026-10-17-mittag.md",
