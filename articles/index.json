@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-17T04:54:36+00:00",
+ "generated": "2026-10-17T09:56:11+00:00",
  "articles": [
+  {
+   "id": "2026-10-17-mittag",
+   "file": "2026-10-17-mittag.md",
+   "title": "Krypto-Wochenende: ETF-Abflüsse treffen Ethereum härter als Bitcoin, Hedera wächst ohne Kursplus, Deutsche Bank startet bald Verwahrung",
+   "summary": "Krypto-ETFs verlieren die zweite Woche in Folge Geld, Ethereum stärker als Bitcoin. Hederas Netzwerk wächst kräftig, der HBAR-Kurs fällt trotzdem. Und die Deutsche Bank will in wenigen Wochen Bitcoin und Ether für Großkunden verwahren.",
+   "date": "2026-10-17",
+   "edition": "mittag",
+   "time": "11:56",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Hedera",
+    "Deutschland",
+    "Märkte"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Crypto ETFs record weekly outflows led by Ethereum and Bitcoin",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/crypto-etfs-weekly-outflows-ethereum-bitcoin/",
+     "type": "data",
+     "date": "2026-10-17"
+    },
+    {
+     "id": 2,
+     "title": "Hedera's Network Activity Is Up 168% but HBAR Fell 8% This Week",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/17/hederas-network-activity-is-up-168-but-hbar-fell-8-this-week-better-buy-than-solana/",
+     "type": "analysis",
+     "date": "2026-10-17"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin Price and Deutsche Bank Custody Launch",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-deutsche-bank-custody-launch/",
+     "type": "news",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 521,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-17-morgen",
    "file": "2026-10-17-morgen.md",
