@@ -1,6 +1,55 @@
 {
- "generated": "2026-10-16T15:53:32+00:00",
+ "generated": "2026-10-17T04:54:24+00:00",
  "articles": [
+  {
+   "id": "2026-10-17-morgen",
+   "file": "2026-10-17-morgen.md",
+   "title": "Nasdaq verliert 4,5 % in einer Woche, Brent fast bei 110 Dollar, und Trump setzt Russland-Sanktionen aus",
+   "summary": "Die Chip- und KI-Werte beenden eine schwere Woche mit einem weiteren Einbruch, CoreWeave verliert ein Viertel. Öl steigt kräftig, Trump hebt Sanktionen auf russische Energieeinnahmen auf. Iran weist die saudischen Vorwürfe zurück.",
+   "date": "2026-10-17",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Energie",
+    "Geopolitik",
+    "Iran",
+    "Naher Osten",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Nasdaq Drops 2.1% as Chip Rout Caps a 4.5% Weekly Slide",
+     "publisher": "TS2",
+     "url": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/",
+     "type": "news",
+     "date": "2026-10-16"
+    },
+    {
+     "id": 2,
+     "title": "US Stocks Close: Nasdaq Drops Over 2%, Chip Stocks Fall Broadly, CoreWeave Plunges Nearly 12%",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262221811-us-stock-market-close-nasdaq-drop-chip-stocks-fall-coreweave-micron-tradingkey",
+     "type": "news",
+     "date": "2026-10-16"
+    },
+    {
+     "id": 3,
+     "title": "Middle East conflict: Trump lifts Russia energy sanctions, Saudi Arabia intercepts missiles",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-lifts-russia-energy-sanctions-saudi-arabia-intercepts-missiles-1.500713832",
+     "type": "news",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 589,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-16-abend",
    "file": "2026-10-16-abend.md",
