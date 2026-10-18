@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-17T15:52:20+00:00",
+ "generated": "2026-10-18T04:53:17+00:00",
  "articles": [
+  {
+   "id": "2026-10-18-morgen",
+   "file": "2026-10-18-morgen.md",
+   "title": "Rekordwoche bei Angriffen auf Schiffe vor Hormus, Jemen lehnt Irans Vermittlung ab, Trump verspricht schnelles Kriegsende",
+   "summary": "So viele Schiffsangriffe in einer Woche wie seit Kriegsbeginn nicht. Jemens Regierung weist Teherans Vermittlungsangebot zurück, Iran legt über Katar einen Sieben-Tage-Plan für Hormus vor. Riad meldet in der Nacht erneut abgefangene Huthi-Raketen.",
+   "date": "2026-10-18",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie",
+    "Israel"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live Updates: Reported attacks on ships in or near Strait of Hormuz reach record high, data shows",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+     "type": "news",
+     "date": "2026-10-17"
+    },
+    {
+     "id": 2,
+     "title": "Middle East conflict: Saudi Arabia intercepts Houthi drones targeting Riyadh; Trump says Iran war will end soon",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-drones-missiles-trump-says-iran-war-will-end-soon-1.500714637",
+     "type": "news",
+     "date": "2026-10-18"
+    },
+    {
+     "id": 3,
+     "title": "Iran says 'global economy will improve' if US removes forces from the Middle East",
+     "publisher": "Fox News",
+     "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-10-17-26",
+     "type": "news",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 489,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-17-abend",
    "file": "2026-10-17-abend.md",
