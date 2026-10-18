@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-18T09:54:36+00:00",
+ "generated": "2026-10-18T15:53:02+00:00",
  "articles": [
+  {
+   "id": "2026-10-18-abend",
+   "file": "2026-10-18-abend.md",
+   "title": "Öl vor der neuen Woche: Was zwischen 100 und 115 Dollar entscheidet, und Iran bekommt einen neuen Verteidigungsminister",
+   "summary": "Brent schloss am Freitag auf dem höchsten Stand seit Mai. Durch Hormus fließt rund ein Drittel weniger Öl als normal, die Notreserven decken die Lücke kaum. Heute Abend öffnen die Terminmärkte, am 27. und 28. Oktober entscheidet die Fed.",
+   "date": "2026-10-18",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "Energie",
+    "Märkte",
+    "Zinsen",
+    "Iran",
+    "Naher Osten",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Brent Crude Price Week Ahead: Bull and Bear Case After the $110 Close, the Highest Since May",
+     "publisher": "FinanceFeeds",
+     "url": "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/",
+     "type": "analysis",
+     "date": "2026-10-18"
+    },
+    {
+     "id": 2,
+     "title": "Iran war live: Egypt ready to give Saudi Arabia 'necessary support'",
+     "publisher": "Al Jazeera",
+     "url": "https://aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats",
+     "type": "news",
+     "date": "2026-10-18"
+    },
+    {
+     "id": 3,
+     "title": "Live Updates: Reported attacks on ships in or near Strait of Hormuz reach record high, data shows",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+     "type": "news",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 412,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-18-mittag",
    "file": "2026-10-18-mittag.md",
