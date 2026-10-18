@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-18T04:53:17+00:00",
+ "generated": "2026-10-18T09:54:36+00:00",
  "articles": [
+  {
+   "id": "2026-10-18-mittag",
+   "file": "2026-10-18-mittag.md",
+   "title": "Stiller Sonntag an den Kryptomärkten, Reisewarnungen für Saudi-Arabien und eine Bilanz der iranischen Angriffe am Golf",
+   "summary": "Bitcoin hält sich knapp über 81.000 Dollar, Ether gibt leicht nach. Großbritannien und die USA warnen vor Reisen und Flughäfen in Saudi-Arabien. Eine Reuters-Auswertung zählt mehr als 80 getroffene Ziele in den Golfstaaten seit Februar.",
+   "date": "2026-10-18",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Naher Osten",
+    "Iran",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Crypto Prices on October 18: BTC 0.16% up, ETH 0.41% down",
+     "publisher": "IT Times (Daten: CoinMarketCap)",
+     "url": "https://www.ittimes.com/news/articleView.html?idxno=87482",
+     "type": "data",
+     "date": "2026-10-18"
+    },
+    {
+     "id": 2,
+     "title": "Middle East conflict: Saudi Arabia intercepts Houthi drones targeting Riyadh; Trump says Iran war will end soon",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-drones-missiles-trump-says-iran-war-will-end-soon-1.500714637",
+     "type": "news",
+     "date": "2026-10-18"
+    },
+    {
+     "id": 3,
+     "title": "Iran says 'global economy will improve' if US removes forces from the Middle East",
+     "publisher": "Fox News",
+     "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-10-17-26",
+     "type": "news",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 380,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-18-morgen",
    "file": "2026-10-18-morgen.md",
