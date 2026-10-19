@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-18T15:53:02+00:00",
+ "generated": "2026-10-19T04:53:44+00:00",
  "articles": [
+  {
+   "id": "2026-10-19-morgen",
+   "file": "2026-10-19-morgen.md",
+   "title": "Öl gibt nach, Asien schwach, US-Futures erholt, und Trump stellt sich vor Israels Wahl hinter Netanjahu",
+   "summary": "Brent fällt zum Wochenstart unter 108 Dollar, die Börsen in Asien setzen ihre Verluste fort, während US-Futures steigen. Die Revolutionsgarden drohen mit Vergeltung bei Angriffen auf Irans Energieanlagen. Trump unterstützt Netanjahu vor der Wahl am 27. Oktober.",
+   "date": "2026-10-19",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Märkte",
+    "Energie",
+    "Zinsen",
+    "Tech",
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Asian stocks skid, Wall Street and bonds aided by oil slip",
+     "publisher": "Reuters (via Investing.com)",
+     "url": "https://www.investing.com/news/stock-market-news/asian-stocks-skid-wall-street-and-bonds-aided-by-oil-slip-4956176",
+     "type": "news",
+     "date": "2026-10-19"
+    },
+    {
+     "id": 2,
+     "title": "Middle East live: Trump backs Netanyahu as Iran issues warning, Saudi-Houthi strikes escalate",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-live-trump-backs-netanyahu-as-iran-issues-warning-saudi-houthi-strikes-escalate-1.500715444",
+     "type": "news",
+     "date": "2026-10-19"
+    },
+    {
+     "id": 3,
+     "title": "Ships in Strait of Hormuz still face indiscriminate attacks, maritime monitor warns",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+     "type": "news",
+     "date": "2026-10-16"
+    }
+   ],
+   "words": 471,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-18-abend",
    "file": "2026-10-18-abend.md",
