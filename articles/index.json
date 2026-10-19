@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-19T04:53:44+00:00",
+ "generated": "2026-10-19T09:54:51+00:00",
  "articles": [
+  {
+   "id": "2026-10-19-mittag",
+   "file": "2026-10-19-mittag.md",
+   "title": "Proteste in Frankreich drücken Europas Börsen, Bitcoin zurück über 82.000 Dollar und so ruhig wie selten",
+   "summary": "Gewaltsame Proteste am Wochenende lassen den Risikoaufschlag für französische Staatsanleihen steigen, DAX und CAC starten schwächer. Bitcoin erholt sich, seine Schwankungsbreite ist so eng wie lange nicht. Dazu die Termine der Woche, die für Krypto zählen.",
+   "date": "2026-10-19",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Europa",
+    "Deutschland",
+    "Märkte",
+    "Zinsen",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European stock market open: French unrest weighs on stocks to start the new week",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/stocks/european-stock-market-open-french-unrest-weighs-on-stocks-to-start-the-new-week/",
+     "type": "news",
+     "date": "2026-10-19"
+    },
+    {
+     "id": 2,
+     "title": "Bitcoin Price Today: BTC Coils Near $82,500 as Daily Bollinger Bands Reach Multi-Year Tightness",
+     "publisher": "The Crypto Times",
+     "url": "https://cryptotimes.io/2026/10/19/bitcoin-price-today-btc-coils-near-82500-as-daily-bollinger-bands-reach-multi-year-tightness",
+     "type": "analysis",
+     "date": "2026-10-19"
+    },
+    {
+     "id": 3,
+     "title": "Crypto week ahead: 5 events that could move Bitcoin this week",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/crypto-week-ahead-five-events-bitcoin-october-19-2026/",
+     "type": "analysis",
+     "date": "2026-10-19"
+    }
+   ],
+   "words": 429,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-19-morgen",
    "file": "2026-10-19-morgen.md",
