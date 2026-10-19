@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-19T09:54:51+00:00",
+ "generated": "2026-10-19T15:55:05+00:00",
  "articles": [
+  {
+   "id": "2026-10-19-abend",
+   "file": "2026-10-19-abend.md",
+   "title": "Europa schließt deutlich im Minus, Chipwerte erholen sich in den USA, und Analysten warnen vor einer Scheinerholung",
+   "summary": "Aus dem schwachen Start in Europa wurde ein Verlust von mehr als einem Prozent, angeführt von Paris. In New York stiegen Halbleiterwerte nach ihrer längsten Verlustserie seit 2008. Morgen kommen GM und Netflix.",
+   "date": "2026-10-19",
+   "edition": "abend",
+   "time": "17:55",
+   "labels": [
+    "Europa",
+    "Deutschland",
+    "Märkte",
+    "Zinsen",
+    "USA",
+    "Tech",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European stocks slip led by France, and oil falls on Trump's Russian sanctions waiver",
+     "publisher": "AP (via CP24)",
+     "url": "https://www.cp24.com/news/money/2026/10/19/european-stocks-slip-led-by-france-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+     "type": "news",
+     "date": "2026-10-19"
+    },
+    {
+     "id": 2,
+     "title": "US Chip Stocks Rebound After Largest Weekly Selloff Since March 2025",
+     "publisher": "Global Banking & Finance Review (Reuters)",
+     "url": "https://www.globalbankingandfinance.com/us-chip-stocks-rise-steepest-weekly-selloff-months/",
+     "type": "news",
+     "date": "2026-10-19"
+    },
+    {
+     "id": 3,
+     "title": "Earnings Calendar for the Week of October 19, 2026",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-19-2026",
+     "type": "data",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 420,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-19-mittag",
    "file": "2026-10-19-mittag.md",
