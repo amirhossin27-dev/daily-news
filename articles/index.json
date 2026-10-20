@@ -1,6 +1,60 @@
 {
- "generated": "2026-10-20T09:55:10+00:00",
+ "generated": "2026-10-20T20:16:35+00:00",
  "articles": [
+  {
+   "id": "2026-10-20-abend",
+   "file": "2026-10-20-abend.md",
+   "title": "Netflix kappt die Werbeprognose, GM stürzt trotz guter Zahlen ab, und Iran droht mit Angriffen auf Unterseekabel",
+   "summary": "Netflix wächst um 12 %, senkt aber die Erwartung für Werbeerlöse. General Motors verliert rund 8 % wegen eines vorsichtigen Ausblicks, Gesundheitswerte erreichen Rekorde. Die Revolutionsgarden nennen die Datenkabel in der Straße von Hormus als mögliches Ziel.",
+   "date": "2026-10-20",
+   "edition": "abend",
+   "time": "22:16",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Netflix Q3 2026 earnings: revenue rises 12% to $12.9B",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html",
+     "type": "news",
+     "date": "2026-10-20"
+    },
+    {
+     "id": 2,
+     "title": "Health Care Stocks Hit Record Highs, GM Drops Nearly 8%: Stock Market Today",
+     "publisher": "Benzinga",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62475717/health-care-stocks-hit-record-highs-gm-drops-nearly-8-stock-market-today",
+     "type": "news",
+     "date": "2026-10-20"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today: Dow Jones Futures Rise, Nasdaq 100 Falls as Iran Threatens to Target Undersea Cables",
+     "publisher": "Benzinga",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62460028/stock-market-today-dow-jones-futures-rise-nasdaq-100-falls-as-iran-threatens-to-target-undersea-cables-spcx-nflx-stld-in-focus",
+     "type": "news",
+     "date": "2026-10-20"
+    },
+    {
+     "id": 4,
+     "title": "Earnings Calendar for the Week of October 19, 2026",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-19-2026",
+     "type": "data",
+     "date": "2026-10-17"
+    }
+   ],
+   "words": 487,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-20-mittag",
    "file": "2026-10-20-mittag.md",
