@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-19T15:55:05+00:00",
+ "generated": "2026-10-20T04:53:48+00:00",
  "articles": [
+  {
+   "id": "2026-10-20-morgen",
+   "file": "2026-10-20-morgen.md",
+   "title": "Huthi-Raketen töten mindestens 53 Rekruten im Jemen, Iran ruft deutschen Botschafter ein, und die Wall Street schließt mit Tech-Plus",
+   "summary": "Der schwerste Huthi-Angriff seit Juli trifft ein Ausbildungslager in Schabwa. Teheran bestellt den deutschen Botschafter ein, Lawrow besucht Iran. In New York steigt der Nasdaq um 1,1 %, die Anleiherenditen ziehen wieder an.",
+   "date": "2026-10-20",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Naher Osten",
+    "Iran",
+    "Deutschland",
+    "Geopolitik",
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "Tech"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Middle East War: Houthi missiles kill 53, US defence chief visits region",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-houthi-missiles-kill-53-us-defence-chief-visits-region-1.500716634",
+     "type": "news",
+     "date": "2026-10-20"
+    },
+    {
+     "id": 2,
+     "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit",
+     "type": "analysis",
+     "date": "2026-10-19"
+    },
+    {
+     "id": 3,
+     "title": "Closing Look: Monday, October 19, 2026",
+     "publisher": "Capp Notes",
+     "url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026",
+     "type": "data",
+     "date": "2026-10-19"
+    }
+   ],
+   "words": 477,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-19-abend",
    "file": "2026-10-19-abend.md",
