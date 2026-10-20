@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-20T04:53:57+00:00",
+ "generated": "2026-10-20T09:55:10+00:00",
  "articles": [
+  {
+   "id": "2026-10-20-mittag",
+   "file": "2026-10-20-mittag.md",
+   "title": "Ausgangssperren in Paris und Nizza, Europas Börsen weiter schwach, und die Huthis melden einen Angriff auf Aramco in Yanbu",
+   "summary": "Frankreich verhängt nächtliche Ausgangssperren, der Risikoaufschlag auf französische Anleihen steigt weiter. Der DAX verliert erneut. Brent hält sich über 110 Dollar, nachdem die Huthis Angriffe auf saudische Energieanlagen melden, die bisher niemand bestätigt.",
+   "date": "2026-10-20",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Europa",
+    "Deutschland",
+    "Märkte",
+    "Zinsen",
+    "Energie",
+    "Naher Osten",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European stocks extend slide as French unrest triggers de-risking",
+     "publisher": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/european-stocks-extend-slide-as-french-unrest-triggers-derisking-4958779",
+     "type": "news",
+     "date": "2026-10-20"
+    },
+    {
+     "id": 2,
+     "title": "European stock market open: Equities retreat as bond yields and fiscal risks weigh",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/stocks/european-stock-market-open-equities-retreat-as-bond-yields-and-fiscal-risks-weigh/",
+     "type": "news",
+     "date": "2026-10-20"
+    },
+    {
+     "id": 3,
+     "title": "Brent crude holds near five-month high on Middle East tension",
+     "publisher": "The Express Tribune (Reuters)",
+     "url": "https://tribune.com.pk/story/2635853/brent-crude-holds-near-five-month-high-on-middle-east-tension",
+     "type": "news",
+     "date": "2026-10-20"
+    }
+   ],
+   "words": 404,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-20-morgen",
    "file": "2026-10-20-morgen.md",
