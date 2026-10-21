@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-21T09:56:29+00:00",
+ "generated": "2026-10-21T15:53:09+00:00",
  "articles": [
+  {
+   "id": "2026-10-21-abend",
+   "file": "2026-10-21-abend.md",
+   "title": "Diplomatie im Doppelspiel: Kompromissvorschlag für Iran, Araghchi bleibt hart, und ein dritter US-Flugzeugträger nimmt Kurs auf Nahost",
+   "summary": "Katar und Pakistan arbeiten an einem Kompromiss, der Iran Zinsen auf eingefrorene Gelder und der Atombehörde einen Überraschungsbesuch bringen könnte. Teheran will Hormus erst nach einer Einigung öffnen. Brent gibt nach dem Fünfmonatshoch etwas nach. Heute Abend kommen Meta und Tesla.",
+   "date": "2026-10-21",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "USA",
+    "Israel",
+    "Geopolitik",
+    "Energie",
+    "Europa"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Macron in Qatar says Iran to respond to mediation within days",
+     "publisher": "The New Arab",
+     "url": "https://www.newarab.com/news/macron-qatar-says-iran-respond-mediation-within-days",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 2,
+     "title": "Iran clings to demands even as threat of renewed US-Israel attacks grows",
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 3,
+     "title": "Current price of oil as of October 21, 2026",
+     "publisher": "Fortune",
+     "url": "https://fortune.com/article/price-of-oil-10-21-2026/",
+     "type": "data",
+     "date": "2026-10-21"
+    }
+   ],
+   "words": 430,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-21-mittag",
    "file": "2026-10-21-mittag.md",
