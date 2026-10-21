@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-20T20:16:35+00:00",
+ "generated": "2026-10-21T04:54:08+00:00",
  "articles": [
+  {
+   "id": "2026-10-21-morgen",
+   "file": "2026-10-21-morgen.md",
+   "title": "SpaceX verdient mit KI mehr als mit Raketen, Musk prüft Fusion mit Tesla, und Asiens Chipwerte springen an",
+   "summary": "SpaceX steigert den Umsatz um 161 %, mehr als die Hälfte kommt aus dem KI-Geschäft. Super Micro hebt die Prognose kräftig an, Netflix fällt nachbörslich. KOSPI und Nikkei steigen. Iran wartet weiter auf eine Antwort auf sein Vermittlungsangebot, eine Delegation aus Katar ist in Teheran.",
+   "date": "2026-10-21",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Today's Market Recap: Dow Gains Over 1%, SpaceX Surges More Than 8% After Hours, Supermicro Jumps Over 14%, Netflix Falls More Than 5%",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262227660-spacex-spcx-supermicro-smci-netflix-tradingkey",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 2,
+     "title": "Japanese and South Korean Stocks Rise in Early Trading, Kospi Gains Over 2%",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262227590-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 3,
+     "title": "Iran says Saudi Arabia silent on Houthi mediation offer, Qatari delegation reportedly in Tehran",
+     "publisher": "The Jerusalem Post",
+     "url": "https://www.jpost.com/middle-east/iran-news/2026-10-21/live-updates-912356",
+     "type": "news",
+     "date": "2026-10-21"
+    }
+   ],
+   "words": 511,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-20-abend",
    "file": "2026-10-20-abend.md",
