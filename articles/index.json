@@ -1,6 +1,50 @@
 {
- "generated": "2026-10-21T04:54:08+00:00",
+ "generated": "2026-10-21T09:56:19+00:00",
  "articles": [
+  {
+   "id": "2026-10-21-mittag",
+   "file": "2026-10-21-mittag.md",
+   "title": "Adidas und Deutsche Börse heben Prognosen an, Carrefour spürt Frankreichs Konsumflaute, und um Qiagen bahnt sich ein Bieterkampf an",
+   "summary": "Zwei deutsche Konzerne überzeugen mit starken Quartalszahlen, während der französische Händler Carrefour seine Prognose senkt. Für Qiagen sollen EQT und KKR bieten. Europas Börsen starten nach dem KI-Schub aus den USA freundlicher.",
+   "date": "2026-10-21",
+   "edition": "mittag",
+   "time": "11:56",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Newsquawk Daily European Equity Opening News - 21st October 2026",
+     "publisher": "Newsquawk",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---21st-october-2026",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 2,
+     "title": "European stocks down as French unrest rattles investors",
+     "publisher": "Business Recorder (Reuters)",
+     "url": "https://www.brecorder.com/news/40445199/european-stocks-down-as-french-unrest-rattles-investors",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 3,
+     "title": "Today's Market Recap: Dow Gains Over 1%, SpaceX Surges More Than 8% After Hours",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262227660-spacex-spcx-supermicro-smci-netflix-tradingkey",
+     "type": "news",
+     "date": "2026-10-21"
+    }
+   ],
+   "words": 417,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-21-morgen",
    "file": "2026-10-21-morgen.md",
