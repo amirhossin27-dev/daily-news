@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-22T09:55:23+00:00",
+ "generated": "2026-10-22T15:55:32+00:00",
  "articles": [
+  {
+   "id": "2026-10-22-abend",
+   "file": "2026-10-22-abend.md",
+   "title": "Meta und Tesla ziehen den Nasdaq nach unten, der US-Arbeitsmarkt bleibt robust, und Trump bestreitet Gespräche mit Iran",
+   "summary": "Nach den Zahlen von Meta und Tesla zweifeln Anleger erneut an den KI-Plänen, Brent steigt wieder über 111 Dollar. Die Erstanträge auf Arbeitslosenhilfe fallen auf 194.000. Trump sagt, es werde nicht verhandelt, Teheran spricht von indirekten Gesprächen.",
+   "date": "2026-10-22",
+   "edition": "abend",
+   "time": "17:55",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound",
+     "publisher": "Reuters (via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-drop-over-1-093849296.html",
+     "type": "news",
+     "date": "2026-10-22"
+    },
+    {
+     "id": 2,
+     "title": "US weekly jobless claims near 57-year lows",
+     "publisher": "Reuters (via Investing.com)",
+     "url": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-near-57year-lows-4966076",
+     "type": "news",
+     "date": "2026-10-22"
+    },
+    {
+     "id": 3,
+     "title": "Trump Denies US-Iran Talks as Brent Crude Oil Price Tops $111",
+     "publisher": "Outlook India",
+     "url": "https://www.outlookindia.com/international/no-talks-but-an-end-very-soon-trumps-iran-war-claims-face-tehrans-account",
+     "type": "news",
+     "date": "2026-10-22"
+    }
+   ],
+   "words": 469,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-22-mittag",
    "file": "2026-10-22-mittag.md",
