@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-21T15:53:19+00:00",
+ "generated": "2026-10-22T04:54:27+00:00",
  "articles": [
+  {
+   "id": "2026-10-22-morgen",
+   "file": "2026-10-22-morgen.md",
+   "title": "Meta steigt, Tesla fällt nachbörslich, und laut New York Times liegen Pläne für einen Drei-Tage-Angriff auf Iran nach den US-Wahlen bereit",
+   "summary": "Meta überzeugt trotz höherer Kosten, Tesla kürzt die Investitionen und verliert nachbörslich. Die USA ziehen Personal aus Saudi-Arabien ab und reduzieren Truppenpräsenz. Pläne für kurze, intensive Angriffe auf Iran nach dem 3. November sind fertig, aber nicht genehmigt.",
+   "date": "2026-10-22",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "The Daily Trades: Meta's Bill. Tesla's Cash.",
+     "publisher": "tastylive",
+     "url": "https://tastylive.substack.com/p/the-daily-trades-metas-bill-teslas",
+     "type": "analysis",
+     "date": "2026-10-22"
+    },
+    {
+     "id": 2,
+     "title": "US, Israel have detailed plans for renewed Iran strikes focusing on short, intense attacks - report",
+     "publisher": "The Jerusalem Post (nach New York Times)",
+     "url": "https://www.jpost.com/middle-east/iran-news/article-912476",
+     "type": "news",
+     "date": "2026-10-22"
+    },
+    {
+     "id": 3,
+     "title": "Live Updates: U.S. reducing troop footprint in Middle East, sources say, as indirect talks on ceasefire proposal with Iran continue",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/",
+     "type": "news",
+     "date": "2026-10-21"
+    }
+   ],
+   "words": 491,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-21-abend",
    "file": "2026-10-21-abend.md",
