@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-22T04:54:27+00:00",
+ "generated": "2026-10-22T09:55:10+00:00",
  "articles": [
+  {
+   "id": "2026-10-22-mittag",
+   "file": "2026-10-22-mittag.md",
+   "title": "SAP knackt erstmals 10 Milliarden Euro Quartalsumsatz, Bitcoin steigt über 84.000 Dollar, und die Stimmung kippt Richtung Gier",
+   "summary": "Europas wertvollster Softwarekonzern wächst in der Cloud um 26 % und hebt seine Prognose an, warnt aber vor Öl und US-Zinsen. Der Euro Stoxx 50 schloss gestern 1,4 % höher. Bitcoin klettert, der Angst-und-Gier-Index steht auf 68.",
+   "date": "2026-10-22",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Germany's SAP hits EUR10 billion quarterly revenue milestone, lifts 2026 view",
+     "publisher": "MarketScreener (Reuters)",
+     "url": "https://www.marketscreener.com/news/germany-s-sap-hits-eur10-billion-quarterly-revenue-milestone-lifts-2026-view-ce785cd9dc88f624",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 2,
+     "title": "Euro Stoxx 50 gains 1.4 percent as SAP beats estimates",
+     "publisher": "ad-hoc-news",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-gains-1-4-percent-as-sap-beats-estimates/70389150",
+     "type": "news",
+     "date": "2026-10-21"
+    },
+    {
+     "id": 3,
+     "title": "Crypto News October 22: Bitcoin At $84K Amid Rising Crypto Scams",
+     "publisher": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-22-2026-bitcoin-ethereum-price-gains",
+     "type": "data",
+     "date": "2026-10-22"
+    }
+   ],
+   "words": 433,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-22-morgen",
    "file": "2026-10-22-morgen.md",
