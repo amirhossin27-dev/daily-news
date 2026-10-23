@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-22T15:55:32+00:00",
+ "generated": "2026-10-23T04:53:37+00:00",
  "articles": [
+  {
+   "id": "2026-10-23-morgen",
+   "file": "2026-10-23-morgen.md",
+   "title": "Chipwerte stürzen erneut ab, Brent schließt nahe 113 Dollar, und Aramco räumt seine Zentrale",
+   "summary": "Der US-Halbleiterindex fällt um 6,7 %, Asiens Börsen folgen. Öl steigt auf den höchsten Stand seit Anfang Mai, Gold rutscht unter 4.000 Dollar. Aramco evakuiert seine Zentrale in Dhahran, Trump wirft Iran vor, den Ölpreis vor den Wahlen hochzutreiben.",
+   "date": "2026-10-23",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Märkte",
+    "Tech",
+    "KI",
+    "Energie",
+    "USA",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "investingLive Asia-Pacific market news: Asian stocks slide as chip rout spreads",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-stocks-slide-as-chip-rout-spreads/",
+     "type": "news",
+     "date": "2026-10-23"
+    },
+    {
+     "id": 2,
+     "title": "Middle East War: Trump accuses Iran of raising oil prices ahead of US midterms as Saudi Aramco evacuates headquarters",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-airport-attack-kills-one-as-us-orders-embassy-departures-1.500719174",
+     "type": "news",
+     "date": "2026-10-23"
+    },
+    {
+     "id": 3,
+     "title": "World shares retreat as report of damage to oil tankers pushes oil prices higher",
+     "publisher": "AP (via WSLS)",
+     "url": "https://www.wsls.com/business/2026/10/22/asian-shares-retreat-after-strong-profits-lead-a-rally-on-wall-street/",
+     "type": "news",
+     "date": "2026-10-22"
+    }
+   ],
+   "words": 440,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-22-abend",
    "file": "2026-10-22-abend.md",
