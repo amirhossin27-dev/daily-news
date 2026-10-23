@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-23T09:55:49+00:00",
+ "generated": "2026-10-23T15:54:13+00:00",
  "articles": [
+  {
+   "id": "2026-10-23-abend",
+   "file": "2026-10-23-abend.md",
+   "title": "Acht Monate Iran-Krieg: Was sich seit Februar verändert hat, und warum Israels Wahl am Dienstag zum nächsten Wendepunkt wird",
+   "summary": "Brent kostet heute rund 58 % mehr als vor Kriegsbeginn, Irans Wirtschaft ist eingebrochen, Trumps Zustimmung auf einem Tiefstand. Israels Armeechef sieht keinen Grund für einen Angriff vor der Wahl am 27. Oktober. Ein Wochenrückblick mit Ausblick.",
+   "date": "2026-10-23",
+   "edition": "abend",
+   "time": "17:54",
+   "labels": [
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US-Iran war, then and now: How the landscape has changed since February",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/23/us-iran-war-then-and-now-how-the-landscape-has-changed-since-february",
+     "type": "analysis",
+     "date": "2026-10-23"
+    },
+    {
+     "id": 2,
+     "title": "Report: IDF chief says no operational need for strike on Iran before Israeli election",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/report-idf-chief-says-no-need-for-strike-on-iran-before-israeli-election/",
+     "type": "news",
+     "date": "2026-10-22"
+    },
+    {
+     "id": 3,
+     "title": "Live: Iran war updates, October 23",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202610187555",
+     "type": "news",
+     "date": "2026-10-23"
+    }
+   ],
+   "words": 460,
+   "reading_minutes": 3
+  },
   {
    "id": "2026-10-23-mittag",
    "file": "2026-10-23-mittag.md",
