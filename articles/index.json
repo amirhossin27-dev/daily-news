@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-23T04:53:37+00:00",
+ "generated": "2026-10-23T09:55:39+00:00",
  "articles": [
+  {
+   "id": "2026-10-23-mittag",
+   "file": "2026-10-23-mittag.md",
+   "title": "Europas Wirtschaft verliert an Schwung, Deutschlands Industrie hält dagegen, und Bitcoin gibt die Wochengewinne ab",
+   "summary": "Die Einkaufsmanagerindizes für Oktober fallen schwächer aus als erwartet, vor allem bei Dienstleistungen. Deutschlands Industrie überrascht positiv, klagt aber über steigende Kosten. Bitcoin fiel gestern um mehr als 3 % auf rund 81.260 Dollar.",
+   "date": "2026-10-23",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Energie",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Eurozone HCOB Composite PMI declines to 51.9 in October vs. 52.7 expected",
+     "publisher": "FXStreet",
+     "url": "https://www.fxstreet.com/news/eurozone-hcob-composite-pmi-declines-to-519-in-october-vs-527-expected-202610230806",
+     "type": "data",
+     "date": "2026-10-23"
+    },
+    {
+     "id": 2,
+     "title": "Germany October flash manufacturing PMI 54.2 vs 53.5 expected",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/news/germany-october-flash-manufacturing-pmi-54-2-vs-53-5-expected/",
+     "type": "data",
+     "date": "2026-10-23"
+    },
+    {
+     "id": 3,
+     "title": "Crypto Market Today, Oct. 22: Bitcoin and Altcoins Slide as Wall Street Fears Spill Into Crypto Markets",
+     "publisher": "The Motley Fool (via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-22-215002279.html",
+     "type": "news",
+     "date": "2026-10-22"
+    }
+   ],
+   "words": 415,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-23-morgen",
    "file": "2026-10-23-morgen.md",
