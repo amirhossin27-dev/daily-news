@@ -1,6 +1,59 @@
 {
- "generated": "2026-10-24T09:54:44+00:00",
+ "generated": "2026-10-24T15:54:57+00:00",
  "articles": [
+  {
+   "id": "2026-10-24-abend",
+   "file": "2026-10-24-abend.md",
+   "title": "Pezeshkian will einen neuen Anlauf, Iran meldet Minentreffer in Hormus, und Israel wählt am Dienstag ohne klare Mehrheit",
+   "summary": "Irans Präsident gibt den USA die Schuld am geplatzten Zwischenabkommen, will aber weiterverhandeln. Laut Revolutionsgarden sind zwei Supertanker in Hormus auf Minen gelaufen. Vor Israels Wahl sehen Umfragen beide Lager bei 51 Sitzen.",
+   "date": "2026-10-24",
+   "edition": "abend",
+   "time": "17:54",
+   "labels": [
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Iran's Pezeshkian blames US for interim deal failure, urges new try",
+     "publisher": "Business Recorder (Reuters)",
+     "url": "https://www.brecorder.com/news/40445758/irans-pezeshkian-blames-us-for-interim-deal-failure-urges-new-try",
+     "type": "news",
+     "date": "2026-10-24"
+    },
+    {
+     "id": 2,
+     "title": "Middle East war: Houthi missile targets Riyadh, tankers hit mines near Hormuz",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804",
+     "type": "news",
+     "date": "2026-10-24"
+    },
+    {
+     "id": 3,
+     "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+     "publisher": "The Jerusalem Post",
+     "url": "https://www.jpost.com/middle-east/iran-news/2026-10-24/live-updates-912680",
+     "type": "news",
+     "date": "2026-10-24"
+    },
+    {
+     "id": 4,
+     "title": "Israel election: Polls forecast stalemate, far-right gains in next week's vote",
+     "publisher": "The New Arab",
+     "url": "https://www.newarab.com/news/israel-election-polls-forecast-stalemate-far-right-gains",
+     "type": "analysis",
+     "date": "2026-10-21"
+    }
+   ],
+   "words": 430,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-24-mittag",
    "file": "2026-10-24-mittag.md",
