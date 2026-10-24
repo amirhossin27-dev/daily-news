@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-23T15:54:24+00:00",
+ "generated": "2026-10-24T04:53:59+00:00",
  "articles": [
+  {
+   "id": "2026-10-24-morgen",
+   "file": "2026-10-24-morgen.md",
+   "title": "Dow verliert mehr als 600 Punkte, US-Geheimdienst warnt vor iranischen Anschlagsplänen, und ein Gesandter hält einen Angriff am Wochenende für möglich",
+   "summary": "Die Wall Street beendet eine nervöse Woche im Minus, der Ausverkauf erfasst jetzt auch Konsum- und Gesundheitswerte. Laut Axios sind iranische Pläne gegen US-Diplomaten weit fortgeschritten. Über Riad wurde in der Nacht erneut eine Huthi-Rakete abgefangen.",
+   "date": "2026-10-24",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US Stocks Close: Dow Drops Over 600 Points, Some Tech Stocks Rebound, CrowdStrike Gains Over 8%",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262236830-us-market-close-dow-drop-consumer-healthcare-chips-rebound-crowdstrike-tradingkey",
+     "type": "news",
+     "date": "2026-10-24"
+    },
+    {
+     "id": 2,
+     "title": "Middle East War: Houthi missile targets Riyadh, tankers hit mines near Hormuz",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804",
+     "type": "news",
+     "date": "2026-10-24"
+    },
+    {
+     "id": 3,
+     "title": "Iranian plots to target US diplomats in Middle East reach 'advanced stages': Report",
+     "publisher": "The Week (nach Axios)",
+     "url": "https://www.theweek.in/news/middle-east/2026/10/24/us-intelligence-iran-threats-middle-east-american-diplomats.html",
+     "type": "news",
+     "date": "2026-10-24"
+    }
+   ],
+   "words": 428,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-23-abend",
    "file": "2026-10-23-abend.md",
