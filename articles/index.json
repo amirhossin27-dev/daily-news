@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-24T04:54:09+00:00",
+ "generated": "2026-10-24T09:54:44+00:00",
  "articles": [
+  {
+   "id": "2026-10-24-mittag",
+   "file": "2026-10-24-mittag.md",
+   "title": "Krypto-Wochenende: Wall Street greift zu Bitcoin statt Ether, Hedera drängt auf Rohstoff-Status bei der SEC",
+   "summary": "Ether-ETFs verloren im Oktober rund eine Milliarde Dollar, Bitcoin-Fonds liegen im Plus. HBAR fällt auf rund 0,08 Dollar und hat seit Jahresbeginn deutlich schlechter abgeschnitten als Bitcoin. Die HBAR Foundation fordert mit anderen Projekten eine verbindliche Einstufung als digitale Rohstoffe.",
+   "date": "2026-10-24",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Hedera",
+    "USA",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "BTC USD: Bitcoin ETFs Take $1B as Ether Funds Lose $1B",
+     "publisher": "99Bitcoins",
+     "url": "https://99bitcoins.com/news/bitcoin-btc/btc-usd-bitcoin-vs-ether-etf-flows/",
+     "type": "data",
+     "date": "2026-10-22"
+    },
+    {
+     "id": 2,
+     "title": "What Would Have to Happen for Hedera (HBAR) to Reach $0.25?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/22/what-would-have-to-happen-for-hedera-hbar-to-reach-0-25/",
+     "type": "analysis",
+     "date": "2026-10-22"
+    },
+    {
+     "id": 3,
+     "title": "HBAR Price Prediction: Sellers Dominate at $0.08 as Stochastic Flashes Deep Oversold",
+     "publisher": "Blockchain.News",
+     "url": "https://blockchain.news/news/20261023-price-prediction-hbar-sellers-dominate-at-008-as-stochastic",
+     "type": "data",
+     "date": "2026-10-23"
+    }
+   ],
+   "words": 419,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-24-morgen",
    "file": "2026-10-24-morgen.md",
