@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-25T05:53:43+00:00",
+ "generated": "2026-10-25T10:55:54+00:00",
  "articles": [
+  {
+   "id": "2026-10-25-mittag",
+   "file": "2026-10-25-mittag.md",
+   "title": "Teheran dementiert Hormus-Angebot, und die Woche der Wahrheit: Fed, Microsoft, Alphabet und Amazon",
+   "summary": "Iranische Medien weisen Berichte über ein neues Angebot zur Öffnung der Straße von Hormus als Erfindung zurück. Die kommende Woche bringt die Fed-Entscheidung, Quartalszahlen der KI-Riesen und wichtige US-Daten.",
+   "date": "2026-10-25",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Iran",
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "KI",
+    "Tech",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "No offer made to US, no proposal sent to Pakistan mediator on Strait of Hormuz reopening",
+     "publisher": "The Tribune (ANI)",
+     "url": "https://www.tribuneindia.com/news/hormuz/no-offer-made-to-us-no-proposal-sent-to-pakistan-mediator-on-strait-of-hormuz-reopening-iranian-media-rejects-reports",
+     "type": "news",
+     "date": "2026-10-25"
+    },
+    {
+     "id": 2,
+     "title": "Iran cries 'fabrication' over new Hormuz deal report as Trump threatens another strike",
+     "publisher": "The Statesman",
+     "url": "https://www.thestatesman.com/world/iran-cries-fabrication-over-new-hormuz-deal-report-as-trump-threatens-another-strike-1503654732.html",
+     "type": "news",
+     "date": "2026-10-25"
+    },
+    {
+     "id": 3,
+     "title": "The Week Ahead: Fed Rate Decision Looming as Microsoft, Alphabet, and Amazon Report Earnings",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262237761-weekly-fed-microsoft-alphabet-amazon-earnings-tradingkey",
+     "type": "analysis",
+     "date": "2026-10-23"
+    }
+   ],
+   "words": 408,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-25-morgen",
    "file": "2026-10-25-morgen.md",
