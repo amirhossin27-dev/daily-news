@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-24T15:54:57+00:00",
+ "generated": "2026-10-25T05:53:43+00:00",
  "articles": [
+  {
+   "id": "2026-10-25-morgen",
+   "file": "2026-10-25-morgen.md",
+   "title": "Trump: Angriff auf Iran \"schon morgen\" möglich, Hamas droht offen, und Bitcoin vor einem entscheidenden Wochenschluss",
+   "summary": "Trump hält einen Schlag gegen Iran oder einen Deal gleichermaßen für möglich. Laut NYT bestätigen iranische Funktionäre Pläne gegen US-Personal. Israels Armee ist vor der Wahl in höchster Alarmbereitschaft. Bitcoin kämpft um die Marke von 83.000 Dollar.",
+   "date": "2026-10-25",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Iran",
+    "USA",
+    "Israel",
+    "Naher Osten",
+    "Krypto",
+    "Bitcoin",
+    "Märkte"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live blog October 25, 2026",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-25-2026/",
+     "type": "news",
+     "date": "2026-10-25"
+    },
+    {
+     "id": 2,
+     "title": "Live - Trump says Iran strike possible tomorrow, report points to post-election plans",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202610244311",
+     "type": "news",
+     "date": "2026-10-24"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin Faces Make-or-Break Weekend as Market Crash Fears Grow",
+     "publisher": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-faces-break-weekend-market-110545299.html",
+     "type": "news",
+     "date": "2026-10-24"
+    }
+   ],
+   "words": 436,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-24-abend",
    "file": "2026-10-24-abend.md",
