@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-25T16:52:44+00:00",
+ "generated": "2026-10-26T05:54:12+00:00",
  "articles": [
+  {
+   "id": "2026-10-26-morgen",
+   "file": "2026-10-26-morgen.md",
+   "title": "Regionale Krisendiplomatie in Teheran, Öl gibt nach, und die Märkte rechnen mit einer Zinserhöhung im Dezember",
+   "summary": "Vertreter aus Saudi-Arabien, der Türkei und Pakistan treffen heute iranische Regierungsvertreter. Brent fällt auf rund 110 Dollar, Asiens Börsen starten verhalten. Händler sehen eine Fed-Pause am Mittwoch, aber zu rund 80 % eine Erhöhung im Dezember.",
+   "date": "2026-10-26",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Märkte",
+    "Zinsen",
+    "Energie",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live - Saudi, Turkish, Pakistani officials head to Tehran for regional coordination talks",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202610244311",
+     "type": "news",
+     "date": "2026-10-26"
+    },
+    {
+     "id": 2,
+     "title": "Shares fall in Asia after a decline on Wall Street, and oil prices fall more than 1%",
+     "publisher": "WSLS (AP)",
+     "url": "https://www.wsls.com/business/2026/10/26/shares-fall-in-asia-after-a-decline-on-wall-street-and-oil-prices-fall-more-than-1/",
+     "type": "news",
+     "date": "2026-10-26"
+    },
+    {
+     "id": 3,
+     "title": "Stocks trade cautiously in Asia, Brent off six-month top",
+     "publisher": "Business Recorder (Reuters)",
+     "url": "https://www.brecorder.com/news/40445944/stocks-trade-cautiously-in-asia-brent-off-six-month-top",
+     "type": "news",
+     "date": "2026-10-26"
+    }
+   ],
+   "words": 363,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-25-abend",
    "file": "2026-10-25-abend.md",
