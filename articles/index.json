@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-26T05:54:12+00:00",
+ "generated": "2026-10-26T10:56:36+00:00",
  "articles": [
+  {
+   "id": "2026-10-26-mittag",
+   "file": "2026-10-26-mittag.md",
+   "title": "Verteidigungsminister, Armeechef, Geheimdienstchef: Wer in Teheran verhandelt, und warum Europas Börsen aufatmen",
+   "summary": "Saudi-Arabien, Pakistan und die Türkei schicken ihre Sicherheitschefs nach Teheran, Iran spricht von einem möglichen Auftakt. Der DAX legt zu, Ölwerte geben nach. Französische Renditen lagen zuletzt über 5 %.",
+   "date": "2026-10-26",
+   "edition": "mittag",
+   "time": "11:56",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Europa",
+    "Märkte",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Delegations meeting in Tehran with region on edge over potential for renewed fighting",
+     "publisher": "WSB-TV (AP)",
+     "url": "https://www.wsbtv.com/news/world/delegations-meeting/7R6BOJYTHQ2K5O3AATDQETAJMA/",
+     "type": "news",
+     "date": "2026-10-26"
+    },
+    {
+     "id": 2,
+     "title": "Meeting can be prelude to further work: Iran ahead of talks with Saudi, Pakistan, Turkiye",
+     "publisher": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/world/meeting-can-be-prelude-to-further-work-iran-ahead-of-talks-with-saudi-pakistan-turkiye",
+     "type": "news",
+     "date": "2026-10-26"
+    },
+    {
+     "id": 3,
+     "title": "European shares hold as markets weigh Iran diplomacy, await c.banks",
+     "publisher": "Yahoo Finance (Reuters)",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-hold-markets-weigh-084100829.html",
+     "type": "news",
+     "date": "2026-10-26"
+    }
+   ],
+   "words": 335,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-26-morgen",
    "file": "2026-10-26-morgen.md",
