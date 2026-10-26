@@ -1,6 +1,53 @@
 {
- "generated": "2026-10-26T10:56:36+00:00",
+ "generated": "2026-10-26T16:53:05+00:00",
  "articles": [
+  {
+   "id": "2026-10-26-abend",
+   "file": "2026-10-26-abend.md",
+   "title": "Teheran-Runde vertagt sich, Wall Street erholt sich, und Anthropic reicht Börsenprospekt ein",
+   "summary": "Die vier Sicherheitschefs vereinbaren nur, weiterzureden. Israels Verteidigungsminister schließt einen Angriff vor der Wahl aus. An der Wall Street steigen die Kurse, Meta plant eine Kapitalerhöhung über 95 Mrd. Dollar, und der KI-Entwickler Anthropic will an die Nasdaq.",
+   "date": "2026-10-26",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Märkte",
+    "KI",
+    "Tech",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Saudi, Pakistani, Iranian and Turkish security chiefs sit down in Tehran, agree to continue talks",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/news/saudi-pakistani-iranian-and-turkish-security-chiefs-sit-down-in-tehran-agree-to-continue-talks/",
+     "type": "news",
+     "date": "2026-10-26"
+    },
+    {
+     "id": 2,
+     "title": "Saudi, Pakistani and Turkish officials hold Iran talks as war fears grow",
+     "publisher": "WISH-TV (AP)",
+     "url": "https://www.wishtv.com/news/international/saudi-pakistani-and-turkish-officials-hold-iran-talks-as-war-fears-grow/",
+     "type": "news",
+     "date": "2026-10-26"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today (Oct. 26, 2026): S&P 500 climbs as markets gear up for earnings, Fed decision",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026",
+     "type": "news",
+     "date": "2026-10-26"
+    }
+   ],
+   "words": 393,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-26-mittag",
    "file": "2026-10-26-mittag.md",
