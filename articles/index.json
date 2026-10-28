@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-27T20:03:13+00:00",
+ "generated": "2026-10-28T05:53:35+00:00",
  "articles": [
+  {
+   "id": "2026-10-28-morgen",
+   "file": "2026-10-28-morgen.md",
+   "title": "Israel nach der Wahl: Likud stärkste Kraft, aber kein Lager mit Mehrheit. Asiens Chipwerte springen, heute entscheidet die Fed",
+   "summary": "Laut Prognosen wird der Likud stärkste Partei, Eisenkots Lager liegt bei den öffentlichen Sendern dennoch vorn, eine Mehrheit hat niemand. Der Kospi steigt um 5,6 %, Boeing fällt nach Verlust um fast 11 %. Am Abend verkündet die Fed ihren Zinsentscheid.",
+   "date": "2026-10-28",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Israel",
+    "Naher Osten",
+    "Märkte",
+    "Zinsen",
+    "KI",
+    "Tech",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Israel election 2026 exit polls: Full results",
+     "publisher": "Israel Hayom",
+     "url": "https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/",
+     "type": "data",
+     "date": "2026-10-27"
+    },
+    {
+     "id": 2,
+     "title": "Asian stocks rise after a rally on Wall Street, while oil prices edge higher",
+     "publisher": "News4JAX (AP)",
+     "url": "https://www.news4jax.com/business/2026/10/28/asian-stocks-rise-after-a-rally-on-wall-street-while-oil-prices-edge-higher/",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 3,
+     "title": "Exit polls set to be aired, as voting draws to a close amid high turnout",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-27-2026/",
+     "type": "news",
+     "date": "2026-10-27"
+    }
+   ],
+   "words": 401,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-27-abend",
    "file": "2026-10-27-abend.md",
