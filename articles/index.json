@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-28T10:56:55+00:00",
+ "generated": "2026-10-28T16:53:22+00:00",
  "articles": [
+  {
+   "id": "2026-10-28-abend",
+   "file": "2026-10-28-abend.md",
+   "title": "Israel nach 85 % der Stimmen: 53 zu 48 und 19 arabische Sitze. Herzog mahnt, Pezeshkian will Lösungen ohne die USA",
+   "summary": "Kein Lager in Israel kommt nahe an die Mehrheit, Herzog will eine Neuwahl vermeiden, das Endergebnis kommt frühestens Donnerstag. Pezeshkian sagte bei Putin, die Region könne ihre Probleme ohne Washington lösen. Heute Abend entscheidet die Fed.",
+   "date": "2026-10-28",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "Israel",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "USA",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Israel elections 2026 live",
+     "publisher": "The Jewish Chronicle",
+     "url": "https://www.thejc.com/news/israel/israel-elections-2026-live-results-um05revx",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 2,
+     "title": "Middle East war: Saudi Arabia intercepts Houthi missiles, drones as Iran talks continue",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-arabia-intercepts-houthi-missiles-drones-as-iran-talks-continue-1.500724842",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 3,
+     "title": "Live blog October 28, 2026",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-28-2026/",
+     "type": "news",
+     "date": "2026-10-28"
+    }
+   ],
+   "words": 393,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-28-mittag",
    "file": "2026-10-28-mittag.md",
