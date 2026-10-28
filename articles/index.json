@@ -1,6 +1,51 @@
 {
- "generated": "2026-10-28T05:53:58+00:00",
+ "generated": "2026-10-28T10:56:55+00:00",
  "articles": [
+  {
+   "id": "2026-10-28-mittag",
+   "file": "2026-10-28-mittag.md",
+   "title": "Auszählung in Israel: Netanjahus Lager vorn, aber ohne Mehrheit. Eisenkot fordert Rücktritt, Europas Börsen warten auf die Fed",
+   "summary": "Nach rund einem Drittel der Stimmen liegt das Pro-Netanjahu-Lager bei 59 Sitzen, unter der Mehrheit. Netanjahu schließt arabische Parteien aus, Eisenkot spricht von einem Votum für den Wechsel. In Europa starten die Börsen verhalten, Equinor verdreifacht den Gewinn.",
+   "date": "2026-10-28",
+   "edition": "mittag",
+   "time": "11:56",
+   "labels": [
+    "Israel",
+    "Naher Osten",
+    "Europa",
+    "Märkte",
+    "Energie",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Likud-led bloc leads count with 54 seats, short of majority (live blog)",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-28-2026/",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 2,
+     "title": "Israeli elections: Netanyahu and Eisenkot face coalition deadlock",
+     "publisher": "Israel Hayom",
+     "url": "https://www.israelhayom.com/2026/10/28/netanyahu-likud-largest-party-exit-polls/",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 3,
+     "title": "European stock market open: Stocks edge lower ahead of Fed decision and big tech earnings",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/stocks/european-stock-market-open-stocks-edge-lower-ahead-of-fed-decision-and-big-tech-earnings/",
+     "type": "news",
+     "date": "2026-10-28"
+    }
+   ],
+   "words": 398,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-28-morgen",
    "file": "2026-10-28-morgen.md",
