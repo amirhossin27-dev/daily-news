@@ -1,6 +1,50 @@
 {
- "generated": "2026-10-29T10:55:36+00:00",
+ "generated": "2026-10-29T16:55:31+00:00",
  "articles": [
+  {
+   "id": "2026-10-29-abend",
+   "file": "2026-10-29-abend.md",
+   "title": "Lagarde geht vorzeitig, die EZB wartet ab, und die US-Wirtschaft wächst kräftiger als erwartet bei steigender Inflation",
+   "summary": "Christine Lagarde verlässt die EZB im Februar 2027, neun Monate vor Ende ihrer Amtszeit. Der Einlagenzins bleibt bei 2,5 %, die Inflation im Euroraum liegt bei 3,8 %. In den USA wächst das BIP um 3,4 %, die Kerninflation steigt auf 3,1 %.",
+   "date": "2026-10-29",
+   "edition": "abend",
+   "time": "17:55",
+   "labels": [
+    "Europa",
+    "Zinsen",
+    "USA",
+    "Wirtschaft",
+    "Märkte"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "ECB holds rates at 2.5% as Lagarde announces early exit with inflation near double the target",
+     "publisher": "Euronews",
+     "url": "https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe",
+     "type": "news",
+     "date": "2026-10-29"
+    },
+    {
+     "id": 2,
+     "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+     "publisher": "U.S. Bureau of Economic Analysis",
+     "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+     "type": "official",
+     "date": "2026-10-29"
+    },
+    {
+     "id": 3,
+     "title": "U.S. Economy Grows 3.4% in Third Quarter as September Core PCE Accelerates to 3.1%",
+     "publisher": "The Private Banker",
+     "url": "https://leprivatebanker.com/2026/10/29/u-s-economy-grows-3-4-in-third-quarter-as-september-core-pce-accelerates-to-3-1/",
+     "type": "analysis",
+     "date": "2026-10-29"
+    }
+   ],
+   "words": 380,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-29-mittag",
    "file": "2026-10-29-mittag.md",
