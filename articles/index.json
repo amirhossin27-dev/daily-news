@@ -1,6 +1,58 @@
 {
- "generated": "2026-10-28T16:53:22+00:00",
+ "generated": "2026-10-29T05:54:25+00:00",
  "articles": [
+  {
+   "id": "2026-10-29-morgen",
+   "file": "2026-10-29-morgen.md",
+   "title": "Fed hält still, zwei Notenbanker wollten erhöhen. Microsoft überzeugt, Alphabet enttäuscht trotz verdoppelter Cloud",
+   "summary": "Die Fed lässt den Leitzins bei 3,75 bis 4,00 %, Lisa Cook und Beth Hammack stimmten für eine Erhöhung. Microsoft steigt nachbörslich um rund 4 % dank Azure. Alphabet verfehlt die Erwartungen und verbrennt bei Rekordinvestitionen Geld.",
+   "date": "2026-10-29",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "KI",
+    "Tech"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "FOMC October 2026: Fed Holds at 3.75%-4%, Markets React",
+     "publisher": "Admiral Markets",
+     "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-october-2026-fed-holds-rates",
+     "type": "analysis",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 2,
+     "title": "Microsoft's stock rises on solid earnings and revenue beat, with Azure growing 48%",
+     "publisher": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/28/microsofts-stock-rises-on-solid-earnings-and-revenue-beat-with-azure-growing-48/",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 3,
+     "title": "Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test",
+     "publisher": "The Motley Fool",
+     "url": "https://www.fool.com/investing/2026/10/28/microsoft-and-alphabet-just-reported-earnings-putting-the-ai-boom-to-the-test/",
+     "type": "analysis",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 4,
+     "title": "Live Fed Statement Breakdown: Interest Rates Held at 3.75%–4.00%",
+     "publisher": "Raisin",
+     "url": "https://www.raisin.com/en-us/news/live-breakdown-fed-policy-statement-october-2026/",
+     "type": "analysis",
+     "date": "2026-10-28"
+    }
+   ],
+   "words": 388,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-28-abend",
    "file": "2026-10-28-abend.md",
