@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-29T05:54:25+00:00",
+ "generated": "2026-10-29T10:55:27+00:00",
  "articles": [
+  {
+   "id": "2026-10-29-mittag",
+   "file": "2026-10-29-mittag.md",
+   "title": "EZB-Tag: Europas Börsen leicht im Plus, Bitcoin hält sich knapp über 80.000 Dollar",
+   "summary": "Vor dem EZB-Entscheid am Nachmittag legt Paris am stärksten zu. Bitcoin gibt nach der Fed leicht nach, die ETF-Zuflüsse halten aber an. Am Nachmittag folgen US-BIP und PCE-Inflation.",
+   "date": "2026-10-29",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Europa",
+    "Zinsen",
+    "Märkte",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Deutschland"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "French Shares Lead European Gains Ahead of ECB Policy Decision",
+     "publisher": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/43351",
+     "type": "news",
+     "date": "2026-10-29"
+    },
+    {
+     "id": 2,
+     "title": "DAX Index Climbs; German Consumer Sentiment Expected to Worsen",
+     "publisher": "MarketScreener",
+     "url": "https://www.marketscreener.com/news/dax-index-climbs-german-consumer-sentiment-expected-to-worsen-ce785cd2d18ef321",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 3,
+     "title": "Crypto Prices Today: Bitcoin Near USD 80,361 After Fed Hold",
+     "publisher": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-near-usd-80361-as-fed-hold-keeps-hike-fears-alive",
+     "type": "data",
+     "date": "2026-10-29"
+    }
+   ],
+   "words": 264,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-29-morgen",
    "file": "2026-10-29-morgen.md",
