@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-29T16:55:40+00:00",
+ "generated": "2026-10-30T05:54:23+00:00",
  "articles": [
+  {
+   "id": "2026-10-30-morgen",
+   "file": "2026-10-30-morgen.md",
+   "title": "Größter Krypto-Hack der Geschichte: Binance meldet Schaden von rund 6,3 Mrd. Dollar, Bitcoin fällt unter 77.000. Amazon rutscht nachbörslich ab",
+   "summary": "Über einen kompromittierten Laptop eines Binance-Technikers flossen über Nacht Milliarden ab, Binance stoppte Ein- und Auszahlungen. Krypto-Kurse fallen deutlich. Amazon wächst in der Cloud so schnell wie seit fast fünf Jahren nicht, verliert aber nachbörslich rund 6 %.",
+   "date": "2026-10-30",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Märkte",
+    "Tech",
+    "KI",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live Updates: Binance hit by largest crypto hack in history",
+     "publisher": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns",
+     "type": "news",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 2,
+     "title": "Binance Hacked With Potential Losses Over $2 Billion as Cryptocurrencies Plunge",
+     "publisher": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/cryptocurrencies/bnb/262258262-crypto-binance-bnb-btc-eth-usdt-usdc-tradingkey",
+     "type": "data",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 3,
+     "title": "AWS Jumps 39% as Amazon's Cash Flow Sinks: Rapid Earnings Reaction",
+     "publisher": "The Motley Fool",
+     "url": "https://www.fool.com/investing/2026/10/29/aws-jumps-39-as-amazons-cash-flow-sinks-rapid-earn/",
+     "type": "analysis",
+     "date": "2026-10-29"
+    }
+   ],
+   "words": 392,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-29-abend",
    "file": "2026-10-29-abend.md",
