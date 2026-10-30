@@ -1,6 +1,50 @@
 {
- "generated": "2026-10-30T05:54:23+00:00",
+ "generated": "2026-10-30T10:55:27+00:00",
  "articles": [
+  {
+   "id": "2026-10-30-mittag",
+   "file": "2026-10-30-mittag.md",
+   "title": "Binance-Hack: Spur führt nach Nordkorea, Auszahlungen erst in rund zwei Tagen. Deutschlands Wirtschaft wächst dank Staatsausgaben",
+   "summary": "Mehrere Analysefirmen ordnen den Milliarden-Diebstahl der nordkoreanischen Gruppe TraderTraitor zu, Binance selbst nicht. Auszahlungen sollen in rund 45 Stunden wieder möglich sein. Deutschlands BIP wächst im dritten Quartal um 0,2 %, etwas mehr als erwartet.",
+   "date": "2026-10-30",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Krypto",
+    "Geopolitik",
+    "Deutschland",
+    "Wirtschaft",
+    "Europa"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live Updates: Binance Losses Estimated at $6.3B amid Major Crypto Hack",
+     "publisher": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor",
+     "type": "news",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 2,
+     "title": "German Economy Surpasses Q3 Growth Expectations on State Spending",
+     "publisher": "Global Banking & Finance Review (Reuters)",
+     "url": "https://www.globalbankingandfinance.com/german-economy-grew-expected-q3-underpinned-state-spending/",
+     "type": "news",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 3,
+     "title": "IC Europe Fundamental Forecast, 30 October 2026",
+     "publisher": "IC Markets",
+     "url": "https://www.ic.com/blog/ic-europe-fundamental-forecast-30-october-2026/",
+     "type": "data",
+     "date": "2026-10-30"
+    }
+   ],
+   "words": 312,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-30-morgen",
    "file": "2026-10-30-morgen.md",
