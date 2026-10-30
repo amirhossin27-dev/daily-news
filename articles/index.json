@@ -1,6 +1,50 @@
 {
- "generated": "2026-10-30T10:55:37+00:00",
+ "generated": "2026-10-30T16:59:35+00:00",
  "articles": [
+  {
+   "id": "2026-10-30-abend",
+   "file": "2026-10-30-abend.md",
+   "title": "Ein Brief von Vance, Angriffspläne für die Zeit nach den Midterms: Wohin steuert der Iran-Konflikt?",
+   "summary": "Vizepräsident Vance hat Iran laut Medienberichten direkte Gespräche angeboten, Trump spielt den Brief herunter. Zugleich berichten US-Zeitungen über gemeinsame Angriffspläne mit Israel nach dem 3. November. Ein Wochenausblick vor der US-Wahl.",
+   "date": "2026-10-30",
+   "edition": "abend",
+   "time": "17:59",
+   "labels": [
+    "Iran",
+    "USA",
+    "Israel",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer",
+     "type": "analysis",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 2,
+     "title": "Iran War Updates: Qatar pushes for a U.S.-Iran deal",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+     "type": "news",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 3,
+     "title": "Israel election results: Netanyahu bloc at 53 seats, Eisenkot bloc at 48",
+     "publisher": "Ynet News",
+     "url": "https://www.ynetnews.com/article/hjnatbkaml",
+     "type": "news",
+     "date": "2026-10-28"
+    }
+   ],
+   "words": 394,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-30-mittag",
    "file": "2026-10-30-mittag.md",
