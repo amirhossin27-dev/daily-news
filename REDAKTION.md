@@ -16,6 +16,8 @@ Amir: Wirtschaftsingenieur (RWTH), IT-Projektmanager bei BASF (Intranet-Portale,
 
 Jede Ausgabe bringt **neue** Informationen. Vorher die letzten zwei Ausgaben lesen und nichts wiederholen, außer es gibt eine echte Entwicklung (dann kurz darauf verweisen).
 
+Nach „Kurz gesagt“ folgt `## Neu seit der letzten Ausgabe`: kurz und konkret nennen, welche Entwicklung neu ist. Dort die chronologisch vorherige Ausgabe als `[Vorherige Ausgabe](#/artikel/JJJJ-MM-TT-ausgabe)` verlinken. Nur bei der allerersten Ausgabe entfällt der Rückverweis. Der Abschnitt soll tatsächliche Entwicklungen erklären, keine automatisch behaupteten Textunterschiede.
+
 ## Inhalt
 
 1. **Kurz gesagt:** drei Stichpunkte, jeder ein vollständiger Satz mit Quelle.
@@ -25,6 +27,8 @@ Jede Ausgabe bringt **neue** Informationen. Vorher die letzten zwei Ausgaben les
 5. **Zum Nachdenken:** ein Kasten `[!FRAGE]` mit einer offenen Frage, gern mit Bezug zu Amirs Arbeit oder Nebenprojekt. Keine Ratschläge, keine Lebensweisheiten.
 
 Länge: 700 bis 1.200 Wörter. Sprache: Deutsch, klar, sachlich, ganze Sätze, keine Gedankenstriche als Satzzeichen.
+
+Diese Länge, genau drei Stichpunkte unter `## Kurz gesagt`, drei bis vier nummerierte Hauptthemen sowie nichtleere `[!LERNEN]`- und `[!FRAGE]`-Kästen werden für neue und bearbeitete Artikel verbindlich geprüft. Schwache Themen nicht künstlich auffüllen: Bei unzureichender Nachrichtenlage die Veröffentlichung redaktionell klären. Unveränderte historische Artikel bleiben über einen eingefrorenen Inhaltsvergleich lesbar und erzeugen Hinweise. Die Datei `scripts/legacy_articles.json` darf dafür nicht erweitert oder neu erzeugt werden.
 
 ## Regeln (nicht verhandelbar)
 
@@ -73,9 +77,36 @@ Erlaubte Labels: Wirtschaft, Märkte, Zinsen, Deutschland, Europa, Energie, Kryp
 
 ## Veröffentlichen
 
+Vor der ersten Nutzung die Python-Abhängigkeiten installieren:
+
 ```bash
-python3 scripts/build_index.py      # prüft alle Artikel und schreibt articles/index.json
-git add articles && git commit -m "Ausgabe: 2026-10-12 morgen" && git push origin main
+python -m pip install -r requirements.txt
+```
+
+```bash
+python scripts/build_site.py       # prüft alle Artikel, erzeugt drei Indizes und die Offline-Ausgabe
+git add articles sw.js precache.json
+git commit -m "Ausgabe: 2026-11-01 morgen"
+git push origin main
 ```
 
 Wenn das Skript Fehler meldet, den Artikel korrigieren. Nie ohne erfolgreichen Lauf pushen.
+
+GitHub Actions prüft Metadaten, Redaktionsregeln und Anwendungstests erneut und veröffentlicht ausschließlich die erfolgreich gebaute Ausgabe aus `_site`. In GitHub muss unter **Settings → Pages → Source** einmalig **GitHub Actions** gewählt werden. So kann ein fehlgeschlagener Build die bestehende Live-Version nicht ersetzen. Der bestehende externe Erstellungsrhythmus bleibt zuständig; im Repository wird kein zweiter Recherche-Zeitplan angelegt.
+
+Für eine Prüfung ohne Schreibzugriff: `python scripts/build_index.py --check`. Dieser Befehl prüft den Inhalt, nicht die Aktualität bereits erzeugter JSON-Dateien.
+
+## Korrekturen
+
+Bestehende Aussagen nicht still ändern. Bei einer inhaltlichen Korrektur beide optionalen Felder im Frontmatter ergänzen:
+
+```yaml
+updated_at: "2026-11-01T09:15:00+01:00"
+correction_note: "Die zuvor genannte Zahl wurde anhand der Originalquelle korrigiert."
+```
+
+Der Zeitpunkt benötigt eine Zeitzone und muss nach der ursprünglichen Veröffentlichung liegen. Jede bearbeitete Ausgabe muss anschließend auch die aktuellen Format- und Längenregeln erfüllen. Die Oberfläche zeigt Korrekturzeit und Erklärung über dem Artikel an.
+
+## Quellenprüfung
+
+Quellen benötigen `id`, `title`, `publisher`, `url`, `type` und `date`. IDs sind eindeutige ganze Zahlen von 1 bis 99; das Quelldatum ist ein echtes Kalenderdatum und liegt nicht nach der Ausgabe. Nur HTTPS-Links verwenden. Der automatische Erreichbarkeitstest meldet Probleme als Hinweise. Ein erreichbarer Link beweist nicht, dass er die konkrete Aussage trägt. Quellen müssen weiterhin gelesen und inhaltlich geprüft werden.

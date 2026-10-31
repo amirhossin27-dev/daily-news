@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T16:52:47+00:00",
+ "generated": "2026-10-31T16:52:00+00:00",
  "articles": [
   {
    "id": "2026-10-31-abend",
@@ -42,7 +42,8 @@
     }
    ],
    "words": 332,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-31-mittag"
   },
   {
    "id": "2026-10-31-mittag",
@@ -86,7 +87,8 @@
     }
    ],
    "words": 352,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-31-morgen"
   },
   {
    "id": "2026-10-31-morgen",
@@ -132,7 +134,8 @@
     }
    ],
    "words": 370,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-30-abend"
   },
   {
    "id": "2026-10-30-abend",
@@ -176,7 +179,8 @@
     }
    ],
    "words": 394,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-30-mittag"
   },
   {
    "id": "2026-10-30-mittag",
@@ -220,7 +224,8 @@
     }
    ],
    "words": 310,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-30-morgen"
   },
   {
    "id": "2026-10-30-morgen",
@@ -266,7 +271,8 @@
     }
    ],
    "words": 392,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-29-abend"
   },
   {
    "id": "2026-10-29-abend",
@@ -310,7 +316,8 @@
     }
    ],
    "words": 382,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-29-mittag"
   },
   {
    "id": "2026-10-29-mittag",
@@ -356,7 +363,8 @@
     }
    ],
    "words": 266,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-29-morgen"
   },
   {
    "id": "2026-10-29-morgen",
@@ -408,7 +416,8 @@
     }
    ],
    "words": 388,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-28-abend"
   },
   {
    "id": "2026-10-28-abend",
@@ -453,7 +462,8 @@
     }
    ],
    "words": 393,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-28-mittag"
   },
   {
    "id": "2026-10-28-mittag",
@@ -498,7 +508,8 @@
     }
    ],
    "words": 398,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-28-morgen"
   },
   {
    "id": "2026-10-28-morgen",
@@ -544,7 +555,8 @@
     }
    ],
    "words": 399,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-27-abend"
   },
   {
    "id": "2026-10-27-abend",
@@ -589,7 +601,8 @@
     }
    ],
    "words": 407,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-26-abend"
   },
   {
    "id": "2026-10-26-abend",
@@ -636,7 +649,8 @@
     }
    ],
    "words": 395,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-26-mittag"
   },
   {
    "id": "2026-10-26-mittag",
@@ -681,7 +695,8 @@
     }
    ],
    "words": 335,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-26-morgen"
   },
   {
    "id": "2026-10-26-morgen",
@@ -726,7 +741,8 @@
     }
    ],
    "words": 363,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-25-abend"
   },
   {
    "id": "2026-10-25-abend",
@@ -773,7 +789,8 @@
     }
    ],
    "words": 395,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-25-mittag"
   },
   {
    "id": "2026-10-25-mittag",
@@ -819,7 +836,8 @@
     }
    ],
    "words": 408,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-25-morgen"
   },
   {
    "id": "2026-10-25-morgen",
@@ -865,7 +883,8 @@
     }
    ],
    "words": 436,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-24-abend"
   },
   {
    "id": "2026-10-24-abend",
@@ -918,7 +937,8 @@
     }
    ],
    "words": 430,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-24-mittag"
   },
   {
    "id": "2026-10-24-mittag",
@@ -963,7 +983,8 @@
     }
    ],
    "words": 419,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-24-morgen"
   },
   {
    "id": "2026-10-24-morgen",
@@ -1008,7 +1029,8 @@
     }
    ],
    "words": 431,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-23-abend"
   },
   {
    "id": "2026-10-23-abend",
@@ -1053,7 +1075,8 @@
     }
    ],
    "words": 454,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-23-mittag"
   },
   {
    "id": "2026-10-23-mittag",
@@ -1099,7 +1122,8 @@
     }
    ],
    "words": 416,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-23-morgen"
   },
   {
    "id": "2026-10-23-morgen",
@@ -1145,7 +1169,8 @@
     }
    ],
    "words": 440,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-22-abend"
   },
   {
    "id": "2026-10-22-abend",
@@ -1192,7 +1217,8 @@
     }
    ],
    "words": 469,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-22-mittag"
   },
   {
    "id": "2026-10-22-mittag",
@@ -1239,7 +1265,8 @@
     }
    ],
    "words": 433,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-22-morgen"
   },
   {
    "id": "2026-10-22-morgen",
@@ -1286,7 +1313,8 @@
     }
    ],
    "words": 491,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-21-abend"
   },
   {
    "id": "2026-10-21-abend",
@@ -1332,7 +1360,8 @@
     }
    ],
    "words": 421,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-21-mittag"
   },
   {
    "id": "2026-10-21-mittag",
@@ -1376,7 +1405,8 @@
     }
    ],
    "words": 412,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-21-morgen"
   },
   {
    "id": "2026-10-21-morgen",
@@ -1421,7 +1451,8 @@
     }
    ],
    "words": 511,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-20-abend"
   },
   {
    "id": "2026-10-20-abend",
@@ -1475,7 +1506,8 @@
     }
    ],
    "words": 487,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-20-mittag"
   },
   {
    "id": "2026-10-20-mittag",
@@ -1521,7 +1553,8 @@
     }
    ],
    "words": 404,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-20-morgen"
   },
   {
    "id": "2026-10-20-morgen",
@@ -1568,7 +1601,8 @@
     }
    ],
    "words": 475,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-19-abend"
   },
   {
    "id": "2026-10-19-abend",
@@ -1614,7 +1648,8 @@
     }
    ],
    "words": 420,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-19-mittag"
   },
   {
    "id": "2026-10-19-mittag",
@@ -1660,7 +1695,8 @@
     }
    ],
    "words": 429,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-19-morgen"
   },
   {
    "id": "2026-10-19-morgen",
@@ -1707,7 +1743,8 @@
     }
    ],
    "words": 471,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-18-abend"
   },
   {
    "id": "2026-10-18-abend",
@@ -1752,7 +1789,8 @@
     }
    ],
    "words": 412,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-18-mittag"
   },
   {
    "id": "2026-10-18-mittag",
@@ -1797,7 +1835,8 @@
     }
    ],
    "words": 380,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-18-morgen"
   },
   {
    "id": "2026-10-18-morgen",
@@ -1842,7 +1881,8 @@
     }
    ],
    "words": 489,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-17-abend"
   },
   {
    "id": "2026-10-17-abend",
@@ -1889,7 +1929,8 @@
     }
    ],
    "words": 427,
-   "reading_minutes": 2
+   "reading_minutes": 2,
+   "previous_id": "2026-10-17-mittag"
   },
   {
    "id": "2026-10-17-mittag",
@@ -1934,7 +1975,8 @@
     }
    ],
    "words": 521,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-17-morgen"
   },
   {
    "id": "2026-10-17-morgen",
@@ -1983,7 +2025,8 @@
     }
    ],
    "words": 587,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-16-abend"
   },
   {
    "id": "2026-10-16-abend",
@@ -2032,7 +2075,8 @@
     }
    ],
    "words": 666,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-16-mittag"
   },
   {
    "id": "2026-10-16-mittag",
@@ -2080,7 +2124,8 @@
     }
    ],
    "words": 577,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-16-morgen"
   },
   {
    "id": "2026-10-16-morgen",
@@ -2127,7 +2172,8 @@
     }
    ],
    "words": 670,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-15-abend"
   },
   {
    "id": "2026-10-15-abend",
@@ -2183,7 +2229,8 @@
     }
    ],
    "words": 606,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-15-mittag"
   },
   {
    "id": "2026-10-15-mittag",
@@ -2231,7 +2278,8 @@
     }
    ],
    "words": 641,
-   "reading_minutes": 3
+   "reading_minutes": 3,
+   "previous_id": "2026-10-15-morgen"
   },
   {
    "id": "2026-10-15-morgen",
@@ -2288,7 +2336,8 @@
     }
    ],
    "words": 710,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-14-abend"
   },
   {
    "id": "2026-10-14-abend",
@@ -2335,7 +2384,8 @@
     }
    ],
    "words": 671,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-14-mittag"
   },
   {
    "id": "2026-10-14-mittag",
@@ -2384,7 +2434,8 @@
     }
    ],
    "words": 709,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-14-morgen"
   },
   {
    "id": "2026-10-14-morgen",
@@ -2448,7 +2499,8 @@
     }
    ],
    "words": 718,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-13-abend"
   },
   {
    "id": "2026-10-13-abend",
@@ -2511,7 +2563,8 @@
     }
    ],
    "words": 770,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-13-mittag"
   },
   {
    "id": "2026-10-13-mittag",
@@ -2574,7 +2627,8 @@
     }
    ],
    "words": 792,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-13-morgen"
   },
   {
    "id": "2026-10-13-morgen",
@@ -2637,7 +2691,8 @@
     }
    ],
    "words": 784,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-12-abend"
   },
   {
    "id": "2026-10-12-abend",
@@ -2685,7 +2740,8 @@
     }
    ],
    "words": 758,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-12-mittag"
   },
   {
    "id": "2026-10-12-mittag",
@@ -2739,7 +2795,8 @@
     }
    ],
    "words": 800,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-12-morgen"
   },
   {
    "id": "2026-10-12-morgen",
@@ -2811,7 +2868,8 @@
     }
    ],
    "words": 876,
-   "reading_minutes": 4
+   "reading_minutes": 4,
+   "previous_id": "2026-10-11-abend"
   },
   {
    "id": "2026-10-11-abend",

@@ -1,0 +1,29 @@
+{
+  "version": "65d13524dcdaa0b5",
+  "files": [
+    "index.html",
+    "manifest.webmanifest",
+    "articles/index.json",
+    "articles/learning.json",
+    "assets/app-icon.svg",
+    "assets/app.js",
+    "assets/article.js",
+    "assets/favicon.svg",
+    "assets/fonts/README.md",
+    "assets/fonts/fonts.css",
+    "assets/fonts/ibm-plex-sans-OFL.txt",
+    "assets/fonts/ibm-plex-sans-latin-ext-standard-normal.woff2",
+    "assets/fonts/ibm-plex-sans-latin-standard-normal.woff2",
+    "assets/fonts/source-serif-4-OFL.txt",
+    "assets/fonts/source-serif-4-latin-ext-standard-normal.woff2",
+    "assets/fonts/source-serif-4-latin-standard-normal.woff2",
+    "assets/offline.js",
+    "assets/router.js",
+    "assets/storage.js",
+    "assets/style.css",
+    "assets/tts.js",
+    "assets/utils.js",
+    "assets/vendor/marked.min.js",
+    "assets/vendor/purify.min.js"
+  ]
+}
