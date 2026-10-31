@@ -32,3 +32,34 @@ test('Section navigation, pause/resume and stale speech callbacks', () => {
 test('Unsupported speech degrades to readable status without crashing', () => {
   const { player, messages } = setup(false); player.start(); player.stop(); assert.equal(messages.length, 1); assert.match(player.status.textContent, /keine Sprachausgabe/);
 });
+
+test('Article playback omits chapter numbers only in H2/H3 headings', () => {
+  const { player, synth } = setup();
+  function block(tagName, textContent) {
+    return {
+      tagName, textContent, classList: { add() {} },
+      parentElement: { closest: () => null, classList: { contains: () => false } },
+      cloneNode: () => ({ textContent, querySelectorAll: () => [] })
+    };
+  }
+  const title = block('H1', '2. Ausgabe des Tages');
+  const chapter = block('H2', '  2. Iran: Der Plan auf dem Tisch');
+  const subsection = block('H3', '3) Zinsen und Inflation');
+  const amountHeading = block('H2', '3.000 Arbeitsplätze in Gefahr');
+  const percentageHeading = block('H3', '2,5 % Inflation');
+  const paragraph = block('P', '2. November: Der Kurs liegt bei 6,34 Euro und steigt um 2,5 %.');
+  const root = { querySelectorAll(selector) {
+    if (selector === '[data-tts]') return [title];
+    if (selector.startsWith('#prose ')) return [chapter, subsection, amountHeading, percentageHeading, paragraph];
+    return [];
+  } };
+  player.attach(root, { id: '2026-10-31-abend' });
+  const spoken = el => player.queue.filter(item => item.el === el).map(item => item.text).join(' ').replace(/\s+/g, ' ').trim();
+  assert.equal(spoken(chapter), 'Iran: Der Plan auf dem Tisch');
+  assert.equal(spoken(subsection), 'Zinsen und Inflation');
+  for (const el of [title, amountHeading, percentageHeading, paragraph]) assert.equal(spoken(el), el.textContent);
+  assert.equal(chapter.textContent, '  2. Iran: Der Plan auf dem Tisch');
+  player.pos = player.queue.findIndex(item => item.el === chapter);
+  player.start(); assert.equal(synth.utterance.text, 'Iran: Der Plan auf dem Tisch');
+  player.pause();
+});
