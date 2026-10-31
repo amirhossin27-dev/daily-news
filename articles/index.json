@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-30T16:59:35+00:00",
+ "generated": "2026-10-31T05:53:39+00:00",
  "articles": [
+  {
+   "id": "2026-10-31-morgen",
+   "file": "2026-10-31-morgen.md",
+   "title": "Brutaler Monatsausklang: Nasdaq fällt fast 3 %, Intel und Reddit verlieren je ein Viertel. Ölkonzerne verdienen am Krieg",
+   "summary": "Zweifel an den KI-Ausgaben schicken die Tech-Börse auf Talfahrt, Intel erlebt den schlechtesten Tag seit 1974. ExxonMobil verdoppelt den Gewinn. Katar bringt einen überarbeiteten Entwurf nach Teheran, in Iran wird über einen Austritt aus dem Atomwaffensperrvertrag diskutiert.",
+   "date": "2026-10-31",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Märkte",
+    "USA",
+    "KI",
+    "Tech",
+    "Energie",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stock Market Today (Oct. 30, 2026): Intel, Reddit are latest tech earnings casualties as Nasdaq sinks nearly 3%",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026",
+     "type": "news",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 2,
+     "title": "Live - Iran war updates",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202610244311",
+     "type": "news",
+     "date": "2026-10-30"
+    },
+    {
+     "id": 3,
+     "title": "BP's Profit Nearly Quadrupled. Exxon and Chevron Report in Hours",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/10/30/bps-profit-nearly-quadrupled-exxon-and-chevron-report-in-hours-and-oils-up-21-in-a-month-here-we-go-again/",
+     "type": "analysis",
+     "date": "2026-10-30"
+    }
+   ],
+   "words": 370,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-30-abend",
    "file": "2026-10-30-abend.md",
