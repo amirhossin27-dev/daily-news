@@ -1,6 +1,50 @@
 {
- "generated": "2026-10-31T05:53:39+00:00",
+ "generated": "2026-10-31T10:54:48+00:00",
  "articles": [
+  {
+   "id": "2026-10-31-mittag",
+   "file": "2026-10-31-mittag.md",
+   "title": "Krypto-Wochenbilanz: Binance legt 6,34 Mrd. Dollar zurück, Bitcoin verliert 4 %. Was die nächste Woche bringt",
+   "summary": "Binance will den Schaden aus eigenen Reserven decken und Auszahlungen schrittweise wieder öffnen. Bitcoin beendet die Woche bei rund 77.300 Dollar. Vor uns: Reservennachweis, US-Midterms und Arbeitsmarktdaten.",
+   "date": "2026-10-31",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "USA",
+    "Märkte"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Binance reserves $6.34B after hack, targets phased withdrawals",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/",
+     "type": "news",
+     "date": "2026-10-31"
+    },
+    {
+     "id": 2,
+     "title": "Crypto Weekly Recap: Binance Hack and Wall Street Crash",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-weekly-recap-week-44-2026-binance-hack-stock-crash",
+     "type": "analysis",
+     "date": "2026-10-31"
+    },
+    {
+     "id": 3,
+     "title": "Binance Says It Plans To Resume Withdrawals This Weekend After $6.3 Billion Hack",
+     "publisher": "Forbes Africa",
+     "url": "https://www.forbesafrica.com/current-affairs/2026/10/31/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-6-3-billion-hack",
+     "type": "news",
+     "date": "2026-10-31"
+    }
+   ],
+   "words": 352,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-31-morgen",
    "file": "2026-10-31-morgen.md",
