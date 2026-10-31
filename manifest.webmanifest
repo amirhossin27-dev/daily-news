@@ -1,0 +1,13 @@
+{
+  "id": "./",
+  "name": "Daily Brief",
+  "short_name": "Daily Brief",
+  "lang": "de",
+  "description": "Deine Nachrichtenlage, mit Quellen und Gedanken zum Lernen.",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f3",
+  "theme_color": "#2f5bd3",
+  "icons": [{"src": "assets/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}

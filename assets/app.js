@@ -1,504 +1,256 @@
-/* Daily Brief: Liste, Suche, Artikelansicht und Vorlesefunktion (Web Speech API). */
-(function () {
-  'use strict';
+import { EDITIONS, LABELS, esc, berlinParts, formatDate, formatTimestamp, chip, articleUrl, archiveUrl, filterArticles, snippet, matches, readingProgress } from './utils.js';
+import { createStore } from './storage.js';
+import { Router } from './router.js';
+import { articleHtml, sourceHtml } from './article.js';
+import { SpeechPlayer } from './tts.js';
+import { setupOffline, cacheArticle } from './offline.js';
 
-  var EDITIONS = {
-    morgen: { name: 'Morgen', long: 'Morgenausgabe' },
-    mittag: { name: 'Mittag', long: 'Mittagsausgabe' },
-    abend: { name: 'Abend', long: 'Abendausgabe' }
+let local;
+try { local = window.localStorage; } catch { /* Private browsing may deny access. */ }
+const store = createStore(local);
+const view = document.getElementById('view');
+let data = { articles: [] }, documents = null, learning = null;
+let request, version = 0, currentArticle = null, archiveLimit = 20, results = [];
+let pendingImport = null, beforeImport = null, sourceTrigger = null, tracking = false, progressDirty = false, lastSave = 0;
+const dialog = document.getElementById('sourceDialog');
+function notify(message) {
+  const t = document.getElementById('toast'); t.textContent = message; t.hidden = false;
+  clearTimeout(notify.timer); notify.timer = setTimeout(() => { t.hidden = true; }, 5500);
+}
+const speech = new SpeechPlayer(store, notify);
+function applySettings() {
+  const s = store.data.settings;
+  if (s.theme === 'system') delete document.documentElement.dataset.theme;
+  else document.documentElement.dataset.theme = s.theme;
+  document.documentElement.style.setProperty('--reading-scale', s.fontScale);
+  document.documentElement.classList.toggle('no-disclaimer', s.hideDisclaimer);
+  document.getElementById('storageNotice').hidden = store.persistent;
+}
+async function json(url, signal) {
+  const response = await fetch(url, { cache: 'no-cache', signal });
+  if (!response.ok) throw new Error('HTTP ' + response.status);
+  return response.json();
+}
+async function loadIndex() {
+  const next = await json('articles/index.json');
+  if (!Array.isArray(next.articles)) throw new Error('Ungültiger Artikelindex');
+  next.articles.sort((a, b) => (b.date + b.time).localeCompare(a.date + a.time)); data = next;
+  connection();
+}
+function loadDocuments() {
+  if (!documents) documents = json('articles/search-index.json').then(d => d.documents).catch(e => { documents = null; throw e; });
+  return documents;
+}
+function loadLearning() {
+  if (!learning) learning = json('articles/learning.json').then(d => d.items).catch(e => { learning = null; throw e; });
+  return learning;
+}
+function connection() {
+  document.getElementById('connection').textContent = (navigator.onLine ? '● Online' : '○ Offline · gespeicherte Inhalte') + (data.generated ? ' · Datenstand: ' + formatTimestamp(data.generated) + ' Uhr (Berlin)' : '');
+  document.getElementById('connection').classList.toggle('offline', !navigator.onLine);
+}
+function personalButtons(a) {
+  const p = store.article(a.id);
+  return '<div class="card-actions"><button type="button" data-card-bookmark="' + esc(a.id) + '" aria-pressed="' + p.bookmarked + '">' + (p.bookmarked ? '★ Gespeichert' : '☆ Merken') + '</button><button type="button" data-card-read="' + esc(a.id) + '" aria-pressed="' + p.read + '">' + (p.read ? 'Gelesen' : 'Ungelesen') + '</button></div>';
+}
+function card(a, body = '') {
+  const p = store.article(a.id);
+  return '<article class="card"><a class="card-main" href="' + articleUrl(a.id) + '"><div class="meta"><span class="edition">' + EDITIONS[a.edition].name + ' · ' + esc(a.time) + ' Uhr</span><span>' + esc(formatDate(a.date, false)) + '</span><span>' + a.reading_minutes + ' Min. · ' + a.sources.length + ' Quellen</span></div><h2>' + esc(a.title) + '</h2><p>' + esc(a.summary) + '</p>' + (body ? '<p class="snippet">… ' + esc(body) + '</p>' : '') + '<span class="read-state">' + (p.progress > .02 && p.progress < .98 ? 'Weiterlesen · ' + Math.round(p.progress * 100) + ' %' : p.read ? 'Bereits gelesen' : 'Ausgabe öffnen →') + '</span></a><div class="card-bottom"><div class="labels">' + a.labels.map(l => chip(l)).join('') + '</div>' + personalButtons(a) + '</div></article>';
+}
+function pageHeading(kicker, title, description) {
+  return '<header class="page-heading"><p class="eyebrow">' + esc(kicker) + '</p><h1>' + esc(title) + '</h1><p>' + esc(description) + '</p></header>';
+}
+function home() {
+  const today = berlinParts().date, latest = data.articles[0];
+  const todayArticles = data.articles.filter(a => a.date === today);
+  let html = pageHeading(formatDate(today), 'Die Welt verstehen. Jeden Tag.', 'Deine Nachrichtenlage zu Wirtschaft, Technologie und Geopolitik. Mit Einordnung, Originalquellen und einem Gedanken zum Lernen.');
+  html += '<section aria-labelledby="todayHeading"><div class="section-heading"><h2 id="todayHeading">Dein Tag in drei Ausgaben</h2><span>Alle Zeiten: Berlin</span></div><div class="edition-grid">';
+  for (const [key, edition] of Object.entries(EDITIONS)) {
+    const a = todayArticles.find(x => x.edition === key);
+    const pending = berlinParts().minutes >= edition.hour * 60 + 60;
+    html += '<div class="edition-slot ' + (a && a.id === latest?.id ? 'current' : '') + '"><p class="eyebrow">' + edition.name + '<span>' + (a ? a.time : String(edition.hour).padStart(2, '0') + ':00') + ' Uhr</span></p>' + (a ? '<a href="' + articleUrl(a.id) + '">' + esc(a.title) + '</a><span class="slot-state">' + (a.id === latest?.id ? '● Neueste Ausgabe' : 'Veröffentlicht') + '</span>' : '<p class="slot-placeholder">' + (pending ? 'Noch nicht erschienen' : 'Deine nächste Perspektive auf den Tag.') + '</p><span class="slot-state">' + (pending ? 'Wird nach Veröffentlichung angezeigt' : 'Geplant ab ca. ' + String(edition.hour).padStart(2, '0') + ':00 Uhr') + '</span>') + '</div>';
+  }
+  html += '</div></section>';
+  if (store.data.settings.favorites.length) html += '<nav class="favorite-topics" aria-label="Bevorzugte Themen"><strong>Deine Themen</strong>' + store.data.settings.favorites.map(l => chip(l)).join('') + '</nav>';
+  if (latest) html += '<section class="latest-section"><div class="section-heading"><h2>Jetzt lesen</h2><a href="#/archiv">Alle ' + data.articles.length + ' Ausgaben →</a></div>' + card(latest) + '</section>';
+  else html += '<div class="empty">Noch keine Ausgaben. Sobald die erste Ausgabe veröffentlicht ist, findest du sie hier.</div>';
+  const resumed = data.articles.filter(a => { const p = store.article(a.id); return p.progress > .02 && p.progress < .98 && a.id !== latest?.id; }).slice(0, 2);
+  if (resumed.length) html += '<section><div class="section-heading"><h2>Hier warst du zuletzt</h2></div><div class="cards">' + resumed.map(a => card(a)).join('') + '</div></section>';
+  html += '<aside class="learning-teaser"><span class="eyebrow">Nachrichten, die bleiben</span><h2>Ein Gedanke mehr als die Schlagzeile.</h2><p>Deine Lernbibliothek sammelt die Erklärungen aus allen Ausgaben. Zum Nachschlagen, Wiederfinden und Weiterdenken.</p><a href="#/lernen">Zur Lernbibliothek →</a></aside>';
+  view.innerHTML = html;
+}
+function selectOptions(values, selected, label) {
+  return '<option value="">' + label + '</option>' + values.map(v => '<option value="' + esc(v.value || v) + '"' + ((v.value || v) === selected ? ' selected' : '') + '>' + esc(v.label || v) + '</option>').join('');
+}
+async function archive(route, token, position) {
+  const f = route.filters; archiveLimit = position?.limit || 20;
+  view.innerHTML = pageHeading('Das Archiv', 'Zusammenhänge wiederfinden.', 'Durchsuche alle Ausgaben, bis in den Fließtext. Verbinde Themen, Zeiträume und deine persönlichen Markierungen.') +
+    '<form class="filters" id="archiveFilters" role="search"><label class="filter-query">Volltextsuche<input name="q" type="search" maxlength="300" value="' + esc(f.q) + '" placeholder="Begriff, Zahl oder Zusammenhang"></label><label>Thema<select name="label">' + selectOptions(LABELS, f.label, 'Alle Themen') + '</select></label><label>Ausgabe<select name="edition">' + selectOptions(Object.entries(EDITIONS).map(([value, e]) => ({ value, label: e.name })), f.edition, 'Alle Ausgaben') + '</select></label><label>Von<input name="from" type="date" value="' + esc(f.from) + '"></label><label>Bis<input name="to" type="date" value="' + esc(f.to) + '"></label><label class="checkbox"><input name="saved" type="checkbox"' + (f.saved ? ' checked' : '') + '>Nur Lesezeichen</label><label class="checkbox"><input name="unread" type="checkbox"' + (f.unread ? ' checked' : '') + '>Nur ungelesen</label><div class="filter-actions"><button class="primary" type="submit">Ergebnisse anzeigen</button><a href="#/archiv">Alles zurücksetzen</a></div></form><div id="archiveResults" aria-live="polite"><p class="empty">Suche wird vorbereitet …</p></div>';
+  const target = document.getElementById('archiveResults');
+  if (f.from && f.to && f.from > f.to) { target.innerHTML = '<p class="empty">Das Startdatum muss vor dem Enddatum liegen.</p>'; return; }
+  let docs = [];
+  try { if (f.q.trim()) docs = await loadDocuments(); }
+  catch { if (token === version) target.innerHTML = '<p class="empty">Der Volltextindex konnte nicht geladen werden. Prüfe deine Verbindung und versuche es erneut.</p><button type="button" data-retry>Erneut versuchen</button>'; return; }
+  if (token !== version) return;
+  results = filterArticles(data.articles, f, docs, store.data.articles);
+  const docMap = new Map(docs.map(d => [d.id, d.text]));
+  const active = [f.q && 'Suche: ' + f.q, f.label, f.edition && EDITIONS[f.edition]?.name, f.from && 'Ab ' + f.from, f.to && 'Bis ' + f.to, f.saved && 'Lesezeichen', f.unread && 'Ungelesen'].filter(Boolean);
+  archive.draw = () => {
+    target.innerHTML = '<div class="result-heading"><h2 tabindex="-1" id="resultHeading">' + results.length + ' ' + (results.length === 1 ? 'Ausgabe' : 'Ausgaben') + '</h2><span>Neueste zuerst</span></div>' + (active.length ? '<p class="active-filters">Aktiv: ' + active.map(esc).join(' · ') + '</p>' : '') + '<div class="cards">' + results.slice(0, archiveLimit).map(a => card(a, f.q ? snippet(docMap.get(a.id) || a.summary, f.q) : '')).join('') + '</div>' + (!results.length ? '<div class="empty">Keine passenden Ausgaben. <a href="#/archiv">Filter zurücksetzen</a></div>' : '') + (results.length > archiveLimit ? '<button type="button" class="load-more" id="loadMore">Weitere 20 Ausgaben anzeigen (' + (results.length - archiveLimit) + ' verbleibend)</button>' : '');
   };
-
-  // Feste Farben für bekannte Labels, alle anderen bekommen eine aus der Palette.
-  var LABEL_COLORS = {
-    'Wirtschaft': '#2f8f6a', 'Märkte': '#3a7bd5', 'Zinsen': '#5b6ee1', 'Deutschland': '#c9a227',
-    'Krypto': '#e08a1e', 'Bitcoin': '#f7931a', 'Ethereum': '#7a7fe0', 'Hedera': '#555b66',
-    'Iran': '#1d9a6c', 'USA': '#c73e4c', 'Naher Osten': '#b5651d', 'Israel': '#3b6fd8',
-    'Energie': '#d1662b', 'Geopolitik': '#8a5cc2', 'KI': '#0fa3b1', 'Tech': '#4f7cac', 'Europa': '#2b59c3'
-  };
-  var PALETTE = ['#2f8f6a', '#3a7bd5', '#c73e4c', '#8a5cc2', '#d1662b', '#0fa3b1', '#b5651d', '#5b6ee1'];
-
-  var CALLOUTS = {
-    'GERÜCHT': { cls: 'geruecht', label: 'Social Media · unbestätigt' },
-    'GERUECHT': { cls: 'geruecht', label: 'Social Media · unbestätigt' },
-    'SOCIAL': { cls: 'social', label: 'Social Media · Inhalt belegt' },
-    'SPEKULATION': { cls: 'spekulation', label: 'Spekulation' },
-    'LERNEN': { cls: 'lernen', label: 'Zum Lernen' },
-    'FRAGE': { cls: 'frage', label: 'Zum Nachdenken' },
-    'EINORDNUNG': { cls: 'einordnung', label: 'Einordnung' }
-  };
-
-  var SOURCE_TYPES = {
-    news: 'Nachrichten', official: 'Offiziell', data: 'Daten', analysis: 'Analyse',
-    x: 'X', reddit: 'Reddit', social: 'Social Media', video: 'Video', podcast: 'Podcast'
-  };
-
-  var view = document.getElementById('view');
-  var state = { articles: [], loaded: false, error: null, q: '' };
-  var search = document.getElementById('q');
-
-  /* ---------- Hilfen ---------- */
-
-  var store = {
-    get: function (k, d) { try { var v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
-    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
-  };
-
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
+  archive.draw();
+}
+async function learningPage(token) {
+  const q = new URLSearchParams(location.hash.split('?')[1] || '').get('q') || '';
+  view.innerHTML = pageHeading('Zum Lernen', 'Mehr verstehen. Wieder nachschlagen.', 'Die Lernkästen aus deinen Ausgaben, gesammelt an einem Ort. Jeder Eintrag führt zurück zum Kontext und seinen Quellen.') + '<form class="library-search" id="learningSearch" role="search"><label>In der Lernbibliothek suchen<input type="search" name="q" maxlength="300" value="' + esc(q) + '" placeholder="Zum Beispiel: Inflation oder Staking"></label><button class="primary" type="submit">Suchen</button></form><div id="learningResults" aria-live="polite"><p class="empty">Lernbibliothek wird geladen …</p></div>';
+  try {
+    const items = await loadLearning(); if (token !== version) return;
+    const found = items.filter(x => matches(x.text + ' ' + x.title + ' ' + x.labels.join(' '), q));
+    document.getElementById('learningResults').innerHTML = '<div class="result-heading"><h2>' + found.length + ' Lerngedanken</h2></div><div class="learning-grid">' + found.map(x => '<article class="learning-card"><p class="eyebrow">' + esc(formatDate(x.date, false)) + '</p><p class="learning-text">' + esc(x.text) + '</p><div class="labels">' + x.labels.map(l => chip(l)).join('') + '</div><a class="learning-origin" href="' + articleUrl(x.article_id) + '">Aus der Ausgabe: ' + esc(x.title) + ' →</a></article>').join('') + '</div>' + (!found.length ? '<p class="empty">Keine passenden Lernkästen gefunden.</p>' : '');
+  } catch { if (token === version) document.getElementById('learningResults').innerHTML = '<p class="empty">Die Lernbibliothek ist gerade nicht verfügbar.</p><button type="button" data-retry>Erneut versuchen</button>'; }
+}
+function settingsPage() {
+  const s = store.data.settings;
+  view.innerHTML = pageHeading('Dein Daily Brief', 'So liest du am liebsten.', 'Einstellungen, Themen und Lesemarkierungen werden in diesem Browser gespeichert. Mit einer Sicherung kannst du sie auf ein anderes Gerät übertragen.') +
+    '<section class="settings-panel"><h2>Lesen und Darstellung</h2><div class="settings-grid"><label>Schriftgröße<select id="fontScale"><option value="1">Normal</option><option value="1.15">Groß</option><option value="1.3">Sehr groß</option></select></label><label>Farbschema<select id="themeSetting"><option value="system">Wie das Gerät</option><option value="light">Hell</option><option value="dark">Dunkel</option></select></label></div><label class="checkbox"><input id="showDisclaimer" type="checkbox"' + (!s.hideDisclaimer ? ' checked' : '') + '>Informationshinweis anzeigen</label></section>' +
+    '<section class="settings-panel"><h2>Deine Themen</h2><p>Diese Themen erscheinen als Schnellzugriffe auf der Startseite.</p><fieldset class="topic-choices"><legend class="sr-only">Bevorzugte Themen</legend>' + LABELS.map(l => '<label><input type="checkbox" data-favorite="' + esc(l) + '"' + (s.favorites.includes(l) ? ' checked' : '') + '><span>' + esc(l) + '</span></label>').join('') + '</fieldset></section>' +
+    '<section class="settings-panel"><h2>Persönliche Sammlung</h2><div class="settings-links"><a href="#/archiv?saved=1">Deine Lesezeichen →</a><a href="#/archiv?unread=1">Ungelesene Ausgaben →</a></div><p><strong>Reminder:</strong> Beim Löschen der Browserdaten gehen auch deine Markierungen verloren. Sichere sie regelmäßig.</p><button type="button" id="exportData">Sicherung herunterladen</button><label class="import-label">Sicherung auswählen<input type="file" id="importData" accept=".json,application/json"></label><div id="importPreview" role="status"></div>' + (beforeImport ? '<button type="button" id="undoImport">Stand vor dem Import wiederherstellen</button>' : '') + '</section>' +
+    '<section class="settings-panel"><h2>Unterwegs</h2><p>Die letzten zehn geöffneten Ausgaben sind nach erfolgreicher Offline-Einrichtung auf diesem Gerät gespeichert. Das Vorlesen hängt von den installierten Stimmen ab.</p><button type="button" id="installApp" hidden>Daily Brief installieren</button><p id="installHint" class="muted">Du kannst Daily Brief über das Browsermenü installieren oder zum Home-Bildschirm hinzufügen, sofern dein Browser dies unterstützt.</p></section>';
+  document.getElementById('fontScale').value = s.fontScale; document.getElementById('themeSetting').value = s.theme;
+  window.dispatchEvent(new Event('daily-brief-settings'));
+}
+function infoPage() {
+  view.innerHTML = pageHeading('Über diese Seite', 'Nachrichten mit Kontext.', 'Dreimal täglich recherchiert. Für Amir, mit Platz zum Lernen und Nachdenken.') +
+    '<div class="info prose"><h2>Wie eine Ausgabe entsteht</h2><p>Claude recherchiert und schreibt die Ausgaben nach dem Redaktionsleitfaden. Die Zielzeiten sind 07:00, 12:00 und 18:00 Uhr in Europe/Berlin. Die tatsächliche Veröffentlichung wird an jeder Ausgabe angezeigt.</p><h2>Was du erwarten kannst</h2><p>Neue und überarbeitete Ausgaben umfassen 700 bis 1.200 Wörter, drei Kernaussagen, drei bis vier Hauptthemen, einen Lernkasten und eine offene Frage. Historische Ausgaben können kürzer sein. Neue Entwicklungen werden mit der vorherigen Ausgabe verknüpft.</p><h2>Quellen und Grenzen</h2><p>Zahlen, Ereignisse und Zitate erhalten Quellen. Einordnung, Spekulation und unbestätigte Social-Media-Inhalte werden gekennzeichnet. KI kann Fehler machen. Eine technische Quellenprüfung bestätigt nicht, dass eine Quelle die Aussage tatsächlich trägt. Bitte prüfe bei wichtigen Entscheidungen die Originalquelle. Es handelt sich nicht um Anlageberatung.</p><h2>Deine Daten</h2><p>Einstellungen, Lesezeichen und Lese- und Hörpositionen bleiben in diesem Browser. Es gibt keine automatische Synchronisierung. Der JSON-Export enthält diese persönlichen Daten. Die Schriftarten werden lokal geladen.</p><h2>Offline und Vorlesen</h2><p>Nach der ersten erfolgreichen Einrichtung stehen die Oberfläche und die letzten zehn geöffneten Ausgaben offline bereit. Der angezeigte Datenstand hilft dir, gespeicherte Inhalte einzuordnen. Geräte- oder Netzwerkstimmen können sich je nach Browser unterscheiden; manche benötigen Internet. Der automatische Start kann blockiert werden.</p></div>';
+}
+async function showArticle(id, token) {
+  const a = data.articles.find(x => x.id === id);
+  if (!a) { view.innerHTML = '<div class="empty"><h1>Ausgabe nicht gefunden</h1><a href="#/archiv">Zum Archiv</a></div>'; return; }
+  view.innerHTML = '<p class="empty">Ausgabe wird geladen …</p>';
+  const response = await fetch('articles/' + a.file, { cache: 'no-cache', signal: request.signal });
+  if (!response.ok) throw new Error('Artikel nicht verfügbar');
+  const md = await response.text(); if (token !== version) return;
+  const at = data.articles.indexOf(a), p = store.article(a.id);
+  view.innerHTML = articleHtml(a, md, data.articles[at + 1], data.articles[at - 1], p, router.articleReturn);
+  currentArticle = a; document.title = a.title + ' · Daily Brief'; document.getElementById('fontScale').value = store.data.settings.fontScale;
+  speech.attach(view.querySelector('article'), a); cacheArticle(a.file, md);
+}
+function saveProgress() {
+  if (!tracking || !progressDirty || !currentArticle) return;
+  const prose = document.getElementById('prose'); if (!prose) return;
+  const top = document.querySelector('.site-header').offsetHeight + 16;
+  const height = window.innerHeight - top - (speech.player.hidden ? 0 : speech.player.offsetHeight);
+  const ratio = readingProgress(prose.getBoundingClientRect().top - top, prose.offsetHeight, height);
+  const section = [...prose.querySelectorAll('h2,h3')].filter(h => h.getBoundingClientRect().top <= top + 30).length;
+  store.updateArticle(currentArticle.id, { progress: ratio, section });
+}
+function updateProgress() {
+  if (!currentArticle) return;
+  const prose = document.getElementById('prose'); if (!prose) return;
+  const header = document.querySelector('.site-header').offsetHeight + 16;
+  const ratio = readingProgress(prose.getBoundingClientRect().top - header, prose.offsetHeight, window.innerHeight - header - speech.player.offsetHeight);
+  const progress = document.getElementById('readingProgress'); if (progress) progress.value = ratio;
+  const percent = document.getElementById('readingPercent'); if (percent) percent.textContent = Math.round(ratio * 100) + ' % gelesen';
+  if (Date.now() - lastSave > 1000) { saveProgress(); lastSave = Date.now(); }
+}
+function scrollToElement(el) {
+  el?.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+}
+const router = new Router(async (route, position) => {
+  const token = ++version; saveProgress(); tracking = false; progressDirty = false; currentArticle = null; speech.detach();
+  if (dialog.open) dialog.close(); request?.abort(); request = new AbortController();
+  view.setAttribute('aria-busy', 'true'); document.title = 'Daily Brief';
+  document.querySelectorAll('[data-page]').forEach(a => { if (a.dataset.page === route.page) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  document.getElementById('q').value = route.filters?.q || '';
+  try {
+    if (route.page === 'home') home();
+    else if (route.page === 'archive') await archive(route, token, position);
+    else if (route.page === 'article') await showArticle(route.id, token);
+    else if (route.page === 'learning') await learningPage(token);
+    else if (route.page === 'settings') settingsPage();
+    else if (route.page === 'info') infoPage();
+    else view.innerHTML = '<div class="empty"><h1>Diese Seite gibt es nicht.</h1><a href="#/">Zur Startseite</a></div>';
+  } catch (e) {
+    if (e.name !== 'AbortError' && token === version) view.innerHTML = '<div class="empty"><h1>Inhalt gerade nicht verfügbar</h1><p>Prüfe deine Verbindung. Offline kannst du bereits gespeicherte Ausgaben öffnen.</p><button type="button" data-retry>Erneut versuchen</button><p><a href="#/">Zur Startseite</a></p></div>';
   }
-
-  function parseDate(s) { var p = s.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
-  function ymd(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
-  var fmtLong = new Intl.DateTimeFormat('de-DE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-  var fmtShort = new Intl.DateTimeFormat('de-DE', { weekday: 'short', day: 'numeric', month: 'short' });
-
-  function dayLabel(dateStr) {
-    var today = new Date(); var y = new Date(); y.setDate(today.getDate() - 1);
-    if (dateStr === ymd(today)) return 'Heute · ' + fmtShort.format(parseDate(dateStr));
-    if (dateStr === ymd(y)) return 'Gestern · ' + fmtShort.format(parseDate(dateStr));
-    return fmtLong.format(parseDate(dateStr));
+  if (token !== version) return;
+  view.setAttribute('aria-busy', 'false'); applySettings();
+  document.getElementById('main').focus({ preventScroll: true });
+  requestAnimationFrame(() => { if (token !== version) return; window.scrollTo({ top: position?.y || 0, behavior: 'instant' }); tracking = true; updateProgress(); });
+});
+function navigate(hash) { router.remember({ limit: archiveLimit }); if (location.hash === hash) router.dispatch(); else location.hash = hash; }
+document.getElementById('headerSearch').addEventListener('submit', e => { e.preventDefault(); navigate(archiveUrl({ q: document.getElementById('q').value.trim() })); });
+document.addEventListener('submit', e => {
+  if (e.target.id === 'archiveFilters') {
+    e.preventDefault(); const f = new FormData(e.target); navigate(archiveUrl(Object.fromEntries([...f].map(([k, v]) => [k, k === 'saved' || k === 'unread' ? '1' : v]))));
+  } else if (e.target.id === 'learningSearch') { e.preventDefault(); const q = new FormData(e.target).get('q').trim(); navigate('#/lernen' + (q ? '?q=' + encodeURIComponent(q) : '')); }
+});
+document.addEventListener('click', async e => {
+  const target = e.target.closest('button,a'); if (!target) return;
+  if (target.hasAttribute('data-retry')) { router.dispatch(); return; }
+  if (target.id === 'loadMore') { const y = window.scrollY; archiveLimit += 20; archive.draw(); router.remember({ limit: archiveLimit }); window.scrollTo({ top: y, behavior: 'instant' }); document.querySelectorAll('#archiveResults .card')[archiveLimit - 20]?.querySelector('a').focus({ preventScroll: true }); return; }
+  const bookmarkId = target.dataset.cardBookmark || (target.hasAttribute('data-bookmark') && currentArticle?.id);
+  const readId = target.dataset.cardRead || (target.hasAttribute('data-read') && currentArticle?.id);
+  if (bookmarkId || readId) {
+    const id = bookmarkId || readId, p = store.article(id), key = bookmarkId ? 'bookmarked' : 'read'; store.updateArticle(id, { [key]: !p[key] });
+    target.setAttribute('aria-pressed', String(!p[key]));
+    target.textContent = bookmarkId ? (!p[key] ? '★ Gespeichert' : '☆ Merken') : target.hasAttribute('data-read') ? (!p[key] ? 'Als ungelesen markieren' : 'Als gelesen markieren') : (!p[key] ? 'Gelesen' : 'Ungelesen');
+    if (router.current.includes('saved=1') || router.current.includes('unread=1')) { const y = scrollY; await router.dispatch(); scrollTo({ top: y, behavior: 'instant' }); }
+    applySettings(); return;
   }
-
-  function labelColor(name) {
-    if (LABEL_COLORS[name]) return LABEL_COLORS[name];
-    var h = 0; for (var i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
-    return PALETTE[h % PALETTE.length];
+  if (target.dataset.source && currentArticle) {
+    const s = currentArticle.sources.find(s => String(s.id) === target.dataset.source); if (!s) return;
+    sourceTrigger = target; target.setAttribute('aria-expanded', 'true'); document.getElementById('sourceHeading').textContent = 'Quelle ' + s.id; document.getElementById('sourceContent').innerHTML = sourceHtml(s); dialog.showModal(); return;
   }
-
-  function chip(name, opts) {
-    opts = opts || {};
-    var tag = opts.href ? 'a' : 'span';
-    return '<' + tag + ' class="chip' + (opts.small ? ' small' : '') + '"' + (opts.href ? ' href="' + esc(opts.href) + '"' : '') +
-      ' style="--c:' + labelColor(name) + '"><span class="dot"></span>' + esc(name) + '</' + tag + '>';
+  if (target.id === 'closeSource') { dialog.close(); return; }
+  if (target.id === 'allSources') { dialog.close(); const h = document.querySelector('#quellen h2'); h?.setAttribute('tabindex', '-1'); h?.focus({ preventScroll: true }); scrollToElement(h); return; }
+  if (target.dataset.anchor) { e.preventDefault(); progressDirty = true; const section = document.getElementById(target.dataset.anchor); section?.setAttribute('tabindex', '-1'); section?.focus({ preventScroll: true }); scrollToElement(section); return; }
+  if (target.hasAttribute('data-resume') && currentArticle) {
+    const p = store.article(currentArticle.id), prose = document.getElementById('prose'), top = document.querySelector('.site-header').offsetHeight + 16; progressDirty = true;
+    window.scrollTo({ top: window.scrollY + prose.getBoundingClientRect().top - top + p.progress * Math.max(0, prose.offsetHeight - window.innerHeight + top + speech.player.offsetHeight), behavior: 'instant' }); return;
   }
-
-  function editionBadge(a) {
-    var e = EDITIONS[a.edition] || { name: a.edition };
-    return '<span class="edition">' + esc(e.name) + (a.time ? ' · ' + esc(a.time) + ' Uhr' : '') + '</span>';
+  if (target.hasAttribute('data-hide-disclaimer')) { store.updateSettings({ hideDisclaimer: true }); applySettings(); return; }
+  if (target.id === 'themeToggle') { const dark = document.documentElement.dataset.theme === 'dark' || (!document.documentElement.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches); store.updateSettings({ theme: dark ? 'light' : 'dark' }); applySettings(); return; }
+  if (target.id === 'exportData') {
+    const blob = new Blob([JSON.stringify(store.export(), null, 2)], { type: 'application/json' }), url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url; a.download = 'daily-brief-sicherung-' + berlinParts().date + '.json'; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); return;
   }
-
-  function toast(msg, ms) {
-    var t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); t.textContent = msg;
-    document.body.appendChild(t); setTimeout(function () { t.remove(); }, ms || 3500);
+  if (target.id === 'applyImport' && pendingImport) {
+    beforeImport = store.export(); store.import(pendingImport); pendingImport = null; applySettings(); speech.syncSettings(); settingsPage(); notify('Sicherung übernommen. Der vorherige Stand lässt sich hier wiederherstellen.'); return;
   }
-
-  /* ---------- Daten ---------- */
-
-  function loadIndex() {
-    return fetch('articles/index.json', { cache: 'no-cache' })
-      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(function (data) {
-        state.articles = (data.articles || []).slice().sort(function (a, b) {
-          return (b.date + (b.time || '')).localeCompare(a.date + (a.time || ''));
-        });
-        state.loaded = true;
-      })
-      .catch(function (e) { state.error = e; state.loaded = true; });
+  if (target.id === 'undoImport' && beforeImport) { store.import(beforeImport); beforeImport = null; applySettings(); speech.syncSettings(); settingsPage(); notify('Vorheriger Stand wiederhergestellt.'); }
+});
+dialog.addEventListener('close', () => { sourceTrigger?.setAttribute('aria-expanded', 'false'); sourceTrigger = null; });
+document.addEventListener('change', async e => {
+  if (e.target.id === 'fontScale') { store.updateSettings({ fontScale: Number(e.target.value) }); applySettings(); }
+  if (e.target.id === 'themeSetting') { store.updateSettings({ theme: e.target.value }); applySettings(); }
+  if (e.target.id === 'showDisclaimer') { store.updateSettings({ hideDisclaimer: !e.target.checked }); applySettings(); }
+  if (e.target.dataset.favorite) { const favorites = [...document.querySelectorAll('[data-favorite]:checked')].map(n => n.dataset.favorite); store.updateSettings({ favorites }); applySettings(); }
+  if (e.target.id === 'importData') {
+    const file = e.target.files[0]; if (!file) return;
+    const preview = document.getElementById('importPreview'); pendingImport = null;
+    try {
+      if (file.size > 2 * 1024 * 1024) throw new Error('Die Sicherung ist zu groß (maximal 2 MB).');
+      const candidate = JSON.parse(await file.text());
+      const { validateBackup } = await import('./storage.js'); const clean = validateBackup(candidate);
+      pendingImport = { version: 1, data: clean };
+      preview.replaceChildren(document.createTextNode(Object.keys(clean.articles).length + ' Ausgaben mit persönlichen Markierungen und ' + clean.settings.favorites.length + ' bevorzugte Themen. Beim Übernehmen werden die aktuellen Einstellungen ersetzt. '));
+      const b = document.createElement('button'); b.type = 'button'; b.id = 'applyImport'; b.textContent = 'Sicherung übernehmen'; preview.append(b);
+    } catch (error) { preview.textContent = 'Import nicht möglich: ' + error.message; }
   }
-
-  /* ---------- Startseite ---------- */
-
-  function filtered() {
-    var q = state.q.trim().toLowerCase();
-    return state.articles.filter(function (a) {
-      if (q) {
-        var hay = (a.title + ' ' + a.summary + ' ' + a.labels.join(' ')).toLowerCase();
-        if (hay.indexOf(q) === -1) return false;
-      }
-      return true;
-    });
-  }
-
-  function renderHome() {
-    if (state.error) {
-      view.innerHTML = '<div class="empty">Die Artikel konnten nicht geladen werden. Bitte später erneut versuchen.</div>';
-      return;
-    }
-    view.innerHTML = '<section class="intro"><h1>Das Wichtigste des Tages.</h1>' +
-      '<p>Dreimal täglich eine kompakte Lage: Wirtschaft, Krypto, Iran, USA und Naher Osten. Mit Quellen, klar gekennzeichneten Gerüchten und etwas zum Nachdenken.</p></section>' +
-      '<div id="list"></div>';
-    renderList();
-  }
-
-  function renderList() {
-    var list = document.getElementById('list');
-    var items = filtered();
-    if (!state.articles.length) { list.innerHTML = '<div class="empty">Noch keine Artikel. Die erste Ausgabe folgt in Kürze.</div>'; return; }
-    if (!items.length) {
-      list.innerHTML = '<div class="empty">Keine Treffer für „' + esc(state.q.trim()) + '“. <button type="button" class="link-btn" id="clearSearch">Suche löschen</button></div>';
-      document.getElementById('clearSearch').addEventListener('click', function () { setSearch(''); search.focus(); });
-      return;
-    }
-    var isUnfiltered = !state.q.trim();
-    var groups = []; var byDate = {};
-    items.forEach(function (a) {
-      if (!byDate[a.date]) { byDate[a.date] = []; groups.push(a.date); }
-      byDate[a.date].push(a);
-    });
-    list.innerHTML = groups.map(function (d, gi) {
-      return '<section class="day"><h2 class="day-head">' + esc(dayLabel(d)) + '</h2><div class="cards">' +
-        byDate[d].map(function (a, i) { return card(a, isUnfiltered && gi === 0 && i === 0); }).join('') +
-        '</div></section>';
-    }).join('');
-  }
-
-  function card(a, hero) {
-    return '<a class="card' + (hero ? ' hero' : '') + '" href="#/artikel/' + encodeURIComponent(a.id) + '">' +
-      '<div class="meta">' + editionBadge(a) + '<span>' + a.reading_minutes + ' Min. Lesezeit</span><span>· ' + a.sources.length + ' Quellen</span></div>' +
-      '<h2>' + esc(a.title) + '</h2><p>' + esc(a.summary) + '</p>' +
-      '<div class="labels">' + a.labels.map(function (l) { return chip(l, { small: true }); }).join('') + '</div>' +
-    '</a>';
-  }
-
-  function setSearch(q) {
-    state.q = q; search.value = q;
-    if ((location.hash || '#/').replace(/\?.*$/, '') !== '#/') location.hash = '#/';
-    else if (document.getElementById('list')) renderList();
-    else renderHome();
-  }
-
-  search.addEventListener('input', function () { setSearch(search.value); });
-  search.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') { setSearch(''); search.blur(); } });
-
-  /* ---------- Hinweis „Keine Anlageberatung“ ---------- */
-
-  function disclaimerHidden() { return store.get('db-hide-disclaimer', false); }
-  function applyDisclaimer() { document.documentElement.classList.toggle('no-disclaimer', !!disclaimerHidden()); }
-  document.addEventListener('click', function (ev) {
-    var b = ev.target.closest && ev.target.closest('[data-hide-disclaimer], [data-show-disclaimer]');
-    if (!b) return;
-    store.set('db-hide-disclaimer', b.hasAttribute('data-hide-disclaimer'));
-    applyDisclaimer();
-    if (b.hasAttribute('data-show-disclaimer')) toast('Der Hinweis wird wieder angezeigt.');
-  });
-  applyDisclaimer();
-
-  /* ---------- Artikel ---------- */
-
-  function stripFrontmatter(md) {
-    if (md.slice(0, 3) !== '---') return md;
-    var end = md.indexOf('\n---', 3);
-    return end === -1 ? md : md.slice(md.indexOf('\n', end + 1) + 1);
-  }
-
-  function linkCitations(md) {
-    // [1] oder [1, 3] (nicht Teil eines Markdown-Links) wird zu hochgestellten Quellenlinks.
-    return md.replace(/[ \t]*\[(\d{1,2}(?:\s*,\s*\d{1,2})*)\](?!\(|\[|:\s*https?:)/g, function (_, nums) {
-      return '<sup class="cite">' + nums.split(/\s*,\s*/).map(function (n) {
-        return '<a href="#quelle-' + n + '" data-src="' + n + '" aria-label="Quelle ' + n + '">' + n + '</a>';
-      }).join(',') + '</sup>';
-    });
-  }
-
-  function decorateCallouts(root) {
-    root.querySelectorAll('blockquote').forEach(function (bq) {
-      var p = bq.querySelector('p'); if (!p || !p.firstChild || p.firstChild.nodeType !== 3) return;
-      var m = p.firstChild.nodeValue.match(/^\s*\[!([A-ZÄÖÜ]+)\]\s*/);
-      if (!m) return;
-      var type = CALLOUTS[m[1]]; if (!type) return;
-      p.firstChild.nodeValue = p.firstChild.nodeValue.slice(m[0].length);
-      bq.classList.add('callout', 'callout-' + type.cls);
-      var lab = document.createElement('span'); lab.className = 'callout-label'; lab.textContent = type.label;
-      bq.insertBefore(lab, bq.firstChild);
-    });
-    root.querySelectorAll('a[href^="http"]').forEach(function (a) { a.target = '_blank'; a.rel = 'noopener'; });
-  }
-
-  function renderArticle(id) {
-    var idx = state.articles.findIndex(function (a) { return a.id === id; });
-    var a = state.articles[idx];
-    if (!a) { view.innerHTML = '<div class="empty">Artikel nicht gefunden. <a href="#/">Zur Übersicht</a></div>'; return; }
-    view.innerHTML = '<div class="empty">Lade Artikel…</div>';
-
-    fetch('articles/' + a.file, { cache: 'no-cache' })
-      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
-      .then(function (md) {
-        var body = DOMPurify.sanitize(marked.parse(linkCitations(stripFrontmatter(md)), { gfm: true }));
-        var hasCrypto = a.labels.some(function (l) { return ['Krypto', 'Bitcoin', 'Ethereum', 'Hedera'].indexOf(l) !== -1; });
-        var newer = state.articles[idx - 1], older = state.articles[idx + 1];
-        var e = EDITIONS[a.edition] || { long: a.edition };
-
-        view.innerHTML = '<article class="article">' +
-          '<a class="back" href="#/"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>Alle Ausgaben</a>' +
-          '<header class="article-head">' +
-            '<div class="meta">' + editionBadge(a) + '<span>' + esc(fmtLong.format(parseDate(a.date))) + '</span><span>· ' + a.reading_minutes + ' Min.</span></div>' +
-            '<h1 data-tts>' + esc(a.title) + '</h1>' +
-            '<p class="lede" data-tts>' + esc(a.summary) + '</p>' +
-            '<div class="labels">' + a.labels.map(function (l) { return chip(l, { small: true, href: '#/?q=' + encodeURIComponent(l) }); }).join('') + '</div>' +
-            '<button class="listen-cta" type="button" id="listenCta"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Artikel anhören</button>' +
-            (hasCrypto ? '<p class="notice disclaimer"><span>Keine Anlageberatung. Kursangaben und Einschätzungen zu Kryptowährungen dienen nur der Information.</span>' +
-              '<button type="button" class="notice-close" data-hide-disclaimer aria-label="Hinweis ausblenden" title="Ausblenden"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></p>' : '') +
-          '</header>' +
-          '<div class="prose" id="prose">' + body + '</div>' +
-          '<section class="sources" id="quellen"><h2>Quellen</h2><p class="muted">' + esc(e.long) + ' vom ' + esc(fmtLong.format(parseDate(a.date))) + '. Zahlen und Zitate stammen aus diesen Quellen; Einordnungen sind als solche markiert.</p><ol>' +
-            a.sources.map(function (s) {
-              var host = ''; try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (err) {}
-              return '<li id="quelle-' + esc(s.id) + '"><span class="src-n">' + esc(s.id) + '</span><div>' +
-                '<a class="src-title" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>' +
-                '<div class="src-meta"><span class="src-type t-' + esc(s.type) + '">' + esc(SOURCE_TYPES[s.type] || s.type) + '</span>' +
-                '<span>' + esc(s.publisher || host) + '</span>' + (s.date ? '<span>· ' + esc(s.date) + '</span>' : '') + '</div></div></li>';
-            }).join('') +
-          '</ol></section>' +
-          '<nav class="article-nav">' +
-            (older ? '<a href="#/artikel/' + encodeURIComponent(older.id) + '"><span class="lbl">← Vorherige Ausgabe</span>' + esc(older.title) + '</a>' : '<span></span>') +
-            (newer ? '<a class="next" href="#/artikel/' + encodeURIComponent(newer.id) + '"><span class="lbl">Nächste Ausgabe →</span>' + esc(newer.title) + '</a>' : '<span></span>') +
-          '</nav>' +
-        '</article>';
-
-        var prose = document.getElementById('prose');
-        decorateCallouts(prose);
-        document.title = a.title + ' · Daily Brief';
-        document.getElementById('listenCta').addEventListener('click', function () { tts.start(); });
-        tts.attach(view.querySelector('.article'), a);
-        if (tts.settings.auto) tts.start(true);
-      })
-      .catch(function () {
-        view.innerHTML = '<div class="empty">Der Artikel konnte nicht geladen werden. <a href="#/">Zur Übersicht</a></div>';
-      });
-  }
-
-  /* ---------- Info ---------- */
-
-  function renderInfo() {
-    view.innerHTML = '<div class="info"><a class="back" href="#/">← Alle Ausgaben</a><h1>Über den Daily Brief</h1><div class="prose">' +
-      '<p>Der Daily Brief fasst dreimal täglich das Wichtigste zusammen: <strong>morgens um 7 Uhr, mittags um 12 Uhr und abends um 18 Uhr</strong> (deutsche Zeit). Schwerpunkte sind Wirtschaft und Märkte, Krypto (Bitcoin, Ethereum, Hedera), Iran, die USA und der Nahe Osten.</p>' +
-      '<h2>Regeln für jeden Artikel</h2><ul>' +
-      '<li>Jede Aussage mit Zahl, Zitat oder Ereignis ist mit einer Quelle belegt. Die hochgestellten Zahlen führen zur Quellenliste.</li>' +
-      '<li>Virale Beiträge aus X oder Reddit stehen in rosa Kästen und gelten als <strong>unbestätigt</strong>, bis seriöse Quellen sie bestätigen.</li>' +
-      '<li>Spekulation und eigene Einordnung sind eigens markiert und von Fakten getrennt.</li>' +
-      '<li>Weniger ist mehr: höchstens drei bis vier Themen pro Ausgabe, dazu ein Gedanke zum Nachdenken und ein Begriff zum Lernen.</li>' +
-      '<li>Keine Anlageberatung. Kursbewegungen werden berichtet und erklärt, nicht empfohlen.</li></ul>' +
-      '<p class="only-hidden">Du hast den Hinweis „Keine Anlageberatung“ ausgeblendet. <button type="button" class="link-btn" data-show-disclaimer>Wieder anzeigen</button></p>' +
-      '<h2>Vorlesen</h2><p>Jeder Artikel kann vorgelesen werden. Die Geschwindigkeit stellst du in der Leiste unten ein (0,5× bis 2×). Unter den Einstellungen kannst du eine Stimme wählen und das automatische Vorlesen beim Öffnen eines Artikels einschalten. Die Stimmen kommen von deinem Gerät; auf manchen Browsern muss das erste Vorlesen per Tippen gestartet werden.</p>' +
-      '<h2>Wer schreibt hier?</h2><p>Die Artikel recherchiert und schreibt Claude, ein KI-Assistent, für Amir. KI kann Fehler machen. Bei wichtigen Entscheidungen bitte die verlinkten Originalquellen lesen.</p>' +
-      '</div></div>';
-  }
-
-  /* ---------- Vorlesen ---------- */
-
-  var tts = (function () {
-    var synth = window.speechSynthesis;
-    var supported = !!(synth && window.SpeechSynthesisUtterance);
-    var settings = store.get('db-tts', { rate: 1, auto: false, voice: '' });
-    var player = document.getElementById('player');
-    var btnPlay = document.getElementById('ttsPlay');
-    var btnStop = document.getElementById('ttsStop');
-    var status = document.getElementById('ttsStatus');
-    var progress = document.getElementById('ttsProgress');
-    var rate = document.getElementById('ttsRate');
-    var rateVal = document.getElementById('ttsRateVal');
-    var auto = document.getElementById('ttsAuto');
-    var voiceSel = document.getElementById('ttsVoice');
-    var settingsBtn = document.getElementById('ttsSettingsBtn');
-    var settingsBox = document.getElementById('ttsSettings');
-
-    var queue = [], pos = 0, playing = false, gen = 0, voices = [], keepAlive = null, root = null;
-
-    function save() { store.set('db-tts', settings); }
-    function fmtRate(r) { return r.toFixed(1).replace('.', ',') + '×'; }
-
-    rate.value = settings.rate; rateVal.textContent = fmtRate(+settings.rate); auto.checked = !!settings.auto;
-
-    function loadVoices() {
-      if (!supported) return;
-      var all = synth.getVoices();
-      var de = all.filter(function (v) { return /^de(-|_|$)/i.test(v.lang); });
-      voices = de.length ? de : all;
-      voiceSel.innerHTML = voices.map(function (v) {
-        return '<option value="' + esc(v.name) + '">' + esc(v.name.replace(/^(Microsoft|Google)\s+/, '')) + ' (' + esc(v.lang) + ')</option>';
-      }).join('') || '<option>Keine Stimme gefunden</option>';
-      var chosen = currentVoice();
-      if (chosen) voiceSel.value = chosen.name;
-    }
-
-    function currentVoice() {
-      if (!voices.length) return null;
-      var byName = voices.find(function (v) { return v.name === settings.voice; });
-      if (byName) return byName;
-      var pref = [/google.*deutsch/i, /neural|natural|online/i, /anna|katja|petra|helena|marlene|vicki/i];
-      for (var i = 0; i < pref.length; i++) {
-        var hit = voices.find(function (v) { return pref[i].test(v.name) && /^de/i.test(v.lang); });
-        if (hit) return hit;
-      }
-      return voices.find(function (v) { return /^de-DE/i.test(v.lang); }) || voices[0];
-    }
-
-    function splitText(text) {
-      // Lange Absätze in Sätze zerlegen: kurze Stücke laufen in allen Browsern stabil.
-      var parts = text.match(/[^.!?…]+[.!?…]+["“”»«)]*\s*|[^.!?…]+$/g) || [text];
-      var out = [], cur = '';
-      parts.forEach(function (p) {
-        if ((cur + p).length > 180 && cur) { out.push(cur.trim()); cur = ''; }
-        cur += p;
-      });
-      if (cur.trim()) out.push(cur.trim());
-      return out;
-    }
-
-    function blockText(el) {
-      var c = el.cloneNode(true);
-      c.querySelectorAll('.cite').forEach(function (n) { n.remove(); });
-      var lab = c.querySelector('.callout-label'); if (lab) lab.textContent = lab.textContent + ': ';
-      if (el.tagName === 'TR') return Array.from(c.children).map(function (td) { return td.textContent.trim(); }).filter(Boolean).join(', ') + '.';
-      return c.textContent.replace(/\s+/g, ' ').trim();
-    }
-
-    function build(articleEl) {
-      var prose = articleEl.querySelector('.prose');
-      var blocks = Array.from(articleEl.querySelectorAll('[data-tts]'));
-      var sel = Array.from(prose.querySelectorAll('h2, h3, p, li, tr, blockquote'));
-      sel = sel.filter(function (el) {
-        if (el.tagName === 'BLOCKQUOTE') return false;
-        var p = el.parentElement;
-        while (p && p !== prose) { if (/^(LI|TR)$/.test(p.tagName)) return false; p = p.parentElement; }
-        return true;
-      });
-      blocks = blocks.concat(sel);
-      var q = [];
-      blocks.forEach(function (el) {
-        var t = blockText(el);
-        if (!t) return;
-        if (/^H[1-3]$/.test(el.tagName) && !/[.!?:]$/.test(t)) t += '.';
-        splitText(t).forEach(function (s) { q.push({ el: el, text: s, head: /^H[23]$/.test(el.tagName) ? t : null }); });
-      });
-      q.push({ el: articleEl.querySelector('.sources h2'), text: 'Ende des Artikels. Die Quellen findest du unter dem Text.' });
-      return q;
-    }
-
-    function section(i) {
-      for (var k = i; k >= 0; k--) if (queue[k].head) return queue[k].head.replace(/\.$/, '');
-      return 'Einleitung';
-    }
-
-    function mark(i) {
-      if (root) root.querySelectorAll('.reading').forEach(function (n) { n.classList.remove('reading'); });
-      var item = queue[i]; if (!item || !item.el) return;
-      item.el.classList.add('reading');
-      var r = item.el.getBoundingClientRect();
-      if (r.top < 80 || r.bottom > window.innerHeight - 110) item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-
-    function ui() {
-      player.classList.toggle('playing', playing);
-      btnPlay.setAttribute('aria-label', playing ? 'Vorlesen pausieren' : 'Vorlesen starten');
-      progress.style.width = queue.length ? Math.round((pos / queue.length) * 100) + '%' : '0';
-      if (!supported) status.textContent = 'Vorlesen wird von diesem Browser nicht unterstützt';
-      else if (playing) status.textContent = 'Liest: ' + section(pos);
-      else if (pos > 0 && pos < queue.length) status.textContent = 'Pausiert · ' + section(pos);
-      else status.textContent = 'Anhören';
-    }
-
-    function speak(i, silentFail) {
-      if (i >= queue.length) { stop(true); return; }
-      pos = i; var my = ++gen;
-      var u = new SpeechSynthesisUtterance(queue[i].text);
-      var v = currentVoice(); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'de-DE';
-      u.rate = +settings.rate;
-      u.onend = function () { if (my === gen && playing) speak(i + 1); };
-      u.onerror = function (ev) {
-        if (my !== gen) return;
-        if (ev.error === 'interrupted' || ev.error === 'canceled') return;
-        playing = false; ui();
-        if (ev.error === 'not-allowed') toast(silentFail ? 'Automatisches Vorlesen blockiert: tippe auf ▶.' : 'Tippe auf ▶, um das Vorlesen zu starten.');
-        else toast('Vorlesen nicht möglich (' + ev.error + ').');
-      };
-      mark(i); ui();
-      synth.speak(u);
-    }
-
-    function start(fromAuto) {
-      if (!supported) { toast('Dein Browser unterstützt keine Sprachausgabe.'); return; }
-      if (!queue.length) return;
-      synth.cancel();
-      playing = true;
-      if (pos >= queue.length) pos = 0;
-      speak(pos, fromAuto);
-      // Chrome beendet lange Sitzungen manchmal still; ein leichter Anstoß hält sie wach.
-      clearInterval(keepAlive);
-      keepAlive = setInterval(function () { if (playing && !synth.speaking && !synth.pending) { synth.cancel(); speak(pos); } }, 4000);
-    }
-
-    function pause() {
-      playing = false; gen++; synth.cancel(); clearInterval(keepAlive); ui();
-    }
-
-    function stop(finished) {
-      playing = false; gen++; if (supported) synth.cancel(); clearInterval(keepAlive);
-      pos = 0;
-      if (root) root.querySelectorAll('.reading').forEach(function (n) { n.classList.remove('reading'); });
-      ui();
-      if (finished === true) status.textContent = 'Fertig vorgelesen';
-    }
-
-    btnPlay.addEventListener('click', function () { playing ? pause() : start(); });
-    btnStop.addEventListener('click', function () { stop(); });
-    rate.addEventListener('input', function () {
-      settings.rate = +rate.value; rateVal.textContent = fmtRate(settings.rate); save();
-    });
-    rate.addEventListener('change', function () { if (playing) { synth.cancel(); speak(pos); } });
-    auto.addEventListener('change', function () { settings.auto = auto.checked; save(); });
-    voiceSel.addEventListener('change', function () {
-      settings.voice = voiceSel.value; save(); if (playing) { synth.cancel(); speak(pos); }
-    });
-    settingsBtn.addEventListener('click', function () {
-      var open = settingsBox.hidden; settingsBox.hidden = !open; settingsBtn.setAttribute('aria-expanded', String(open));
-    });
-
-    if (supported) { loadVoices(); if ('onvoiceschanged' in synth) synth.onvoiceschanged = loadVoices; }
-
-    return {
-      settings: settings,
-      start: start,
-      stop: stop,
-      attach: function (articleEl) {
-        stop(); root = articleEl; queue = build(articleEl); pos = 0;
-        player.hidden = false; document.body.classList.add('has-player'); ui();
-      },
-      detach: function () {
-        stop(); root = null; queue = [];
-        player.hidden = true; settingsBox.hidden = true; document.body.classList.remove('has-player');
-      }
-    };
-  })();
-
-  /* ---------- Router ---------- */
-
-  function route() {
-    var h = location.hash || '#/';
-    if (h.indexOf('#/') !== 0) return; // Sprungmarken innerhalb der Seite
-    tts.detach();
-    document.title = 'Daily Brief';
-    var m;
-    if ((m = h.match(/^#\/artikel\/(.+)$/))) { renderArticle(decodeURIComponent(m[1])); window.scrollTo(0, 0); return; }
-    if (h === '#/info') { renderInfo(); window.scrollTo(0, 0); return; }
-    if ((m = h.match(/[?&]q=([^&]+)/))) {
-      state.q = decodeURIComponent(m[1]); search.value = state.q;
-      history.replaceState(null, '', '#/');
-    }
-    renderHome();
-  }
-
-  // Quellenverweise im Text springen zur Quelle, ohne den Router auszulösen.
-  document.addEventListener('click', function (ev) {
-    var a = ev.target.closest && ev.target.closest('a[href^="#quelle-"]');
-    if (!a) return;
-    ev.preventDefault();
-    var t = document.getElementById(a.getAttribute('href').slice(1));
-    if (!t) return;
-    t.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    t.style.borderColor = 'var(--accent)'; t.style.boxShadow = '0 0 0 3px var(--accent-soft)';
-    setTimeout(function () { t.style.borderColor = ''; t.style.boxShadow = ''; }, 2200);
-  });
-
-  document.getElementById('themeToggle').addEventListener('click', function () {
-    var root = document.documentElement;
-    var dark = root.dataset.theme ? root.dataset.theme === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
-    root.dataset.theme = dark ? 'light' : 'dark';
-    try { localStorage.setItem('db-theme', root.dataset.theme); } catch (e) {}
-  });
-
-  window.addEventListener('hashchange', route);
-  loadIndex().then(route);
-})();
+});
+window.addEventListener('scroll', () => { if (!updateProgress.pending) { updateProgress.pending = true; requestAnimationFrame(() => { updateProgress.pending = false; updateProgress(); }); } }, { passive: true });
+window.addEventListener('wheel', () => { progressDirty = true; }, { passive: true });
+window.addEventListener('touchmove', () => { progressDirty = true; }, { passive: true });
+window.addEventListener('keydown', e => { if (['PageDown', 'PageUp', 'ArrowDown', 'ArrowUp', 'Home', 'End', ' '].includes(e.key)) progressDirty = true; });
+window.addEventListener('pagehide', saveProgress);
+const sizes = new ResizeObserver(() => {
+  document.documentElement.style.setProperty('--header-height', document.querySelector('.site-header').offsetHeight + 'px');
+  document.documentElement.style.setProperty('--player-height', (speech.player.hidden ? 0 : speech.player.offsetHeight) + 'px');
+});
+sizes.observe(speech.player); sizes.observe(document.querySelector('.site-header'));
+applySettings(); connection();
+setupOffline(notify);
+window.addEventListener('offline', connection);
+window.addEventListener('online', async () => { connection(); const old = data.generated; try { await loadIndex(); documents = null; learning = null; if (data.generated !== old) { if (router.current === '#/' || !location.hash) router.dispatch(); else notify('Neue Ausgaben sind im Archiv verfügbar.'); } } catch { notify('Die Verbindung ist zurück, der Datenstand konnte noch nicht aktualisiert werden.'); } });
+loadIndex().then(() => router.dispatch()).catch(() => { view.setAttribute('aria-busy', 'false'); view.innerHTML = '<div class="empty"><h1>Ausgaben konnten nicht geladen werden</h1><p>Bitte prüfe deine Verbindung.</p><button type="button" id="retryIndex">Erneut versuchen</button></div>'; document.getElementById('retryIndex').addEventListener('click', () => location.reload()); });
