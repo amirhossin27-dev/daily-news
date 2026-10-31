@@ -49,6 +49,8 @@ export class SpeechPlayer {
       if (/^H[23]$/.test(el.tagName)) { section++; sectionName = el.textContent; }
       const copy = el.cloneNode(true); copy.querySelectorAll('.cite').forEach(n => n.remove());
       let text = copy.textContent.replace(/\s+/g, ' ').trim();
+      // Keep chapter numbers visible, but omit them from spoken section headings.
+      if (/^H[23]$/.test(el.tagName)) text = text.replace(/^\d+[.)]\s+/, '');
       if (el.parentElement.classList.contains('callout')) text = `${el.parentElement.querySelector('.callout-label')?.textContent || ''}: ${text}`;
       for (const chunk of splitText(text)) this.queue.push({ text: chunk, el, section, sectionName });
     }
