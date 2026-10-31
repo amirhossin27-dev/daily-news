@@ -1,6 +1,49 @@
 {
- "generated": "2026-10-31T10:54:48+00:00",
+ "generated": "2026-10-31T16:52:47+00:00",
  "articles": [
+  {
+   "id": "2026-10-31-abend",
+   "file": "2026-10-31-abend.md",
+   "title": "Drei Tage vor den Midterms: Demokraten führen klar, Rekord bei der Briefwahl. Und was ein Ergebnis für den Iran-Kurs bedeuten könnte",
+   "summary": "In den Umfragen liegen die Demokraten acht Punkte vorn, über 43 Millionen Menschen haben schon gewählt. Beim Repräsentantenhaus gilt ein Wechsel als fast sicher, der Senat ist offen. Katars Sieben-Tage-Plan für Iran stößt in Teheran auf Skepsis.",
+   "date": "2026-10-31",
+   "edition": "abend",
+   "time": "17:52",
+   "labels": [
+    "USA",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US midterms: 3 days to go, what latest polls say as early voting surges",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+     "type": "analysis",
+     "date": "2026-10-31"
+    },
+    {
+     "id": 2,
+     "title": "Qatar gives Iran new draft deal to end war; Tehran official says it is not an offer",
+     "publisher": "Kiprinform (Reuters)",
+     "url": "https://www.kiprinform.com/en/news/qatar-gives-iran-new-draft-deal-to-end-war-tehran-official-says-it-is-not-an-offer/",
+     "type": "news",
+     "date": "2026-10-28"
+    },
+    {
+     "id": 3,
+     "title": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer",
+     "type": "analysis",
+     "date": "2026-10-30"
+    }
+   ],
+   "words": 332,
+   "reading_minutes": 2
+  },
   {
    "id": "2026-10-31-mittag",
    "file": "2026-10-31-mittag.md",
