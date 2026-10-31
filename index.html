@@ -4,96 +4,72 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Daily Brief</title>
-  <meta name="description" content="Das Wichtigste des Tages, dreimal täglich zusammengefasst: Wirtschaft, Krypto, Iran, USA und Naher Osten. Mit Quellen und Vorlesefunktion.">
+  <meta name="description" content="Deine persönliche Nachrichtenlage. Dreimal täglich ausführlich informiert, mit Originalquellen, Einordnung und einem Gedanken zum Lernen.">
   <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
   <link rel="stylesheet" href="assets/style.css">
   <script>
-    // Theme vor dem ersten Rendern setzen, damit nichts flackert.
-    try { var t = localStorage.getItem('db-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    try { var s = JSON.parse(localStorage.getItem('daily-brief-v1') || 'null'); var t = s ? s.settings.theme : localStorage.getItem('db-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
   </script>
 </head>
 <body>
   <a class="skip" href="#main">Zum Inhalt springen</a>
-
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="#/" aria-label="Daily Brief, Startseite">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="28" height="28"><rect x="2" y="2" width="28" height="28" rx="8" fill="currentColor"/><path d="M10 11h12M10 16h12M10 21h7" stroke="var(--bg)" stroke-width="2.4" stroke-linecap="round"/></svg>
-        </span>
-        <span class="brand-text">
-          <span class="brand-name">Daily Brief</span>
-          <span class="brand-tag">Morgens · Mittags · Abends</span>
-        </span>
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="32" height="32"><rect x="2" y="2" width="28" height="28" rx="8" fill="currentColor"/><path d="M10 11h12M10 16h12M10 21h7" stroke="var(--bg)" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+        <span class="brand-text"><span class="brand-name">Daily Brief</span><span class="brand-tag">Verstehen, was die Welt bewegt.</span></span>
       </a>
-      <label class="header-search">
-        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-        <input id="q" type="search" placeholder="Suchen…" aria-label="Artikel durchsuchen" autocomplete="off">
-      </label>
-      <nav class="header-actions" aria-label="Seitennavigation">
-        <a class="icon-btn" href="#/info" title="Über diese Seite" aria-label="Über diese Seite">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg>
-        </a>
-        <button class="icon-btn" id="themeToggle" type="button" title="Hell / Dunkel umschalten" aria-label="Hell oder dunkel umschalten">
-          <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-          <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
-        </button>
-      </nav>
+      <form class="header-search" id="headerSearch" role="search">
+        <input id="q" type="search" placeholder="Im Archiv suchen …" aria-label="Artikel durchsuchen" autocomplete="off" maxlength="300">
+        <button type="submit" aria-label="Suche starten">Suchen</button>
+      </form>
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Farbschema umschalten" title="Farbschema umschalten">◐</button>
     </div>
+    <nav class="wrap section-nav" aria-label="Seitennavigation">
+      <a href="#/" data-page="home">Heute</a><a href="#/archiv" data-page="archive">Archiv</a><a href="#/lernen" data-page="learning">Zum Lernen</a><a href="#/einstellungen" data-page="settings">Einstellungen</a><a href="#/info" data-page="info">Über die Seite</a>
+    </nav>
   </header>
-
   <main id="main" class="wrap" tabindex="-1">
-    <div id="view" aria-live="polite"></div>
+    <div class="connection" id="connection" role="status"></div>
+    <div class="notice" id="storageNotice" hidden>Dein Browser kann Einstellungen gerade nicht dauerhaft speichern. Sie bleiben nur für diese Sitzung erhalten.</div>
+    <div class="update-notice" id="updateNotice" hidden>Eine neue Version ist bereit. <button type="button" id="applyUpdate">Jetzt neu laden</button></div>
+    <div id="view" aria-busy="true"><div class="empty">Ausgaben werden geladen …</div></div>
+    <noscript>Bitte aktiviere JavaScript, um Ausgaben zu öffnen, zu durchsuchen und anzuhören.</noscript>
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p class="disclaimer"><strong>Keine Anlageberatung.</strong> Inhalte zu Kryptowährungen und Märkten dienen nur der Information und dem Lernen. Jede Aussage ist mit Quellen belegt; Spekulation und Social-Media-Gerüchte sind als solche gekennzeichnet. <button type="button" class="link-btn" data-hide-disclaimer>Ausblenden</button></p>
-      <p class="muted disclaimer">Recherchiert und geschrieben von Claude (KI) für Amir. <a href="#/info">Wie die Seite arbeitet</a></p>
-    </div>
-  </footer>
-
-  <!-- Vorleseleiste, nur in der Artikelansicht sichtbar -->
-  <div class="player" id="player" hidden>
+  <footer class="site-footer"><div class="wrap footer-inner">
+    <div><strong>Daily Brief</strong><p>Recherchiert und geschrieben von Claude (KI) für Amir.<br>Originalquellen prüfen, Zusammenhänge verstehen.</p></div>
+    <p class="disclaimer"><strong>Keine Anlageberatung.</strong> Inhalte dienen der Information und dem Lernen. KI kann Fehler machen. <button class="link-btn" type="button" data-hide-disclaimer>Hinweis ausblenden</button></p>
+    <a href="#/info">Wie die Seite arbeitet</a>
+  </div></footer>
+  <section class="player" id="player" aria-label="Vorlesefunktion" hidden>
     <div class="player-inner wrap">
-      <button class="play-btn" id="ttsPlay" type="button" aria-label="Vorlesen starten">
-        <svg class="i-play" viewBox="0 0 24 24" width="22" height="22"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>
-        <svg class="i-pause" viewBox="0 0 24 24" width="22" height="22"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></svg>
-      </button>
-      <button class="icon-btn" id="ttsStop" type="button" aria-label="Vorlesen stoppen" title="Stopp">
-        <svg viewBox="0 0 24 24" width="18" height="18"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg>
-      </button>
-      <div class="player-meta">
-        <div class="player-status" id="ttsStatus">Anhören</div>
-        <div class="progress" aria-hidden="true"><span id="ttsProgress"></span></div>
-      </div>
-      <label class="speed" title="Lesegeschwindigkeit">
-        <span class="speed-val" id="ttsRateVal">1,0×</span>
-        <input type="range" id="ttsRate" min="0.5" max="2" step="0.1" value="1" aria-label="Lesegeschwindigkeit">
-      </label>
-      <button class="icon-btn" id="ttsSettingsBtn" type="button" aria-label="Vorlese-Einstellungen" aria-expanded="false" title="Einstellungen">
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>
-      </button>
+      <button class="icon-btn" id="ttsPrevious" type="button" aria-label="Vorheriger Abschnitt" title="Vorheriger Abschnitt" data-requires-speech>↤</button>
+      <button class="play-btn" id="ttsPlay" type="button" aria-label="Vorlesen starten" data-requires-speech>▶</button>
+      <button class="icon-btn" id="ttsNext" type="button" aria-label="Nächster Abschnitt" title="Nächster Abschnitt" data-requires-speech>↦</button>
+      <button class="icon-btn stop-btn" id="ttsStop" type="button" aria-label="Vorlesen stoppen und zurücksetzen" title="Stopp" data-requires-speech>■</button>
+      <div class="player-meta"><div class="player-status" id="ttsStatus" role="status">Anhören</div><progress id="ttsProgress" max="1" value="0" aria-label="Hörfortschritt"></progress></div>
+      <label class="speed"><span class="sr-only">Lesegeschwindigkeit</span><select id="ttsRate" aria-label="Lesegeschwindigkeit" data-requires-speech><option value="0.5">0,5×</option><option value="0.6">0,6×</option><option value="0.7">0,7×</option><option value="0.8">0,8×</option><option value="0.9">0,9×</option><option value="1">1,0×</option><option value="1.1">1,1×</option><option value="1.2">1,2×</option><option value="1.3">1,3×</option><option value="1.4">1,4×</option><option value="1.5">1,5×</option><option value="1.6">1,6×</option><option value="1.7">1,7×</option><option value="1.8">1,8×</option><option value="1.9">1,9×</option><option value="2">2,0×</option></select></label>
+      <button class="icon-btn" id="ttsSettingsBtn" type="button" aria-label="Vorlese-Einstellungen" aria-controls="ttsSettings" aria-expanded="false">⚙</button>
     </div>
     <div class="player-settings wrap" id="ttsSettings" hidden>
-      <label class="switch-row">
-        <input type="checkbox" id="ttsAuto">
-        <span><strong>Automatisch vorlesen</strong><br><span class="muted">Startet beim Öffnen eines Artikels.</span></span>
-      </label>
-      <label class="field">
-        <span>Stimme</span>
-        <select id="ttsVoice"></select>
-      </label>
+      <label class="switch-row"><input type="checkbox" id="ttsAuto"><span>Beim Öffnen automatisch vorlesen</span></label>
+      <label class="switch-row"><input type="checkbox" id="ttsScroll"><span>Beim Vorlesen mitscrollen</span></label>
+      <label class="field"><span>Deutsche Stimme</span><select id="ttsVoice"></select></label>
+      <p class="muted">Stimmen und Offline-Verfügbarkeit hängen von deinem Gerät ab. Automatischer Start kann eine erste Berührung erfordern.</p>
     </div>
-  </div>
-
+  </section>
+  <dialog id="sourceDialog" aria-labelledby="sourceHeading">
+    <div class="dialog-head"><h2 id="sourceHeading">Quelle</h2><button type="button" id="closeSource">Schließen</button></div>
+    <div id="sourceContent"></div>
+    <button type="button" id="allSources">Zur Quellenliste</button>
+  </dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
   <script src="assets/vendor/marked.min.js"></script>
   <script src="assets/vendor/purify.min.js"></script>
-  <script src="assets/app.js"></script>
+  <script type="module" src="assets/app.js"></script>
 </body>
 </html>

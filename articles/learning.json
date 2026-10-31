@@ -1,0 +1,914 @@
+{
+ "generated": "2026-10-31T16:52:00+00:00",
+ "items": [
+  {
+   "id": "2026-10-31-abend-1",
+   "article_id": "2026-10-31-abend",
+   "title": "Drei Tage vor den Midterms: Demokraten führen klar, Rekord bei der Briefwahl. Und was ein Ergebnis für den Iran-Kurs bedeuten könnte",
+   "date": "2026-10-31",
+   "labels": [
+    "USA",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "text": "Was steht bei den Midterms auf dem Spiel? Gewählt werden alle 435 Sitze im Repräsentantenhaus und rund ein Drittel des Senats. Verliert die Partei des Präsidenten eine Kammer, kann diese Gesetze und Haushalte blockieren und Untersuchungen einleiten. Die Außenpolitik bleibt aber weitgehend Sache des Präsidenten."
+  },
+  {
+   "id": "2026-10-31-mittag-1",
+   "article_id": "2026-10-31-mittag",
+   "title": "Krypto-Wochenbilanz: Binance legt 6,34 Mrd. Dollar zurück, Bitcoin verliert 4 %. Was die nächste Woche bringt",
+   "date": "2026-10-31",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "USA",
+    "Märkte"
+   ],
+   "text": "Was ist ein \"Proof of Reserves\"? Eine Börse zeigt öffentlich, welche Krypto-Bestände sie hält, oft mit kryptografischen Nachweisen. Kunden können so prüfen, ob ihre Guthaben gedeckt sind. Ein Nachweis zeigt aber nur einen Zeitpunkt und keine Schulden, die außerhalb der Blockchain bestehen."
+  },
+  {
+   "id": "2026-10-30-abend-1",
+   "article_id": "2026-10-30-abend",
+   "title": "Ein Brief von Vance, Angriffspläne für die Zeit nach den Midterms: Wohin steuert der Iran-Konflikt?",
+   "date": "2026-10-30",
+   "labels": [
+    "Iran",
+    "USA",
+    "Israel",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "text": "Warum sind die US-Midterms für den Iran-Konflikt wichtig? Militärische Schritte vor einer Wahl können Wähler beeinflussen, etwa über Benzinpreise. Deshalb deuten viele Berichte auf Entscheidungen erst nach dem 3. November hin. Das ist eine verbreitete Lesart, kein angekündigter Plan."
+  },
+  {
+   "id": "2026-10-30-mittag-1",
+   "article_id": "2026-10-30-mittag",
+   "title": "Binance-Hack: Spur führt nach Nordkorea, Auszahlungen erst in rund zwei Tagen. Deutschlands Wirtschaft wächst dank Staatsausgaben",
+   "date": "2026-10-30",
+   "labels": [
+    "Krypto",
+    "Geopolitik",
+    "Deutschland",
+    "Wirtschaft",
+    "Europa"
+   ],
+   "text": "Warum stiehlt ein Staat Kryptowährungen? Nordkorea ist durch Sanktionen weitgehend vom Weltfinanzsystem abgeschnitten. Gestohlene Krypto-Werte lassen sich über viele Zwischenstationen waschen und in nutzbares Geld tauschen. Deshalb frieren Stablecoin-Herausgeber so schnell wie möglich ein, was sie erreichen können."
+  },
+  {
+   "id": "2026-10-30-morgen-1",
+   "article_id": "2026-10-30-morgen",
+   "title": "Größter Krypto-Hack der Geschichte: Binance meldet Schaden von rund 6,3 Mrd. Dollar, Bitcoin fällt unter 77.000. Amazon rutscht nachbörslich ab",
+   "date": "2026-10-30",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Märkte",
+    "Tech",
+    "KI",
+    "USA"
+   ],
+   "text": "Was ist ein \"Hot Wallet\"? Börsen halten einen Teil der Kundengelder online, um Auszahlungen schnell abzuwickeln. Diese Wallets sind bequem, aber angreifbar. Der Großteil liegt meist offline in \"Cold Wallets\". Wer Krypto selbst verwahrt, trägt dieses Risiko nicht bei einer Börse, aber selbst."
+  },
+  {
+   "id": "2026-10-29-abend-1",
+   "article_id": "2026-10-29-abend",
+   "title": "Lagarde geht vorzeitig, die EZB wartet ab, und die US-Wirtschaft wächst kräftiger als erwartet bei steigender Inflation",
+   "date": "2026-10-29",
+   "labels": [
+    "Europa",
+    "Zinsen",
+    "USA",
+    "Wirtschaft",
+    "Märkte"
+   ],
+   "text": "Warum ist starkes Wachstum für die Börse nicht immer gut? Läuft die Wirtschaft heiß und steigen die Preise, muss die Notenbank eher bremsen. Höhere Zinsen belasten dann vor allem Technologiewerte, deren Gewinne weit in der Zukunft liegen."
+  },
+  {
+   "id": "2026-10-29-mittag-1",
+   "article_id": "2026-10-29-mittag",
+   "title": "EZB-Tag: Europas Börsen leicht im Plus, Bitcoin hält sich knapp über 80.000 Dollar",
+   "date": "2026-10-29",
+   "labels": [
+    "Europa",
+    "Zinsen",
+    "Märkte",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Deutschland"
+   ],
+   "text": "Warum ist die EZB-Pressekonferenz oft wichtiger als der Zinsentscheid selbst? Wenn der Entscheid erwartet wird, steckt er schon in den Kursen. Neu sind dann die Hinweise der Notenbankspitze, was als Nächstes kommt. Darauf reagieren Euro und Anleihen."
+  },
+  {
+   "id": "2026-10-29-morgen-1",
+   "article_id": "2026-10-29-morgen",
+   "title": "Fed hält still, zwei Notenbanker wollten erhöhen. Microsoft überzeugt, Alphabet enttäuscht trotz verdoppelter Cloud",
+   "date": "2026-10-29",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "KI",
+    "Tech"
+   ],
+   "text": "Warum zählen Gegenstimmen? Die Fed entscheidet meist einstimmig. Zwei Stimmen für eine Erhöhung zeigen, dass ein Teil des Gremiums schon jetzt handeln will. Märkte lesen das als Hinweis, dass der nächste Schritt eher nach oben geht."
+  },
+  {
+   "id": "2026-10-28-abend-1",
+   "article_id": "2026-10-28-abend",
+   "title": "Israel nach 85 % der Stimmen: 53 zu 48 und 19 arabische Sitze. Herzog mahnt, Pezeshkian will Lösungen ohne die USA",
+   "date": "2026-10-28",
+   "labels": [
+    "Israel",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "USA",
+    "Zinsen"
+   ],
+   "text": "Was sind \"Doppelumschlag-Stimmen\"? Soldaten, Diplomaten, Gefangene und manche andere Gruppen wählen nicht in ihrem Heimatwahllokal. Ihre Stimmzettel stecken in einem zweiten Umschlag, damit ihre Berechtigung geprüft werden kann. Sie werden zuletzt gezählt und können knappe Ergebnisse noch verschieben."
+  },
+  {
+   "id": "2026-10-28-mittag-1",
+   "article_id": "2026-10-28-mittag",
+   "title": "Auszählung in Israel: Netanjahus Lager vorn, aber ohne Mehrheit. Eisenkot fordert Rücktritt, Europas Börsen warten auf die Fed",
+   "date": "2026-10-28",
+   "labels": [
+    "Israel",
+    "Naher Osten",
+    "Europa",
+    "Märkte",
+    "Energie",
+    "Zinsen"
+   ],
+   "text": "Warum fällt eine Bankaktie trotz Gewinnplus? Anleger bewerten auch Risiken. Steigen in Frankreich die Zinsen für Staatsanleihen, verlieren Banken, die viele dieser Anleihen halten, an Wert in ihren Büchern. Das kann gute Quartalszahlen überlagern."
+  },
+  {
+   "id": "2026-10-27-abend-1",
+   "article_id": "2026-10-27-abend",
+   "title": "Israel wählt mit Rekordbeteiligung, Netanjahu spricht von \"Wahlraub\", und die Fed beginnt ihre Sitzung",
+   "date": "2026-10-27",
+   "labels": [
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "Bitcoin"
+   ],
+   "text": "Wie geht es nach der Wahl weiter? Israels Präsident spricht mit allen Fraktionen und beauftragt dann die Person mit der Regierungsbildung, die die besten Chancen auf 61 Unterstützer hat. Das ist nicht automatisch der Chef der größten Partei."
+  },
+  {
+   "id": "2026-10-26-abend-1",
+   "article_id": "2026-10-26-abend",
+   "title": "Teheran-Runde vertagt sich, Wall Street erholt sich, und Anthropic reicht Börsenprospekt ein",
+   "date": "2026-10-26",
+   "labels": [
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Märkte",
+    "KI",
+    "Tech",
+    "Energie"
+   ],
+   "text": "Was ist ein Börsenprospekt? Ein Unternehmen, das Aktien öffentlich anbieten will, muss der Aufsicht ein ausführliches Dokument vorlegen: Geschäftsmodell, Zahlen, Risiken. Erst danach werden Preis und Umfang des Angebots festgelegt."
+  },
+  {
+   "id": "2026-10-26-mittag-1",
+   "article_id": "2026-10-26-mittag",
+   "title": "Verteidigungsminister, Armeechef, Geheimdienstchef: Wer in Teheran verhandelt, und warum Europas Börsen aufatmen",
+   "date": "2026-10-26",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Europa",
+    "Märkte",
+    "Zinsen"
+   ],
+   "text": "Warum interessiert ASML, was Microsoft oder Amazon investieren? Die US-Konzerne bauen Rechenzentren für KI. Dafür braucht es Chips, und für die Chipherstellung braucht es Maschinen von Firmen wie ASML. Kürzen die Großen ihre Budgets, spürt das die ganze Lieferkette."
+  },
+  {
+   "id": "2026-10-26-morgen-1",
+   "article_id": "2026-10-26-morgen",
+   "title": "Regionale Krisendiplomatie in Teheran, Öl gibt nach, und die Märkte rechnen mit einer Zinserhöhung im Dezember",
+   "date": "2026-10-26",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Märkte",
+    "Zinsen",
+    "Energie",
+    "USA"
+   ],
+   "text": "Warum steigen Zinsen, wenn Öl teuer ist? Hohe Energiepreise treiben die Inflation. Notenbanken erhöhen dann die Zinsen, um die Nachfrage zu dämpfen. Das verteuert Kredite für Firmen und Verbraucher und belastet vor allem hoch bewertete Aktien."
+  },
+  {
+   "id": "2026-10-25-abend-1",
+   "article_id": "2026-10-25-abend",
+   "title": "\"Deal oder erledigen\": Trump zögert, Netanjahu warnt Iran vor Wahlstörung, Bitcoin rutscht unter 80.000 Dollar",
+   "date": "2026-10-25",
+   "labels": [
+    "Iran",
+    "Israel",
+    "USA",
+    "Naher Osten",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Hedera"
+   ],
+   "text": "Warum sind KI-Bilder im Wahlkampf heikel? Sie wirken wie echte Aufnahmen, auch wenn sie erfunden sind, und sprechen vor allem Gefühle wie Angst an."
+  },
+  {
+   "id": "2026-10-25-mittag-1",
+   "article_id": "2026-10-25-mittag",
+   "title": "Teheran dementiert Hormus-Angebot, und die Woche der Wahrheit: Fed, Microsoft, Alphabet und Amazon",
+   "date": "2026-10-25",
+   "labels": [
+    "Iran",
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "KI",
+    "Tech",
+    "Energie"
+   ],
+   "text": "Was ist der PCE-Index? Er misst die Preisentwicklung der Konsumausgaben und ist das bevorzugte Inflationsmaß der Fed. Weil er diesmal erst nach dem Zinsentscheid kommt, prägt er vor allem die Erwartungen für die Dezember-Sitzung."
+  },
+  {
+   "id": "2026-10-25-morgen-1",
+   "article_id": "2026-10-25-morgen",
+   "title": "Trump: Angriff auf Iran \"schon morgen\" möglich, Hamas droht offen, und Bitcoin vor einem entscheidenden Wochenschluss",
+   "date": "2026-10-25",
+   "labels": [
+    "Iran",
+    "USA",
+    "Israel",
+    "Naher Osten",
+    "Krypto",
+    "Bitcoin",
+    "Märkte"
+   ],
+   "text": "Warum ist der Durchschnittspreis von Firmenkäufen wichtig? Fällt der Kurs darunter, sitzen diese Firmen auf Buchverlusten. Das kann Druck erzeugen, weniger zu kaufen oder sogar zu verkaufen, was den Markt zusätzlich belastet."
+  },
+  {
+   "id": "2026-10-24-abend-1",
+   "article_id": "2026-10-24-abend",
+   "title": "Pezeshkian will einen neuen Anlauf, Iran meldet Minentreffer in Hormus, und Israel wählt am Dienstag ohne klare Mehrheit",
+   "date": "2026-10-24",
+   "labels": [
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie"
+   ],
+   "text": "In Israel braucht eine Regierung 61 der 120 Knesset-Sitze. Weil kein Lager diese Zahl erreicht, entscheidet oft nicht die Wahlnacht, sondern wochenlanges Koalitionsringen. Wer dabei mit wem kann, prägt auch Israels Kurs gegenüber Iran."
+  },
+  {
+   "id": "2026-10-24-mittag-1",
+   "article_id": "2026-10-24-mittag",
+   "title": "Krypto-Wochenende: Wall Street greift zu Bitcoin statt Ether, Hedera drängt auf Rohstoff-Status bei der SEC",
+   "date": "2026-10-24",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Hedera",
+    "USA",
+    "KI"
+   ],
+   "text": "Warum ist die Einstufung als \"Rohstoff\" wichtig? In den USA unterliegen Wertpapiere strengen Regeln der SEC, etwa Offenlegungspflichten. Gilt ein Token als Rohstoff, fällt er eher in die Zuständigkeit der Terminmarktaufsicht CFTC. Für Börsen, Fonds und Großanleger ist eine verbindliche Klärung oft Voraussetzung, um einen Token überhaupt anzubieten."
+  },
+  {
+   "id": "2026-10-23-abend-1",
+   "article_id": "2026-10-23-abend",
+   "title": "Acht Monate Iran-Krieg: Was sich seit Februar verändert hat, und warum Israels Wahl am Dienstag zum nächsten Wendepunkt wird",
+   "date": "2026-10-23",
+   "labels": [
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie"
+   ],
+   "text": "Warum ist ein Ölpreis von 114 Dollar auch für uns wichtig? Öl wird weltweit gehandelt, der Preis bildet sich global. Fällt Angebot aus einer Region weg oder droht es wegzufallen, steigt der Preis überall, an jeder Tankstelle und in jeder Heizkostenabrechnung, egal woher das Öl tatsächlich kommt."
+  },
+  {
+   "id": "2026-10-23-mittag-1",
+   "article_id": "2026-10-23-mittag",
+   "title": "Europas Wirtschaft verliert an Schwung, Deutschlands Industrie hält dagegen, und Bitcoin gibt die Wochengewinne ab",
+   "date": "2026-10-23",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Energie",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "text": "Was ist ein Einkaufsmanagerindex? Unternehmen werden monatlich gefragt, ob Aufträge, Produktion und Beschäftigung steigen oder fallen. Werte über 50 bedeuten Wachstum, unter 50 Schrumpfung. Weil die Umfrage schon wenige Wochen nach Monatsende vorliegt, gilt sie als einer der frühesten Hinweise auf die Konjunktur."
+  },
+  {
+   "id": "2026-10-23-morgen-1",
+   "article_id": "2026-10-23-morgen",
+   "title": "Chipwerte stürzen erneut ab, Brent schließt nahe 113 Dollar, und Aramco räumt seine Zentrale",
+   "date": "2026-10-23",
+   "labels": [
+    "Märkte",
+    "Tech",
+    "KI",
+    "Energie",
+    "USA",
+    "Iran",
+    "Naher Osten"
+   ],
+   "text": "Warum zieht ein Tech-Konzern wie Meta Chipaktien nach unten, wenn er viel ausgibt? Weil die Börse sich fragt, ob diese Ausgaben sich lohnen. Zweifeln Anleger daran, rechnen sie damit, dass Meta und andere künftig weniger Chips kaufen. Die Ausgaben von heute sind die Umsätze der Chiphersteller von morgen."
+  },
+  {
+   "id": "2026-10-22-abend-1",
+   "article_id": "2026-10-22-abend",
+   "title": "Meta und Tesla ziehen den Nasdaq nach unten, der US-Arbeitsmarkt bleibt robust, und Trump bestreitet Gespräche mit Iran",
+   "date": "2026-10-22",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Naher Osten"
+   ],
+   "text": "Was sind stimmrechtslose Aktien? Käufer bekommen Anteile am Gewinn, aber kein Mitspracherecht auf der Hauptversammlung. So kann ein Unternehmen frisches Kapital einsammeln, ohne dass die Gründer Kontrolle abgeben. Bestehende Aktionäre sehen das oft kritisch, weil ihr Anteil am Gewinn verwässert wird."
+  },
+  {
+   "id": "2026-10-22-mittag-1",
+   "article_id": "2026-10-22-mittag",
+   "title": "SAP knackt erstmals 10 Milliarden Euro Quartalsumsatz, Bitcoin steigt über 84.000 Dollar, und die Stimmung kippt Richtung Gier",
+   "date": "2026-10-22",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "text": "Was ist der \"Cloud-Auftragsbestand\"? Er misst Umsätze aus bereits unterschriebenen Cloud-Verträgen, die erst in den kommenden Monaten verbucht werden. Er ist ein guter Blick in die Zukunft: Wächst er so schnell wie der aktuelle Umsatz, ist das Wachstum vorerst gesichert."
+  },
+  {
+   "id": "2026-10-22-morgen-1",
+   "article_id": "2026-10-22-morgen",
+   "title": "Meta steigt, Tesla fällt nachbörslich, und laut New York Times liegen Pläne für einen Drei-Tage-Angriff auf Iran nach den US-Wahlen bereit",
+   "date": "2026-10-22",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "text": "Was bedeutet negativer freier Cashflow? Das Unternehmen gibt für Betrieb und Investitionen mehr Geld aus, als das Geschäft einbringt. Bei Meta liegt das an den Milliarden für Rechenzentren. Das ist kein Zeichen von Verlusten im Kerngeschäft, aber es bedeutet, dass die Investitionen aus Rücklagen oder Schulden finanziert werden."
+  },
+  {
+   "id": "2026-10-21-abend-1",
+   "article_id": "2026-10-21-abend",
+   "title": "Diplomatie im Doppelspiel: Kompromissvorschlag für Iran, Araghchi bleibt hart, und ein dritter US-Flugzeugträger nimmt Kurs auf Nahost",
+   "date": "2026-10-21",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "USA",
+    "Israel",
+    "Geopolitik",
+    "Energie",
+    "Europa"
+   ],
+   "text": "Warum Zinsen und nicht das Geld selbst? Die Freigabe der 6 Mrd. Dollar wäre politisch heikel. Nur die Zinsen auszuzahlen, gibt Iran einen greifbaren Gewinn, ohne dass Washington die Gelder selbst freigibt. Solche Teil-Lösungen sollen Vertrauen schaffen, bevor über das Große verhandelt wird."
+  },
+  {
+   "id": "2026-10-21-mittag-1",
+   "article_id": "2026-10-21-mittag",
+   "title": "Adidas und Deutsche Börse heben Prognosen an, Carrefour spürt Frankreichs Konsumflaute, und um Qiagen bahnt sich ein Bieterkampf an",
+   "date": "2026-10-21",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI"
+   ],
+   "text": "Warum ist ein Supermarktkonzern ein gutes Frühwarnsignal? Händler sehen sofort, wenn Menschen sparen: kleinere Einkäufe, mehr Eigenmarken, weniger Spontankäufe. Senkt ein großer Lebensmittelhändler seine Prognose, ist das oft ein Hinweis auf echte Kaufkraftsorgen, lange bevor offizielle Konjunkturdaten sie zeigen."
+  },
+  {
+   "id": "2026-10-21-morgen-1",
+   "article_id": "2026-10-21-morgen",
+   "title": "SpaceX verdient mit KI mehr als mit Raketen, Musk prüft Fusion mit Tesla, und Asiens Chipwerte springen an",
+   "date": "2026-10-21",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Iran",
+    "Naher Osten"
+   ],
+   "text": "Was ist EBITDA? Der Gewinn vor Zinsen, Steuern und Abschreibungen. Er zeigt, wie viel das laufende Geschäft abwirft, bevor Finanzierung und Wertverlust von Anlagen abgezogen werden. Gerade bei Firmen mit riesigen Investitionen in Rechenzentren oder Raketen kann der EBITDA hoch sein, während der Nettogewinn deutlich kleiner bleibt."
+  },
+  {
+   "id": "2026-10-20-abend-1",
+   "article_id": "2026-10-20-abend",
+   "title": "Netflix kappt die Werbeprognose, GM stürzt trotz guter Zahlen ab, und Iran droht mit Angriffen auf Unterseekabel",
+   "date": "2026-10-20",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Energie"
+   ],
+   "text": "Was ist eine Sektorrotation? Anleger verkaufen nicht alles, sondern schichten um: aus teuren Wachstumswerten wie Tech in defensive Branchen wie Gesundheit, Versorger oder Immobilien, deren Gewinne weniger von der Konjunktur abhängen. Ein Rekord bei Gesundheitsaktien in einer nervösen Woche ist oft ein Zeichen dafür."
+  },
+  {
+   "id": "2026-10-20-mittag-1",
+   "article_id": "2026-10-20-mittag",
+   "title": "Ausgangssperren in Paris und Nizza, Europas Börsen weiter schwach, und die Huthis melden einen Angriff auf Aramco in Yanbu",
+   "date": "2026-10-20",
+   "labels": [
+    "Europa",
+    "Deutschland",
+    "Märkte",
+    "Zinsen",
+    "Energie",
+    "Naher Osten",
+    "KI"
+   ],
+   "text": "Warum fällt eine Aktie trotz solider Zahlen? Kurse spiegeln Erwartungen. Wenn Anleger mehr erhofft haben oder die Bewertung schon hoch ist, reichen Ergebnisse im Rahmen nicht. In nervösen Märkten verkaufen viele zudem jede Gelegenheit, um Risiko abzubauen."
+  },
+  {
+   "id": "2026-10-20-morgen-1",
+   "article_id": "2026-10-20-morgen",
+   "title": "Huthi-Raketen töten mindestens 53 Rekruten im Jemen, Iran ruft deutschen Botschafter ein, und die Wall Street schließt mit Tech-Plus",
+   "date": "2026-10-20",
+   "labels": [
+    "Naher Osten",
+    "Iran",
+    "Deutschland",
+    "Geopolitik",
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "Tech"
+   ],
+   "text": "Warum springt eine Aktie bei einer Übernahme um mehr als das Doppelte? Käufer zahlen meist einen Aufschlag auf den Börsenwert, um die Aktionäre zum Verkauf zu bewegen. Der Kurs nähert sich dann dem gebotenen Preis an. Die verbleibende Lücke zeigt, wie sicher der Markt ist, dass der Deal zustande kommt."
+  },
+  {
+   "id": "2026-10-19-abend-1",
+   "article_id": "2026-10-19-abend",
+   "title": "Europa schließt deutlich im Minus, Chipwerte erholen sich in den USA, und Analysten warnen vor einer Scheinerholung",
+   "date": "2026-10-19",
+   "labels": [
+    "Europa",
+    "Deutschland",
+    "Märkte",
+    "Zinsen",
+    "USA",
+    "Tech",
+    "KI"
+   ],
+   "text": "Warum hängen Chipaktien an Anleiherenditen? Hohe Renditen machen künftige Gewinne weniger wert, weil sichere Anleihen eine Alternative bieten. Wachstumswerte wie Chiphersteller, deren Bewertung stark auf erwarteten Gewinnen in der Zukunft beruht, reagieren darauf besonders empfindlich. Sinken die Renditen, profitieren sie überdurchschnittlich."
+  },
+  {
+   "id": "2026-10-19-mittag-1",
+   "article_id": "2026-10-19-mittag",
+   "title": "Proteste in Frankreich drücken Europas Börsen, Bitcoin zurück über 82.000 Dollar und so ruhig wie selten",
+   "date": "2026-10-19",
+   "labels": [
+    "Europa",
+    "Deutschland",
+    "Märkte",
+    "Zinsen",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "text": "Was ist der \"Spread\"? Er misst, wie viel mehr Zinsen Anleger für französische Staatsanleihen verlangen als für deutsche. Je größer der Abstand, desto riskanter erscheint ihnen Frankreich. investingLive nennt 150 Basispunkte (1,5 Prozentpunkte) als Schwelle, ab der wachsende Nervosität sichtbar würde. Für deutsche Anleger zählt das, weil Unruhe in der zweitgrößten Euro-Volkswirtschaft Banken, den Euro und europäische Aktien insgesamt trifft."
+  },
+  {
+   "id": "2026-10-19-morgen-1",
+   "article_id": "2026-10-19-morgen",
+   "title": "Öl gibt nach, Asien schwach, US-Futures erholt, und Trump stellt sich vor Israels Wahl hinter Netanjahu",
+   "date": "2026-10-19",
+   "labels": [
+    "Märkte",
+    "Energie",
+    "Zinsen",
+    "Tech",
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA"
+   ],
+   "text": "Warum profitieren Anleihen, wenn Öl fällt? Billigeres Öl dämpft die Inflationserwartungen. Dann rechnen Anleger mit weniger Druck auf die Notenbank, Zinsen anzuheben, und kaufen Anleihen, deren Renditen dadurch sinken. Hinzu kam laut Reuters die Flucht aus Aktien in sichere Häfen."
+  },
+  {
+   "id": "2026-10-18-abend-1",
+   "article_id": "2026-10-18-abend",
+   "title": "Öl vor der neuen Woche: Was zwischen 100 und 115 Dollar entscheidet, und Iran bekommt einen neuen Verteidigungsminister",
+   "date": "2026-10-18",
+   "labels": [
+    "Energie",
+    "Märkte",
+    "Zinsen",
+    "Iran",
+    "Naher Osten",
+    "USA"
+   ],
+   "text": "Warum helfen Notreserven so wenig? Laut FinanceFeeds deckt die Diesel-Freigabe der Internationalen Energieagentur weniger als vier Tage der Hormus-Lücke, und der 17-Mio.-Barrel-Tausch aus der US-Strategiereserve ist ein Darlehen, das später zurückgegeben werden muss, kein zusätzliches Angebot. Reserven überbrücken also Tage, keine Monate."
+  },
+  {
+   "id": "2026-10-18-mittag-1",
+   "article_id": "2026-10-18-mittag",
+   "title": "Stiller Sonntag an den Kryptomärkten, Reisewarnungen für Saudi-Arabien und eine Bilanz der iranischen Angriffe am Golf",
+   "date": "2026-10-18",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Naher Osten",
+    "Iran",
+    "Geopolitik"
+   ],
+   "text": "Am Wochenende sind die US-Börsen und damit auch die Krypto-ETFs geschlossen. Der wichtigste institutionelle Geldkanal der letzten Wochen fällt also weg, Bewegungen sind oft kleiner oder entstehen bei dünnem Handel. Echte Signale liefert meist erst der Montag, wenn die ETF-Flüsse wieder einsetzen."
+  },
+  {
+   "id": "2026-10-18-morgen-1",
+   "article_id": "2026-10-18-morgen",
+   "title": "Rekordwoche bei Angriffen auf Schiffe vor Hormus, Jemen lehnt Irans Vermittlung ab, Trump verspricht schnelles Kriegsende",
+   "date": "2026-10-18",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie",
+    "Israel"
+   ],
+   "text": "Beide Zahlen können gleichzeitig stimmen. Für die Ölpreise zählt nicht nur, wie viele Schiffe getroffen werden, sondern was Reedereien und Versicherer erwarten. Schon wenige Treffer verteuern Versicherungsprämien und halten Tanker fern. Deshalb reagiert der Ölpreis auf Risiko oft stärker als auf tatsächliche Ausfälle."
+  },
+  {
+   "id": "2026-10-17-abend-1",
+   "article_id": "2026-10-17-abend",
+   "title": "Iran bietet Vermittlung im Saudi-Huthi-Konflikt an, Berichte über iranische Geheimdiensthilfe, und die Woche von Meta, Tesla und SAP",
+   "date": "2026-10-17",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Israel",
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI"
+   ],
+   "text": "Was ist der \"Konsens\"? Es ist der Durchschnitt der Analystenschätzungen für den Gewinn je Aktie. Kurse reagieren oft weniger auf die absolute Zahl als auf die Abweichung vom Konsens und vor allem auf den Ausblick. Bei Meta und Lam Research werden Anleger besonders auf Aussagen zu KI-Investitionen achten, weil genau diese Ausgaben zuletzt angezweifelt wurden."
+  },
+  {
+   "id": "2026-10-17-mittag-1",
+   "article_id": "2026-10-17-mittag",
+   "title": "Krypto-Wochenende: ETF-Abflüsse treffen Ethereum härter als Bitcoin, Hedera wächst ohne Kursplus, Deutsche Bank startet bald Verwahrung",
+   "date": "2026-10-17",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Hedera",
+    "Deutschland",
+    "Märkte"
+   ],
+   "text": "Warum treibt mehr Nutzung den Kurs nicht automatisch? Auf Hedera kosten Transaktionen Bruchteile eines Cents. Selbst eine Verdopplung der Aktivität erzeugt deshalb kaum Nachfrage nach HBAR. Der Kurs hängt stärker an Stimmung, Spekulation und der allgemeinen Marktlage. Nutzung ist ein Fundament, aber kein kurzfristiger Kurstreiber."
+  },
+  {
+   "id": "2026-10-17-morgen-1",
+   "article_id": "2026-10-17-morgen",
+   "title": "Nasdaq verliert 4,5 % in einer Woche, Brent fast bei 110 Dollar, und Trump setzt Russland-Sanktionen aus",
+   "date": "2026-10-17",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Energie",
+    "Geopolitik",
+    "Iran",
+    "Naher Osten",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "text": "Was ist eine Sektorrotation? Große Anleger halten selten Bargeld. Wenn sie einen Bereich für zu riskant halten, schichten sie in andere Branchen um, oft in sogenannte defensive Werte wie Gesundheit, Versorger oder Konsumgüter. Deren Geschäft hängt weniger von der Konjunktur ab. Ein Index mit vielen solchen Werten, wie der Dow, kann dann steigen, während ein Technologieindex wie der Nasdaq fällt ."
+  },
+  {
+   "id": "2026-10-16-abend-1",
+   "article_id": "2026-10-16-abend",
+   "title": "Warsh legt sich nicht fest, Iran knüpft Hormus an einen US-Abzug, und die KI-Schuldenfrage bleibt",
+   "date": "2026-10-16",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "KI",
+    "Tech",
+    "Märkte",
+    "Iran",
+    "Naher Osten",
+    "Energie",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "text": "Warum kann eine Technologie, die langfristig Kosten senkt, kurzfristig die Inflation treiben? Bevor KI produktiver macht, muss sie gebaut werden: Rechenzentren, Chips, Stromnetze. Diese Investitionen erzeugen heute zusätzliche Nachfrage nach knappen Gütern und verteuern sie. Der Nutzen, also mehr Leistung mit weniger Aufwand, kommt erst Jahre später. Ökonomen sprechen von einer Investitionsphase vor der Ertragsphase. Warsh beschreibt genau diesen Übergang ."
+  },
+  {
+   "id": "2026-10-16-mittag-1",
+   "article_id": "2026-10-16-mittag",
+   "title": "Europa auf Zwei-Wochen-Hoch, Fed-Vertreter bremsen die Zinswetten, und Energie treibt die Euro-Inflation",
+   "date": "2026-10-16",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Zinsen",
+    "USA",
+    "Energie",
+    "Deutschland",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto"
+   ],
+   "text": "Warum bewegen ein paar Sätze von Notenbankern die Märkte? Die Fed entscheidet im Komitee, und die Mitglieder signalisieren vorher in Reden, wohin sie tendieren. Händler wetten mit Terminkontrakten auf die nächste Entscheidung. Aus deren Preisen berechnet die CME die Wahrscheinlichkeiten in ihrem FedWatch-Werkzeug. Wenn zwei einflussreiche Stimmen „keine Eile“ signalisieren, verschieben sich diese Wetten innerhalb von Stunden, wie hier von 54 auf 32 % ."
+  },
+  {
+   "id": "2026-10-16-morgen-1",
+   "article_id": "2026-10-16-morgen",
+   "title": "Asien erholt sich, CoreWeave wird zum Symbol der KI-Schulden, und Riad beschuldigt Teheran offen",
+   "date": "2026-10-16",
+   "labels": [
+    "Märkte",
+    "Tech",
+    "KI",
+    "USA",
+    "Zinsen",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik"
+   ],
+   "text": "Was bedeutet „notleidend“ bei Anleihen? Normalerweise verlangen Anleger für Unternehmensanleihen einige Prozentpunkte mehr Zins als für Staatsanleihen. Steigt dieser Aufschlag auf zweistellige Werte, rechnet der Markt ernsthaft damit, dass das Unternehmen nicht alles zurückzahlen kann. Bei CoreWeave ist das ein Warnsignal für die ganze KI-Branche: Ein großer Teil der Rechenzentren wird mit Krediten gebaut, deren Rückzahlung davon abhängt, dass die KI-Nachfrage weiter wächst."
+  },
+  {
+   "id": "2026-10-15-abend-1",
+   "article_id": "2026-10-15-abend",
+   "title": "Erzeugerpreise plus 6,3 %, TSMC mit Rekordgewinn und trotzdem im Minus, und Washington will mehr Öl aus den Reserven",
+   "date": "2026-10-15",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Energie",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto"
+   ],
+   "text": "Was ist Stagflation? Das Wort setzt sich aus Stagnation und Inflation zusammen: Die Preise steigen, während die Wirtschaft kaum wächst. Für Notenbanken ist das die schwierigste Lage. Erhöhen sie die Zinsen gegen die Inflation, würgen sie das Wachstum weiter ab. Senken sie die Zinsen, heizen sie die Preise an. CoinDesk zitiert Giuseppe Dellamotta von investingLive, das Umfeld wirke stagflationär. In so einem Umfeld schnitten riskante Anlagen und der Dollar schwach ab, Gold dagegen stark . Genau das sehen wir gerade: Gold stieg heute um rund 1,5 % ."
+  },
+  {
+   "id": "2026-10-15-mittag-1",
+   "article_id": "2026-10-15-mittag",
+   "title": "Europas Chipwerte im Sog, die Notreserven werden knapp, und Ethereum-Entwickler beraten über Glamsterdam",
+   "date": "2026-10-15",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Zinsen",
+    "Energie",
+    "USA",
+    "Krypto",
+    "Ethereum"
+   ],
+   "text": "Warum Notreserven den Ölpreis später stützen können: Wer heute Öl aus der Reserve verkauft, senkt kurzfristig den Preis. Irgendwann muss die Reserve aber wieder aufgefüllt werden. Dann tritt der Staat als zusätzlicher Käufer auf. Fortune weist darauf hin, dass dieses Auffüllen die Preise hoch halten könnte . Die Reserve verschiebt die Knappheit also teilweise in die Zukunft."
+  },
+  {
+   "id": "2026-10-15-morgen-1",
+   "article_id": "2026-10-15-morgen",
+   "title": "Kospi minus 8 %, Nikkei minus 4,8 %: Die heiße US-Inflation erreicht Asien mit voller Wucht",
+   "date": "2026-10-15",
+   "labels": [
+    "Märkte",
+    "Tech",
+    "KI",
+    "USA",
+    "Zinsen",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto",
+    "Iran",
+    "Naher Osten"
+   ],
+   "text": "Warum treffen höhere Zinsen gerade KI-Aktien? Der Wert eines Wachstumsunternehmens hängt stark an Gewinnen, die erst in vielen Jahren erwartet werden. Je höher der Zins, desto weniger sind diese künftigen Gewinne heute wert. Dazu kommt: KI-Rechenzentren werden oft mit Krediten finanziert. Steigen die Zinsen, wird der Ausbau teurer. Reuters nennt Oracle und CoreWeave als Beispiele für Unternehmen, die die Aussicht auf höhere Finanzierungskosten belastet ."
+  },
+  {
+   "id": "2026-10-14-abend-1",
+   "article_id": "2026-10-14-abend",
+   "title": "US-Inflation bei 3,7 %, Zinserhöhung im Oktober wieder möglich, und in Hormus sinkt ein Containerschiff",
+   "date": "2026-10-14",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "Bitcoin",
+    "Krypto",
+    "Iran",
+    "Naher Osten",
+    "Energie"
+   ],
+   "text": "Warum schaut die Fed auf die Kernrate? Energiepreise schwanken stark, ein Krieg kann sie binnen Wochen hochtreiben und ein Waffenstillstand wieder senken. Die Notenbank kann daran wenig ändern. Die Kernrate zeigt, ob sich höhere Preise in der ganzen Wirtschaft festsetzen, etwa weil Unternehmen Kosten weitergeben und Beschäftigte höhere Löhne fordern. Dass die Kernrate heute stärker stieg als erwartet , ist deshalb das eigentliche Warnsignal, nicht die Gesamtzahl."
+  },
+  {
+   "id": "2026-10-14-mittag-1",
+   "article_id": "2026-10-14-mittag",
+   "title": "ASML kommt mit der Nachfrage nicht hinterher, Öl bleibt über 106 Dollar, und Iran setzt auf neue Taktiken in Hormus",
+   "date": "2026-10-14",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "Zinsen",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "text": "Warum Hardware-Wallets aus zweiter Hand riskant sind: Eine Hardware-Wallet speichert den privaten Schlüssel offline. Ihre Sicherheit hängt aber daran, dass Gerät und Software unverändert sind. Ein manipuliertes Gerät kann den Schlüssel unbemerkt kopieren oder vorab festlegen. Der Fall CryptoBilis zeigt, dass die Lieferkette Teil der Sicherheit ist."
+  },
+  {
+   "id": "2026-10-14-morgen-1",
+   "article_id": "2026-10-14-morgen",
+   "title": "Rakete trifft Aramco-Gebäude in Dhahran, Chinas Fabrikpreise steigen so schnell wie seit 2022 nicht, und heute kommt die US-Inflation",
+   "date": "2026-10-14",
+   "labels": [
+    "Naher Osten",
+    "Energie",
+    "Iran",
+    "USA",
+    "Zinsen",
+    "Märkte",
+    "Geopolitik",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "text": "Was verrät die Lücke zwischen Erzeuger- und Verbraucherpreisen? Steigen die Preise in den Fabriken viel schneller als im Laden, kommt der Druck von den Kosten, nicht von einer starken Nachfrage. Die Hersteller können die höheren Kosten kaum weitergeben, weil die Kunden nicht mitziehen . Das drückt auf ihre Gewinne. Für Europa ist das relevant: Chinesische Vorprodukte könnten teurer werden, und deutsche Exporteure verkaufen an eine Wirtschaft mit schwacher Binnennachfrage."
+  },
+  {
+   "id": "2026-10-13-abend-1",
+   "article_id": "2026-10-13-abend",
+   "title": "Goldman glänzt, JPMorgan verfehlt, und die Huthi nehmen Aramco ins Visier",
+   "date": "2026-10-13",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Zinsen",
+    "Naher Osten",
+    "Iran",
+    "Energie",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "text": "Warum interessiert Krypto die Inflation? Fällt die Inflation höher aus als erwartet, steigt laut Bitfinex die Wahrscheinlichkeit einer Zinserhöhung im Oktober, und die Renditen von Staatsanleihen klettern weiter . Sie liegen schon nahe 5,24 % . Wer sichere 5 % bekommt, hat weniger Grund, Geld in schwankende Anlagen zu stecken. Das ist der Kanal, über den eine Statistik aus Washington den Bitcoin-Kurs bewegt."
+  },
+  {
+   "id": "2026-10-13-mittag-1",
+   "article_id": "2026-10-13-mittag",
+   "title": "Infineon im Sog der Chip-Sorgen, ein französischer Käufer für eine deutsche Mittelstandsbank und Riad bleibt bis Samstag zu",
+   "date": "2026-10-13",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "Krypto",
+    "Bitcoin",
+    "Naher Osten",
+    "USA"
+   ],
+   "text": "Was bedeutet „CET1 sinkt um 20 Basispunkte“? Die harte Kernkapitalquote (CET1) misst, wie viel eigenes Kapital eine Bank im Verhältnis zu ihren Risiken hält. Wer eine andere Bank kauft, übernimmt deren Kredite und damit Risiken, das Kapital wird dünner. Crédit Agricole beziffert den Effekt auf rund 0,2 Prozentpunkte . Diese Zahl ist für Aufseher und Anleger oft wichtiger als der Kaufpreis, denn sie zeigt, wie viel Puffer nach dem Deal noch übrig ist."
+  },
+  {
+   "id": "2026-10-13-morgen-1",
+   "article_id": "2026-10-13-morgen",
+   "title": "Kospi bricht ein, Bitcoin rutscht unter 82.000 Dollar, und heute legen die Banken ihre Zahlen vor",
+   "date": "2026-10-13",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Naher Osten",
+    "Iran",
+    "Tech"
+   ],
+   "text": "Was ist eine Liquidation? Wer mit geliehenem Geld auf steigende Kurse setzt, muss eine Sicherheit hinterlegen. Fällt der Kurs zu weit, verkauft die Börse die Position automatisch. Diese Zwangsverkäufe drücken den Kurs weiter und lösen die nächsten Liquidationen aus. Deshalb fallen Kryptokurse oft schneller, als es die Nachrichtenlage allein erklärt. Dass hier fast 90 % der liquidierten Summe auf Long-Positionen entfielen , zeigt, wie einseitig der Markt zuvor positioniert war."
+  },
+  {
+   "id": "2026-10-12-abend-1",
+   "article_id": "2026-10-12-abend",
+   "title": "Riads Flughafen bleibt zu, Öl steigt wieder, und die Banken müssen morgen liefern",
+   "date": "2026-10-12",
+   "labels": [
+    "Naher Osten",
+    "Iran",
+    "USA",
+    "Energie",
+    "Märkte",
+    "Deutschland",
+    "Tech",
+    "Bitcoin",
+    "Krypto"
+   ],
+   "text": "Warum fallen Bankaktien, wenn die Zinsen hoch sind? Auf den ersten Blick verdienen Banken an hohen Zinsen mehr. Doch steigende Renditen senken den Marktwert der Anleihen, die Banken schon in ihren Büchern haben. Und teure Kredite bremsen die Nachfrage, während das Risiko steigt, dass Kunden nicht mehr zahlen können. Morgen zeigt sich, welcher Effekt bei den US-Großbanken überwiegt. Bei den aktuell hohen Anleiherenditen ist das ein echter Test."
+  },
+  {
+   "id": "2026-10-12-mittag-1",
+   "article_id": "2026-10-12-mittag",
+   "title": "Europas Banken legen zu, die EU räumt bei Stablecoins auf, und die Huthi drohen per X",
+   "date": "2026-10-12",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Zinsen",
+    "Krypto",
+    "Ethereum",
+    "Naher Osten",
+    "USA"
+   ],
+   "text": "Was bedeutet „nicht MiCA-konform“? MiCA ist die EU-Verordnung für Kryptowerte. Stablecoins, die an eine Währung gekoppelt sind (E-Geld-Token) oder an einen Korb von Werten (vermögenswertreferenzierte Token), brauchen danach einen zugelassenen Herausgeber in der EU, der unter anderem Reserven vorhält und Rücktausch garantiert. Die ESMA-Stellungnahme richtet sich an die Anbieter, nicht an Privatleute. Praktisch heißt sie: Wer in der EU über eine regulierte Börse handelt, wird nicht konforme Stablecoins dort bald nur noch verkaufen oder abziehen können."
+  },
+  {
+   "id": "2026-10-12-morgen-1",
+   "article_id": "2026-10-12-morgen",
+   "title": "Teheran bietet Riad Vermittlung an, Trump verkündet eine Waffenruhe, die keiner bestätigt",
+   "date": "2026-10-12",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "USA",
+    "Geopolitik",
+    "Energie",
+    "Märkte",
+    "Bitcoin",
+    "Ethereum",
+    "Krypto"
+   ],
+   "text": "Was ist ein Referenzkurs („Fixing“)? Chinas Notenbank legt jeden Morgen einen Mittelkurs für den Yuan fest, um den herum der Kurs am Festlandmarkt nur in einer engen Bandbreite schwanken darf. Ein Fixing, das deutlich stärker ausfällt als von Analysten geschätzt (6,7313 statt erwarteter 6,6977 je Dollar ), ist deshalb mehr als eine Zahl: Es ist ein Signal, wohin Peking die Währung steuern will. Indien zeigt gleichzeitig das Gegenteil: Ein Land, das viel Öl importiert, braucht bei Ölpreisen über 100 Dollar mehr Dollar, und die eigene Währung gerät unter Druck ."
+  },
+  {
+   "id": "2026-10-11-abend-1",
+   "article_id": "2026-10-11-abend",
+   "title": "Hormus-Gespräche stocken, Riad unter Beschuss, und eine Woche, die über Zinsen entscheidet",
+   "date": "2026-10-11",
+   "labels": [
+    "Iran",
+    "USA",
+    "Naher Osten",
+    "Wirtschaft",
+    "Märkte",
+    "Zinsen",
+    "Deutschland",
+    "Bitcoin",
+    "Ethereum",
+    "Hedera",
+    "Krypto"
+   ],
+   "text": "Gesamtinflation vs. Kerninflation. Die Kerninflation lässt Energie und Lebensmittel weg, weil deren Preise stark schwanken. Erwartet werden diesmal 3,7 % gesamt, aber nur 2,5 % Kern . Die Differenz von 1,2 Prozentpunkten zeigt, wie viel der Teuerung derzeit aus diesen schwankenden Preisen kommt, bei einem Brent-Preis um 104 Dollar vermutlich vor allem aus Energie. Notenbanken schauen meist stärker auf den Kern. Bleibt Öl aber lange teuer, sickert es über Transport und Vorprodukte auch in den Kern ein. Zinserhöhungen sind das klassische Mittel der Notenbank gegen diesen Zweitrundeneffekt."
+  }
+ ]
+}

@@ -42,7 +42,7 @@ def norm_time(v):
     return str(v)
 
 
-def check(path):
+def check_base(path):
     errors, warnings = [], []
     meta, body = split_frontmatter(path.read_text(encoding="utf-8"))
 
@@ -119,30 +119,14 @@ def check(path):
 
 
 def main():
-    articles, failed = [], False
-    for path in sorted(ARTICLES.glob("*.md")):
-        try:
-            article, errors, warnings = check(path)
-        except Exception as exc:  # kaputtes YAML o. Ä.
-            article, errors, warnings = None, [str(exc)], []
-        for w in warnings:
-            print(f"WARNUNG {path.name}: {w}")
-        for e in errors:
-            print(f"FEHLER  {path.name}: {e}")
-        if errors:
-            failed = True
-        elif article:
-            articles.append(article)
+    from editorial import run
+    return run(ROOT, check)
 
-    if failed:
-        print("Abbruch: index.json wurde NICHT geschrieben.")
-        sys.exit(1)
 
-    articles.sort(key=lambda a: (a["date"], a["time"]), reverse=True)
-    out = {"generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "articles": articles}
-    (ARTICLES / "index.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"OK: {len(articles)} Artikel in articles/index.json")
+def check(path, legacy=False):
+    from editorial import validate
+    return validate(path, legacy, check_base)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
