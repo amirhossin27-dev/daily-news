@@ -1,6 +1,52 @@
 {
- "generated": "2026-10-31T16:52:00+00:00",
+ "generated": "2026-11-01T05:54:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-01-morgen",
+   "file": "2026-11-01-morgen.md",
+   "title": "Trump nennt \"ein oder zwei\" Ziele in Iran, Khamenei befiehlt eine größere Zielliste, Binance öffnet erste Auszahlungen",
+   "summary": "Trump sagt, die USA müssten sich noch um ein oder zwei iranische Anlagen kümmern, darunter den Pickaxe-Berg. Irans Oberster Führer verlangt im Fall eines Angriffs eine Antwort ohne geografische Grenzen. Binance gibt ab heute Morgen Auszahlungen auf 15 Netzwerken schrittweise frei.",
+   "date": "2026-11-01",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "Iran",
+    "USA",
+    "Naher Osten",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US has to 'take care' of one or two Iran targets - Trump",
+     "publisher": "RTÉ",
+     "url": "https://www.rte.ie/news/2026/1101/1597505-trump-iran/",
+     "type": "news",
+     "date": "2026-11-01"
+    },
+    {
+     "id": 2,
+     "title": "Middle East conflict: Trump says US still has to 'take care' of one or two targets in Iran",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-says-us-still-has-to-take-care-of-one-or-two-targets-in-iran-1.500731311",
+     "type": "news",
+     "date": "2026-11-01"
+    },
+    {
+     "id": 3,
+     "title": "Binance Withdrawals Reopen: Which Networks Come First",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/binance-withdrawals-reopen-phase-one/",
+     "type": "news",
+     "date": "2026-11-01"
+    }
+   ],
+   "words": 722,
+   "reading_minutes": 4,
+   "previous_id": "2026-10-31-abend"
+  },
   {
    "id": "2026-10-31-abend",
    "file": "2026-10-31-abend.md",
