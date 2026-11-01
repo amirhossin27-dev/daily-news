@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-01T10:55:00+00:00",
+ "generated": "2026-11-01T16:53:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-01-abend",
+   "file": "2026-11-01-abend.md",
+   "title": "FBI nennt Nordkorea, Eisenkot vorn, Iran stellt Bedingungen",
+   "summary": "Das FBI ordnet den Binance-Hack der Gruppe TraderTraitor zu, in Israel zeichnen sich etwa 60 Empfehlungen für Eisenkot ab, und Teheran knüpft eine Hormus-Öffnung an fünf Forderungen.",
+   "date": "2026-11-01",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "Krypto",
+    "Israel",
+    "Iran",
+    "USA",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "FBI blames North Korea for record $6.3bn crypto heist",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist",
+     "type": "news",
+     "date": "2026-11-01"
+    },
+    {
+     "id": 2,
+     "title": "Herzog to begin coalition consultations",
+     "publisher": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/sk8eaw4pge",
+     "type": "news",
+     "date": "2026-11-01"
+    },
+    {
+     "id": 3,
+     "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know",
+     "type": "news",
+     "date": "2026-11-01"
+    }
+   ],
+   "words": 810,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-01-mittag"
+  },
   {
    "id": "2026-11-01-mittag",
    "file": "2026-11-01-mittag.md",
