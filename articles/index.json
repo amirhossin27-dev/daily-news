@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-01T05:54:00+00:00",
+ "generated": "2026-11-01T10:55:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-01-mittag",
+   "file": "2026-11-01-mittag.md",
+   "title": "Binance zahlt wieder aus, zuerst Bitcoin. Zwei Tage vor den Midterms führen die Demokraten deutlich, über 51 Millionen haben gewählt",
+   "summary": "Die erste Auszahlungsphase bei Binance ist gelaufen, weitere Netzwerke folgen ohne festen Termin. In den USA liegen die Demokraten in Umfragen gut acht Punkte vorn, in Kansas wackelt ein republikanischer Senatssitz. Ein Blick auf die Woche: Reservennachweis, Wahl und Arbeitsmarktdaten.",
+   "date": "2026-11-01",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "USA",
+    "Märkte",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Binance opens crypto withdrawals in phases, starting with bitcoin, following $6.3 billion hack",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+     "type": "news",
+     "date": "2026-11-01"
+    },
+    {
+     "id": 2,
+     "title": "US midterms: 2 days to go, what polls say as Trump, El-Sayed hit the trail",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail",
+     "type": "analysis",
+     "date": "2026-11-01"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin Trades at $77,827 With 60 Calendar Days Left in 2026",
+     "publisher": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/45725",
+     "type": "data",
+     "date": "2026-11-01"
+    },
+    {
+     "id": 4,
+     "title": "Crypto Weekly Recap: Binance Hack and Wall Street Crash",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-weekly-recap-week-44-2026-binance-hack-stock-crash",
+     "type": "analysis",
+     "date": "2026-10-31"
+    }
+   ],
+   "words": 717,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-01-morgen"
+  },
   {
    "id": "2026-11-01-morgen",
    "file": "2026-11-01-morgen.md",

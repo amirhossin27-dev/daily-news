@@ -1,6 +1,20 @@
 {
- "generated": "2026-11-01T05:54:00+00:00",
+ "generated": "2026-11-01T10:55:00+00:00",
  "items": [
+  {
+   "id": "2026-11-01-mittag-1",
+   "article_id": "2026-11-01-mittag",
+   "title": "Binance zahlt wieder aus, zuerst Bitcoin. Zwei Tage vor den Midterms führen die Demokraten deutlich, über 51 Millionen haben gewählt",
+   "date": "2026-11-01",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "USA",
+    "Märkte",
+    "Zinsen"
+   ],
+   "text": "Warum öffnet eine Börse Auszahlungen nach Netzwerken getrennt? Jede Blockchain hat eigene Wallets, eigene Software und eigene Risiken. Nach einem Angriff muss für jede einzeln geprüft werden, ob die Systeme sauber sind. Wer zuerst die gefragtesten Netzwerke öffnet, entlastet die meisten Kunden und begrenzt gleichzeitig das Risiko."
+  },
   {
    "id": "2026-11-01-morgen-1",
    "article_id": "2026-11-01-morgen",
