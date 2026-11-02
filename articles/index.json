@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-02T10:54:00+00:00",
+ "generated": "2026-11-02T17:16:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-02-abend",
+   "file": "2026-11-02-abend.md",
+   "title": "Wall Street erholt sich, Irans Delegation verlässt Doha, Trump schließt Wahlkampf",
+   "summary": "US-Aktien starten nach dem Tech-Ausverkauf freundlich, Öl fällt um über vier Prozent, Iran wartet nach dem Abzug aus Katar auf eine US-Antwort, und am Vorabend der Midterms sorgt ein Seitenwechsel in Michigan für Aufsehen.",
+   "date": "2026-11-02",
+   "edition": "abend",
+   "time": "18:16",
+   "labels": [
+    "Märkte",
+    "Energie",
+    "Iran",
+    "USA",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stock Market Today (Nov. 2, 2026): Dow, Russell 2000 lead as market gains ahead of Apple's earnings report",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 2,
+     "title": "Where things stand on Iran after tense weekend as its delegation leaves Qatar",
+     "publisher": "The Philadelphia Inquirer (AP)",
+     "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 3,
+     "title": "US midterms 2026 live: Trump, Democrats make final push amid Michigan rift",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/us-midterms-2026-live-trump-democrats-make-final-push-amid-michigan-rift",
+     "type": "news",
+     "date": "2026-11-02"
+    }
+   ],
+   "words": 729,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-02-mittag"
+  },
   {
    "id": "2026-11-02-mittag",
    "file": "2026-11-02-mittag.md",
