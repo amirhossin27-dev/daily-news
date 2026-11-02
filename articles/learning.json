@@ -1,6 +1,20 @@
 {
- "generated": "2026-11-02T05:54:00+00:00",
+ "generated": "2026-11-02T10:54:00+00:00",
  "items": [
+  {
+   "id": "2026-11-02-mittag-1",
+   "article_id": "2026-11-02-mittag",
+   "title": "DAX trotzt Nasdaq-Schwäche, Binance verschiebt Reservenbericht",
+   "date": "2026-11-02",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Energie",
+    "Krypto",
+    "Iran"
+   ],
+   "text": "Warum kann der DAX steigen, wenn die Nasdaq fällt? Der DAX ist weniger von großen Software- und Internetkonzernen geprägt und stärker von Industrie, Chemie und Versorgern. Sinkt zugleich der Ölpreis, entlastet das energieintensive Unternehmen, was den Index zusätzlich stützen kann."
+  },
   {
    "id": "2026-11-02-morgen-1",
    "article_id": "2026-11-02-morgen",

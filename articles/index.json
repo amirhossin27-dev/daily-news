@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-02T05:54:00+00:00",
+ "generated": "2026-11-02T10:54:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-02-mittag",
+   "file": "2026-11-02-mittag.md",
+   "title": "DAX trotzt Nasdaq-Schwäche, Binance verschiebt Reservenbericht",
+   "summary": "Der DAX hält sich knapp über 25.800 Punkten, Brent fällt Richtung 110 Dollar, die Tanker-Meldung aus Hormus bleibt unbestätigt, und Binance legt den vollständigen Reservenbericht erst am Dienstag vor.",
+   "date": "2026-11-02",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Energie",
+    "Krypto",
+    "Iran"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Frankfurt Stocks Open: Nasdaq Weakness Fails to Spill Over",
+     "publisher": "MarketScreener",
+     "url": "https://www.marketscreener.com/news/frankfurt-stocks-open-nasdaq-weakness-fails-to-spill-over-ce785fd8df81f024",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 2,
+     "title": "Market Quick Take - Markets find calm after Friday turmoil - 2 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---markets-find-calm-after-friday-turmoil----2-november-2026-02112026",
+     "type": "analysis",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 3,
+     "title": "Iran says two tankers hit mines in Hormuz as Tehran offers two-day reopening plan",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/commodities/iran-says-two-tankers-hit-mines-in-hormuz-as-tehran-offers-two-day-reopening-plan/",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 4,
+     "title": "Binance Proof of Reserves: What Monday Shows",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/binance-proof-of-reserves-monday-6-34-billion/",
+     "type": "news",
+     "date": "2026-11-01"
+    }
+   ],
+   "words": 742,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-02-morgen"
+  },
   {
    "id": "2026-11-02-morgen",
    "file": "2026-11-02-morgen.md",
