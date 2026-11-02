@@ -1,6 +1,60 @@
 {
- "generated": "2026-11-01T16:53:00+00:00",
+ "generated": "2026-11-02T05:54:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-02-morgen",
+   "file": "2026-11-02-morgen.md",
+   "title": "Tech-Schock verdaut, Ölpreis sinkt, Tanker in Hormus getroffen",
+   "summary": "Asien startet gemischt nach dem Nasdaq-Einbruch vom Freitag, Öl fällt wegen Trumps Diplomatie-Signal, die Revolutionsgarde meldet zwei Tanker auf Minen, und einen Tag vor den Midterms sehen Prognosen die Demokraten vorn.",
+   "date": "2026-11-02",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "Märkte",
+    "Krypto",
+    "Bitcoin",
+    "Iran",
+    "USA",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stock Selloff Eases in Asian Trade, Oil Declines: Markets Wrap",
+     "publisher": "Bloomberg via swissinfo.ch",
+     "url": "https://swissinfo.ch/eng/stock-selloff-eases-in-asian-trade,-oil-declines:-markets-wrap/92310840",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 2,
+     "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 3,
+     "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 4,
+     "title": "2026 Midterm Election Forecast: Senate & House",
+     "publisher": "Silver Bulletin",
+     "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+     "type": "analysis",
+     "date": "2026-11-01"
+    }
+   ],
+   "words": 786,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-01-abend"
+  },
   {
    "id": "2026-11-01-abend",
    "file": "2026-11-01-abend.md",
