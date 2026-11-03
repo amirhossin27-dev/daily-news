@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-03T10:54:00+00:00",
+ "generated": "2026-11-03T16:52:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-03-abend",
+   "file": "2026-11-03-abend.md",
+   "title": "Amerika wählt, Apple verliert 200 Milliarden, Vance sieht Fortschritte mit Iran",
+   "summary": "Über 57 Millionen Amerikaner haben vorab gewählt, Apple fällt vorbörslich um vier Prozent, Chipwerte erholen sich vor den AMD-Zahlen, Brent sinkt Richtung 100 Dollar, und die USA nennen ihre Schläge in Hormus defensiv.",
+   "date": "2026-11-03",
+   "edition": "abend",
+   "time": "17:52",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Tech",
+    "Energie",
+    "Iran"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "2026 elections live updates as polls open across the country in battle for Senate and House control",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+     "type": "news",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today Live, November 3, 2026: Chip Stocks Lift the Nasdaq as Apple Weighs on the Dow",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026",
+     "type": "news",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 3,
+     "title": "Iran war live: Vance sees progress in talks, Tehran says ball in US court",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court",
+     "type": "news",
+     "date": "2026-11-03"
+    }
+   ],
+   "words": 727,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-03-mittag"
+  },
   {
    "id": "2026-11-03-mittag",
    "file": "2026-11-03-mittag.md",
