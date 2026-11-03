@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-03T05:53:00+00:00",
+ "generated": "2026-11-03T10:54:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-03-mittag",
+   "file": "2026-11-03-mittag.md",
+   "title": "Apples Margenwarnung drückt Europas Chipwerte, Binance legt Reservenbeweis vor",
+   "summary": "Der DAX verliert fast ein Prozent, weil Apple wegen teurer Speicherchips vor schwächeren Margen warnt, Binance veröffentlicht einen Zero-Knowledge-Reservenbeweis für zehn Token, und nach einem US-Schlag auf Qeshm steigt Öl leicht.",
+   "date": "2026-11-03",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Tech",
+    "Krypto",
+    "Iran"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European shares slide as Apple margin warning trigger global tech rout",
+     "publisher": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/european-shares-slide-as-apple-margin-warning-trigger-global-tech-rout-4993704",
+     "type": "news",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 2,
+     "title": "Market Quick Take - US mid-term elections today the focus - 3 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---us-mid-term-elections-today-the-focus---3-november-2026-03112026",
+     "type": "analysis",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 3,
+     "title": "Binance Publishes Zero-Knowledge Reserve Proof for BTC, ETH and 8 Other Tokens After Hack",
+     "publisher": "Unchained",
+     "url": "https://unchainedcrypto.com/binance-publishes-zero-knowledge-reserve-proof-for-btc-eth-and-8-other-tokens-after-hack/",
+     "type": "news",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 4,
+     "title": "Live - Qatar remains hopeful of US-Iran deal despite Tehran saying deal is far off",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202610312594",
+     "type": "news",
+     "date": "2026-11-03"
+    }
+   ],
+   "words": 755,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-03-morgen"
+  },
   {
    "id": "2026-11-03-morgen",
    "file": "2026-11-03-morgen.md",
