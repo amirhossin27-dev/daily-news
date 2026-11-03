@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-02T17:16:00+00:00",
+ "generated": "2026-11-03T05:53:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-03-morgen",
+   "file": "2026-11-03-morgen.md",
+   "title": "Wahltag in den USA, Australien erhöht Zinsen, Apple mit Rekordquartal",
+   "summary": "Die USA wählen, Australiens Notenbank hebt den Leitzins auf den höchsten Stand seit 2008, Apple meldet Rekordumsatz, die Nasdaq fiel erneut, und Berichte über eine US-Operation gegen Iran nach der Wahl halten an.",
+   "date": "2026-11-03",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Märkte",
+    "Zinsen",
+    "Tech",
+    "USA",
+    "Iran"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stock Market Today (Nov. 2, 2026): Apple falls after posting slower earnings growth; S&P 500 falls ahead of U.S. midterms",
+     "publisher": "TheStreet",
+     "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 2,
+     "title": "Apple Reports 4Q 2026 Results: $30.7B Profit on $114.5B Revenue",
+     "publisher": "MacRumors",
+     "url": "https://www.macrumors.com/2026/11/02/apple-4q-2026-earnings/",
+     "type": "news",
+     "date": "2026-11-02"
+    },
+    {
+     "id": 3,
+     "title": "RBA lifts interest rates to highest level in 18 years to try to dampen inflation",
+     "publisher": "ABC News (Australien)",
+     "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050",
+     "type": "news",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 4,
+     "title": "Liveblog November 2, 2026",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-1-2026-2/",
+     "type": "news",
+     "date": "2026-11-02"
+    }
+   ],
+   "words": 723,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-02-abend"
+  },
   {
    "id": "2026-11-02-abend",
    "file": "2026-11-02-abend.md",
