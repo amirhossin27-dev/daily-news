@@ -1,6 +1,50 @@
 {
- "generated": "2026-11-04T05:54:00+00:00",
+ "generated": "2026-11-04T10:55:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-04-mittag",
+   "file": "2026-11-04-mittag.md",
+   "title": "Demokraten erobern beide Kammern, Europa rechnet mit Zöllen",
+   "summary": "Die Demokraten gewinnen nach Medienberichten Haus und Senat, darunter Sitze in Maine, Ohio und Kansas. Gold steigt über 4000 Dollar, der Euro legt zu, und Ökonomen warnen, Trump könne stärker auf Zölle setzen.",
+   "date": "2026-11-04",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Europa",
+    "Krypto"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US midterms: What Trump's defeat means for Europe and global markets",
+     "publisher": "Euronews",
+     "url": "https://www.euronews.com/2026/11/04/us-midterms-what-trumps-defeat-means-for-europe-and-global-markets",
+     "type": "analysis",
+     "date": "2026-11-04"
+    },
+    {
+     "id": 2,
+     "title": "Market Quick Take - Democrats take control of House and Senate - 4 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---democrats-take-control-of-house-and-senate---4-november-2026-04112026",
+     "type": "analysis",
+     "date": "2026-11-04"
+    },
+    {
+     "id": 3,
+     "title": "2026 midterm election results: Who won the key House and Senate races?",
+     "publisher": "Northeastern Global News",
+     "url": "https://news.northeastern.edu/2026/11/03/midterm-election-results-analysis-2026/",
+     "type": "news",
+     "date": "2026-11-03"
+    }
+   ],
+   "words": 708,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-04-morgen"
+  },
   {
    "id": "2026-11-04-morgen",
    "file": "2026-11-04-morgen.md",
