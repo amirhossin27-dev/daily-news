@@ -1,6 +1,49 @@
 {
- "generated": "2026-11-03T16:52:00+00:00",
+ "generated": "2026-11-04T05:54:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-04-morgen",
+   "file": "2026-11-04-morgen.md",
+   "title": "Demokraten auf Kurs zur Kongressmehrheit, Börsen geben nach",
+   "summary": "Die Demokraten gewinnen nach US-Medienprojektionen das Repräsentantenhaus und holen Senatssitze in North Carolina und Texas; der Senat ist nach unseren Quellen noch nicht entschieden. US-Futures und Nikkei fallen, der Dollar wird schwächer.",
+   "date": "2026-11-04",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "USA",
+    "Märkte",
+    "Wirtschaft"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "2026 midterm election results: Who won the key House and Senate races?",
+     "publisher": "Northeastern Global News",
+     "url": "https://news.northeastern.edu/2026/11/03/midterm-election-results-analysis-2026/",
+     "type": "news",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 2,
+     "title": "Stocks wilt, dollar slides as early midterm results point to blue sweep",
+     "publisher": "Reuters via Lufkin Daily News",
+     "url": "https://lufkindailynews.com/news_reuters/business/stocks-wilt-dollar-slides-as-early-midterm-results-point-to-blue-sweep/article_c620819f-28e2-5619-821c-c23f962537ce.html",
+     "type": "news",
+     "date": "2026-11-04"
+    },
+    {
+     "id": 3,
+     "title": "2026 elections live updates as polls open across the country in battle for Senate and House control",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+     "type": "news",
+     "date": "2026-11-03"
+    }
+   ],
+   "words": 708,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-03-abend"
+  },
   {
    "id": "2026-11-03-abend",
    "file": "2026-11-03-abend.md",
