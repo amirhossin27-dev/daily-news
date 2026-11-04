@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-04T10:55:00+00:00",
+ "generated": "2026-11-04T16:53:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-04-abend",
+   "file": "2026-11-04-abend.md",
+   "title": "Trump droht mit Veto, Eurozone-Inflation bei vier Prozent, Herzog startet Gespräche",
+   "summary": "Trump zeigt sich überrascht von der Niederlage und kündigt Vetos an, die Inflation im Euroraum erreicht den höchsten Stand seit 2023, und in Israel beginnen die Konsultationen zur Regierungsbildung.",
+   "date": "2026-11-04",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "USA",
+    "Europa",
+    "Deutschland",
+    "Zinsen",
+    "Israel"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Trump says he was 'a little bit surprised' after Democrats' big win in midterms",
+     "publisher": "ABC News",
+     "url": "https://abcnews.com/Politics/trump-bit-surprised-after-democrats-big-win-midterms/story?id=137835787",
+     "type": "news",
+     "date": "2026-11-04"
+    },
+    {
+     "id": 2,
+     "title": "Eurozone inflation hits 4%: Which countries saw prices jump the most?",
+     "publisher": "Euronews",
+     "url": "https://www.euronews.com/2026/11/04/eurozone-inflation-hits-4-which-countries-saw-prices-jump-the-most",
+     "type": "news",
+     "date": "2026-11-04"
+    },
+    {
+     "id": 3,
+     "title": "Israel's Herzog urges parties to accept 'no clear winner'",
+     "publisher": "RTÉ",
+     "url": "https://www.rte.ie/news/world/2026/1104/1597892-israel-election/",
+     "type": "news",
+     "date": "2026-11-04"
+    }
+   ],
+   "words": 725,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-04-mittag"
+  },
   {
    "id": "2026-11-04-mittag",
    "file": "2026-11-04-mittag.md",
