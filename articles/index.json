@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-05T10:55:00+00:00",
+ "generated": "2026-11-05T16:53:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-05-abend",
+   "file": "2026-11-05-abend.md",
+   "title": "Bank of England erhöht auf 4 Prozent, Herzog hört die Parteien, Iran zögert",
+   "summary": "Die Bank of England hebt den Leitzins erstmals seit 2023 an und erwartet fünf Prozent Inflation, in Israel zeichnen sich die ersten Empfehlungen ab, und im Iran-Konflikt wartet Katar weiter auf eine Antwort aus Teheran.",
+   "date": "2026-11-05",
+   "edition": "abend",
+   "time": "17:53",
+   "labels": [
+    "Zinsen",
+    "Europa",
+    "Israel",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live: Bank of England raises interest rates",
+     "publisher": "MoneyWeek",
+     "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england",
+     "type": "news",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 2,
+     "title": "Israel's Herzog accepts vote results, opens talks on forming a government",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government",
+     "type": "news",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 3,
+     "title": "Qatar says it's still passing ideas between US and Iran, while Tehran reportedly expects return to war",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/qatar-says-its-still-passing-ideas-between-us-and-iran-while-tehran-reportedly-expects-return-to-war/",
+     "type": "news",
+     "date": "2026-11-03"
+    },
+    {
+     "id": 4,
+     "title": "US Approves Qatar-Mediated Iran Proposal, Awaits Response From Tehran",
+     "publisher": "Bloomingbit",
+     "url": "https://en.bloomingbit.io/feed/news/123563",
+     "type": "news",
+     "date": "2026-11-03"
+    }
+   ],
+   "words": 703,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-05-mittag"
+  },
   {
    "id": "2026-11-05-mittag",
    "file": "2026-11-05-mittag.md",
