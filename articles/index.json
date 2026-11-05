@@ -1,6 +1,60 @@
 {
- "generated": "2026-11-05T05:54:00+00:00",
+ "generated": "2026-11-05T10:55:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-05-mittag",
+   "file": "2026-11-05-mittag.md",
+   "title": "DAX nahe Rekord, Rheinmetall stürzt ab, Bitcoin wieder über 80.000",
+   "summary": "Der DAX nähert sich seinem Rekord vom August, Rheinmetall bricht nach erneut gesenkter Prognose um rund 16 Prozent ein, Bitcoin und Ether legen kräftig zu, und um 13 Uhr entscheidet die Bank of England.",
+   "date": "2026-11-05",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Frankfurt Stocks Open: Dax Slightly Higher, Rheinmetall Plunges",
+     "publisher": "MarketScreener",
+     "url": "https://www.marketscreener.com/news/frankfurt-stocks-open-dax-slightly-higher-rheinmetall-plunges-ce785fdcda8ffe25",
+     "type": "news",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 2,
+     "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+     "type": "news",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 3,
+     "title": "Bank of England Rate Decision 5 November 2026: Release Time and 4% Forecast",
+     "publisher": "Forex Fundamentals",
+     "url": "https://forexfundamentals.com/economic-calendar/boe/2026-11-05",
+     "type": "data",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 4,
+     "title": "Asia Market Quick Take - 5 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take-05-november-2026-05112026",
+     "type": "analysis",
+     "date": "2026-11-05"
+    }
+   ],
+   "words": 705,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-05-morgen"
+  },
   {
    "id": "2026-11-05-morgen",
    "file": "2026-11-05-morgen.md",

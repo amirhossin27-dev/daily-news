@@ -1,6 +1,21 @@
 {
- "generated": "2026-11-05T05:54:00+00:00",
+ "generated": "2026-11-05T10:55:00+00:00",
  "items": [
+  {
+   "id": "2026-11-05-mittag-1",
+   "article_id": "2026-11-05-mittag",
+   "title": "DAX nahe Rekord, Rheinmetall stürzt ab, Bitcoin wieder über 80.000",
+   "date": "2026-11-05",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Zinsen"
+   ],
+   "text": "Warum fällt eine Aktie bei einer Prognosesenkung oft stärker als bei schwachen Quartalszahlen? Der Kurs bildet die erwarteten künftigen Gewinne ab. Senkt ein Unternehmen den Ausblick, müssen Anleger ihre Annahmen für mehrere Jahre anpassen. Passiert das zum zweiten Mal, leidet zusätzlich das Vertrauen in die Planung des Managements."
+  },
   {
    "id": "2026-11-05-morgen-1",
    "article_id": "2026-11-05-morgen",
