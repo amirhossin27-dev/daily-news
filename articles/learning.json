@@ -1,6 +1,20 @@
 {
- "generated": "2026-11-04T16:53:00+00:00",
+ "generated": "2026-11-05T05:54:00+00:00",
  "items": [
+  {
+   "id": "2026-11-05-morgen-1",
+   "article_id": "2026-11-05-morgen",
+   "title": "Dow springt drei Prozent, Brent fällt unter 100 Dollar, Gold über 4000",
+   "date": "2026-11-05",
+   "labels": [
+    "Märkte",
+    "Energie",
+    "USA",
+    "Iran",
+    "Naher Osten"
+   ],
+   "text": "Warum stiegen Gold und Aktien gleichzeitig? Normalerweise gilt Gold als sicherer Hafen in Krisen. Hier wirkten andere Kräfte: Fallende Zinsen machen Gold attraktiver, weil es keine Zinsen abwirft, und ein schwächerer Dollar verbilligt es für Käufer außerhalb der USA."
+  },
   {
    "id": "2026-11-04-abend-1",
    "article_id": "2026-11-04-abend",

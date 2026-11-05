@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-04T16:53:00+00:00",
+ "generated": "2026-11-05T05:54:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-05-morgen",
+   "file": "2026-11-05-morgen.md",
+   "title": "Dow springt drei Prozent, Brent fällt unter 100 Dollar, Gold über 4000",
+   "summary": "Nach dem demokratischen Wahlsieg setzen Anleger auf ein früheres Ende des Iran-Kriegs: Öl bricht ein, Aktien steigen kräftig. Trump räumt ein, der Krieg habe die Wahl gekostet, plant aber keinen sofortigen Angriff.",
+   "date": "2026-11-05",
+   "edition": "morgen",
+   "time": "06:54",
+   "labels": [
+    "Märkte",
+    "Energie",
+    "USA",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Asia Market Quick Take - 5 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take-05-november-2026-05112026",
+     "type": "analysis",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 2,
+     "title": "Iran war live: Khamenei says US hostility will persist after midterms",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it",
+     "type": "news",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 3,
+     "title": "Live - Trump weighs Iran strikes, deal or economic pressure after election defeat",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202610312594",
+     "type": "news",
+     "date": "2026-11-04"
+    }
+   ],
+   "words": 729,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-04-abend"
+  },
   {
    "id": "2026-11-04-abend",
    "file": "2026-11-04-abend.md",
