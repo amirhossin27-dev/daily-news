@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-06T05:53:00+00:00",
+ "generated": "2026-11-06T10:55:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-06-mittag",
+   "file": "2026-11-06-mittag.md",
+   "title": "DAX fällt vom Rekord, Bitcoin-ETFs verlieren 430 Millionen",
+   "summary": "Einen Tag nach seinem Rekordhoch verliert der DAX über zwei Prozent, Versicherer und Logistiker stehen unter Druck, Infineon steigt gegen den Trend. Bitcoin erholt sich knapp über 76.000 Dollar, während Anleger Krypto-Positionen auflösen.",
+   "date": "2026-11-06",
+   "edition": "mittag",
+   "time": "11:55",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "DAX-FLASH: US tech rout triggers profit-taking after record high",
+     "publisher": "MarketScreener",
+     "url": "https://www.marketscreener.com/news/dax-flash-us-tech-rout-triggers-profit-taking-after-record-high-ce785fdddf80f727",
+     "type": "news",
+     "date": "2026-11-06"
+    },
+    {
+     "id": 2,
+     "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
+     "publisher": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
+     "type": "news",
+     "date": "2026-11-06"
+    },
+    {
+     "id": 3,
+     "title": "Asia Market Quick Take - 5 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take-05-november-2026-05112026",
+     "type": "analysis",
+     "date": "2026-11-05"
+    }
+   ],
+   "words": 715,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-06-morgen"
+  },
   {
    "id": "2026-11-06-morgen",
    "file": "2026-11-06-morgen.md",

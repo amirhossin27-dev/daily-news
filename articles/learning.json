@@ -1,6 +1,36 @@
 {
- "generated": "2026-11-06T05:53:00+00:00",
+ "generated": "2026-11-06T10:55:00+00:00",
  "items": [
+  {
+   "id": "2026-11-06-mittag-1",
+   "article_id": "2026-11-06-mittag",
+   "title": "DAX fällt vom Rekord, Bitcoin-ETFs verlieren 430 Millionen",
+   "date": "2026-11-06",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "KI"
+   ],
+   "text": "Klumpenrisiko heißt: Ein großer Teil eines Index hängt an wenigen Unternehmen. In den USA machen eine Handvoll Tech-Konzerne einen erheblichen Teil des Börsenwerts aus. Geraten sie gemeinsam unter Druck, reißen sie den ganzen Markt mit, auch wenn der Rest der Wirtschaft stabil ist."
+  },
+  {
+   "id": "2026-11-06-mittag-2",
+   "article_id": "2026-11-06-mittag",
+   "title": "DAX fällt vom Rekord, Bitcoin-ETFs verlieren 430 Millionen",
+   "date": "2026-11-06",
+   "labels": [
+    "Märkte",
+    "Deutschland",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "KI"
+   ],
+   "text": "Was ist eine Liquidation? Wer mit geliehenem Geld auf steigende Kurse setzt, muss bei Verlusten Sicherheiten nachschießen. Kann er das nicht, schließt die Börse die Position automatisch. Viele solcher Zwangsverkäufe gleichzeitig drücken den Kurs weiter und lösen neue Liquidationen aus, eine Kettenreaktion."
+  },
   {
    "id": "2026-11-06-morgen-1",
    "article_id": "2026-11-06-morgen",
