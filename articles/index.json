@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-05T16:53:00+00:00",
+ "generated": "2026-11-06T05:53:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-06-morgen",
+   "file": "2026-11-06-morgen.md",
+   "title": "KI-Ausverkauf: S&P 500 fällt über vier Prozent, Kospi stürzt 8,5 Prozent",
+   "summary": "Sorgen um strengere Regeln für KI und Rechenzentren unter einem demokratischen Kongress lösen den schwersten Börsentag seit April 2025 aus. Südkorea stoppt den Handel, Nvidia verliert über neun Prozent, und Trump droht Iran erneut.",
+   "date": "2026-11-06",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Märkte",
+    "KI",
+    "Tech",
+    "USA",
+    "Iran"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stocks plunge as Dem midterm sweep fuels AI regulatory concerns",
+     "publisher": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026",
+     "type": "news",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 2,
+     "title": "Asia Market Quick Take - 6 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take-06-november-2026-06112026",
+     "type": "analysis",
+     "date": "2026-11-06"
+    },
+    {
+     "id": 3,
+     "title": "Iran war live: Trump warns US may have to 'destroy' rest of Iran",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
+     "type": "news",
+     "date": "2026-11-06"
+    },
+    {
+     "id": 4,
+     "title": "Live - Trump weighs new Iran strikes after security meeting, CENTCOM readies for combat",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202610312594",
+     "type": "news",
+     "date": "2026-11-05"
+    }
+   ],
+   "words": 709,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-05-abend"
+  },
   {
    "id": "2026-11-05-abend",
    "file": "2026-11-05-abend.md",

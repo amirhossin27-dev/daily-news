@@ -1,6 +1,20 @@
 {
- "generated": "2026-11-05T16:53:00+00:00",
+ "generated": "2026-11-06T05:53:00+00:00",
  "items": [
+  {
+   "id": "2026-11-06-morgen-1",
+   "article_id": "2026-11-06-morgen",
+   "title": "KI-Ausverkauf: S&P 500 fällt über vier Prozent, Kospi stürzt 8,5 Prozent",
+   "date": "2026-11-06",
+   "labels": [
+    "Märkte",
+    "KI",
+    "Tech",
+    "USA",
+    "Iran"
+   ],
+   "text": "Warum trifft es Chipwerte so hart? Ihr Kurs beruht auf der Erwartung, dass Tech-Konzerne über Jahre Hunderte Milliarden in Rechenzentren stecken. Schon die Aussicht auf weniger oder langsamere Projekte senkt die erwarteten Umsätze stark, und hoch bewertete Aktien reagieren auf solche Änderungen besonders heftig."
+  },
   {
    "id": "2026-11-05-abend-1",
    "article_id": "2026-11-05-abend",
