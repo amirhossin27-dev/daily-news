@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-06T10:55:00+00:00",
+ "generated": "2026-11-06T16:52:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-06-abend",
+   "file": "2026-11-06-abend.md",
+   "title": "Überraschend starker Jobbericht, Chipwerte erholen sich, Eisenkot mit 67 Empfehlungen",
+   "summary": "Die USA schaffen im Oktober 165.000 Stellen, fast dreimal so viele wie erwartet, und eine Fed-Zinserhöhung im Dezember wird wahrscheinlicher. Chipwerte erholen sich teilweise, und in Israel empfehlen 67 Abgeordnete Eisenkot als Regierungschef.",
+   "date": "2026-11-06",
+   "edition": "abend",
+   "time": "17:52",
+   "labels": [
+    "USA",
+    "Wirtschaft",
+    "Zinsen",
+    "Märkte",
+    "Israel"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "U.S. employers added a surprising 165,000 jobs in October; unemployment rate dipped to 4.1%",
+     "publisher": "CP24 (AP)",
+     "url": "https://www.cp24.com/news/world/2026/11/06/us-employers-added-a-surprising-165000-jobs-in-october-unemployment-rate-dipped-to-41/",
+     "type": "news",
+     "date": "2026-11-06"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today (Nov. 6, 2026): S&P 500 edges higher following AI tech rout",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-06-2026",
+     "type": "news",
+     "date": "2026-11-06"
+    },
+    {
+     "id": 3,
+     "title": "Israel's President Herzog to name candidate to form government on Sunday",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/6/israels-herzog-to-name-a-candidate-to-form-government-on-sunday",
+     "type": "news",
+     "date": "2026-11-06"
+    }
+   ],
+   "words": 700,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-06-mittag"
+  },
   {
    "id": "2026-11-06-mittag",
    "file": "2026-11-06-mittag.md",
