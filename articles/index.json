@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-07T10:54:00+00:00",
+ "generated": "2026-11-07T16:52:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-07-abend",
+   "file": "2026-11-07-abend.md",
+   "title": "Iran verteilt Jodtabletten, Eisenkot vor dem Auftrag, Inflationsdaten im Blick",
+   "summary": "Iran bereitet sich laut Berichten auf mögliche Angriffe auf Atomanlagen vor, Israels Opposition will unter Eisenkot zuerst eine Notstandsregierung versuchen, und die neue Woche bringt am Dienstag die US-Inflationsdaten.",
+   "date": "2026-11-07",
+   "edition": "abend",
+   "time": "17:52",
+   "labels": [
+    "Iran",
+    "Israel",
+    "Naher Osten",
+    "USA",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Will Trump strike nuclear sites again as Iran engages 'cognitive warfare'?",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive",
+     "type": "analysis",
+     "date": "2026-11-07"
+    },
+    {
+     "id": 2,
+     "title": "Eisenkot set to receive mandate to form Israeli gov't as Herzog rounds out consultation meetings",
+     "publisher": "The Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-913989",
+     "type": "news",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 3,
+     "title": "Week Ahead: Economic Indicators 9th-13th November (US)",
+     "publisher": "FinancialJuice",
+     "url": "https://features.financialjuice.com/2026/11/06/week-ahead-economic-indicators-9th-13th-november-us/",
+     "type": "data",
+     "date": "2026-11-06"
+    }
+   ],
+   "words": 708,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-07-mittag"
+  },
   {
    "id": "2026-11-07-mittag",
    "file": "2026-11-07-mittag.md",
