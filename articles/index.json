@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-07T05:54:00+00:00",
+ "generated": "2026-11-07T10:54:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-07-mittag",
+   "file": "2026-11-07-mittag.md",
+   "title": "Revolutionsgarde droht mit Atomdoktrin, Katar drängt auf Deal, Jemen-Krieg zermürbt",
+   "summary": "Die Revolutionsgarde erklärt sich bereit, ihre Atomdoktrin auf Befehl zu ändern, Katars Premier mahnt Washington und Teheran zur Eile, im Jemen wird die Offensive gegen die Huthi zum Abnutzungskrieg, und Bitcoin bewegt sich weiter im Takt der Aktienmärkte.",
+   "date": "2026-11-07",
+   "edition": "mittag",
+   "time": "11:54",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Iran war live: IRGC warns ready to change 'nuclear doctrine' if ordered to",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal",
+     "type": "news",
+     "date": "2026-11-07"
+    },
+    {
+     "id": 2,
+     "title": "A month after Yemen government offensive began, war of attrition takes hold",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/5/a-month-after-yemen-government-offensive-began-war-of-attrition-takes-hold",
+     "type": "analysis",
+     "date": "2026-11-05"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin and Altcoins: Market Overview (November 7, 2026)",
+     "publisher": "Koin Bülteni",
+     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-7-2026-292015.html",
+     "type": "news",
+     "date": "2026-11-07"
+    }
+   ],
+   "words": 706,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-07-morgen"
+  },
   {
    "id": "2026-11-07-morgen",
    "file": "2026-11-07-morgen.md",
