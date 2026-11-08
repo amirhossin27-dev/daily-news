@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-08T11:05:00+00:00",
+ "generated": "2026-11-08T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-08-abend",
+   "file": "2026-11-08-abend.md",
+   "title": "Geschoss trifft Riads Finanzviertel, Jemen-Krieg eskaliert, Bitcoin vor Wochenschluss",
+   "summary": "Ein Geschoss beschädigt einen Turm im Finanzviertel von Riad, Saudi-Arabien fängt Huthi-Raketen ab, die US-Blockade hat laut Washington 144 Schiffe umgeleitet, und Bitcoin beendet eine Woche mit großen Ausschlägen.",
+   "date": "2026-11-08",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "Naher Osten",
+    "Iran",
+    "USA",
+    "Energie",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live: Projectile damages tower in Riyadh; Iran-backed Houthi missiles intercepted",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611077068",
+     "type": "news",
+     "date": "2026-11-08"
+    },
+    {
+     "id": 2,
+     "title": "Live Updates: Iran downplays new U.S. task force aimed at disrupting ground transport routes",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+     "type": "news",
+     "date": "2026-11-07"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin News Digest November 8, 2026",
+     "publisher": "Bitcoin News Digest",
+     "url": "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-november-8-2026",
+     "type": "analysis",
+     "date": "2026-11-08"
+    }
+   ],
+   "words": 729,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-08-mittag"
+  },
   {
    "id": "2026-11-08-mittag",
    "file": "2026-11-08-mittag.md",
