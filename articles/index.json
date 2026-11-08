@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-08T05:53:00+00:00",
+ "generated": "2026-11-08T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-08-mittag",
+   "file": "2026-11-08-mittag.md",
+   "title": "Golf-Flüge gestrichen, Eisenkot erhält Regierungsauftrag, China-Daten eröffnen die Woche",
+   "summary": "Etihad streicht Flüge nach Saudi-Arabien, Iran hält Hormus geschlossen, in Israel soll Gadi Eisenkot eine Regierung bilden, und ab Montag liefern China und die USA wichtige Inflationsdaten.",
+   "date": "2026-11-08",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Israel",
+    "Wirtschaft",
+    "Märkte"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Middle East conflict: 10 key developments UAE residents should know, November 8, 2026",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/uae/middle-east-conflict-10-key-developments-uae-residents-should-know-november-8-2026-1.500740039",
+     "type": "news",
+     "date": "2026-11-08"
+    },
+    {
+     "id": 2,
+     "title": "Herzog taps Eisenkot to form next government after securing backing of 67 MKs",
+     "publisher": "Israel Hayom",
+     "url": "https://www.israelhayom.com/2026/11/07/herzog-taps-eisenkot-to-form-next-government-after-securing-backing-of-67-mks/",
+     "type": "news",
+     "date": "2026-11-07"
+    },
+    {
+     "id": 3,
+     "title": "Next Week in China 9-13 November 2026",
+     "publisher": "Lundgreen's Investor Insights",
+     "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/",
+     "type": "analysis",
+     "date": "2026-11-08"
+    }
+   ],
+   "words": 746,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-08-morgen"
+  },
   {
    "id": "2026-11-08-morgen",
    "file": "2026-11-08-morgen.md",
