@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-07T16:52:00+00:00",
+ "generated": "2026-11-08T05:53:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-08-morgen",
+   "file": "2026-11-08-morgen.md",
+   "title": "Explosionen am Golf, USA weiten Blockade aus, Bitcoin vor fünfter Verlustwoche",
+   "summary": "Iranische Medien melden Explosionen auf Qeshm und in Bandar Abbas, die USA gründen eine Einsatzgruppe gegen iranische Landrouten, Demokraten kündigen Abstimmungen gegen den Krieg an, und Bitcoin steuert auf die fünfte Verlustwoche in Folge zu.",
+   "date": "2026-11-08",
+   "edition": "morgen",
+   "time": "06:53",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "USA",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Iran war live: US moves to block land supply routes; UAE rescues 22 sailors",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes",
+     "type": "news",
+     "date": "2026-11-08"
+    },
+    {
+     "id": 2,
+     "title": "UAE rescues 22 crew in Gulf of Oman as US tightens Iran blockade and Tehran lifts missile limits",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/uae-rescues-22-crew-in-gulf-of-oman-as-us-tightens-iran-blockade-and-tehran-lifts-missile-limits-1.500739993",
+     "type": "news",
+     "date": "2026-11-08"
+    },
+    {
+     "id": 3,
+     "title": "As Trump Threatens to 'Destroy the Rest of' Iran, Top Democrat Vows Ending War Will Be One of 'First Things We Do'",
+     "publisher": "NewsGram",
+     "url": "https://www.newsgram.com/america/2026/11/07/trump-threatens-iran-democrats-vow-to-end-war",
+     "type": "news",
+     "date": "2026-11-07"
+    },
+    {
+     "id": 4,
+     "title": "Bitcoin Price $75,800: Fifth Losing Week Looms",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
+     "type": "news",
+     "date": "2026-11-08"
+    }
+   ],
+   "words": 714,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-07-abend"
+  },
   {
    "id": "2026-11-07-abend",
    "file": "2026-11-07-abend.md",
