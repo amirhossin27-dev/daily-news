@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-09T11:10:00+00:00",
+ "generated": "2026-11-09T17:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-09-abend",
+   "file": "2026-11-09-abend.md",
+   "title": "Katar vermittelt im Weißen Haus, Nvidia verliert vorbörslich fast fünf Prozent, Chinas Erzeugerpreise auf Vierjahreshoch",
+   "summary": "Trump und Vance empfangen Katars Premierminister, während Iran auf sieben Vorbedingungen beharrt und Rubio keinen Durchbruch sieht. Nvidia fällt nach der Untersuchung gegen Huang, Öl gibt weiter nach, und Chinas Erzeugerpreise steigen um 5,7 Prozent.",
+   "date": "2026-11-09",
+   "edition": "abend",
+   "time": "18:10",
+   "labels": [
+    "Iran",
+    "USA",
+    "Naher Osten",
+    "Märkte",
+    "Tech",
+    "Wirtschaft"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Qatar PM to meet Trump: What's the latest on US-Iran negotiations?",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations",
+     "type": "news",
+     "date": "2026-11-09"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today (Nov. 9, 2026): Nvidia bucks tech stock comeback on controversy",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
+     "type": "news",
+     "date": "2026-11-09"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today, Nov. 9: Nvidia Stock Falls on Probe into CEO Huang; Focus on Inflation Data, AI Earnings",
+     "publisher": "TipRanks",
+     "url": "https://www.tipranks.com/news/stock-market-today-nov-9-nvidia-stock-falls-on-probe-into-ceo-huang-focus-on-inflation-data-ai-earnings",
+     "type": "news",
+     "date": "2026-11-09"
+    }
+   ],
+   "words": 756,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-09-mittag"
+  },
   {
    "id": "2026-11-09-mittag",
    "file": "2026-11-09-mittag.md",
