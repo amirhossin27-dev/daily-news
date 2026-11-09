@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-09T06:05:00+00:00",
+ "generated": "2026-11-09T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-09-mittag",
+   "file": "2026-11-09-mittag.md",
+   "title": "Nvidia-Chef unter Prüfung, Europas Börsen leicht fester, Ether rutscht ab",
+   "summary": "Nvidias Aufsichtsgremium untersucht Jensen Huangs Beziehung zu einer mutmaßlichen chinesischen Agentin, Europas Aktien legen leicht zu, Brent fällt unter 97 Dollar, und Ether verliert mehr als vier Prozent.",
+   "date": "2026-11-09",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Tech",
+    "KI",
+    "Europa",
+    "Märkte",
+    "Krypto",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+     "type": "news",
+     "date": "2026-11-08"
+    },
+    {
+     "id": 2,
+     "title": "European Shares Edge Higher As Yields Ease",
+     "publisher": "Panthere Group",
+     "url": "https://www.pantheregroup.com/2026/11/09/european-shares-edge-higher-as-yields-ease/",
+     "type": "news",
+     "date": "2026-11-09"
+    },
+    {
+     "id": 3,
+     "title": "Why is Ethereum price down today, November 9?",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/ethereum-price-down-today-eth-liquidations-outflows/",
+     "type": "news",
+     "date": "2026-11-09"
+    }
+   ],
+   "words": 731,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-09-morgen"
+  },
   {
    "id": "2026-11-09-morgen",
    "file": "2026-11-09-morgen.md",
