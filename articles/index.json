@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-08T17:05:00+00:00",
+ "generated": "2026-11-09T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-09-morgen",
+   "file": "2026-11-09-morgen.md",
+   "title": "Asiens Börsen erholen sich, Trump erklärt Landblockade für wirksam, Chinas Inflation kühlt ab",
+   "summary": "Nikkei und Taiex legen kräftig zu, Brent fällt auf rund 98 Dollar, Trump erklärt die Einsatzgruppe Iron Gate für voll wirksam und erwartet ein Treffen mit Xi und Putin, und Chinas Verbraucherpreise steigen nur noch um 0,7 Prozent.",
+   "date": "2026-11-09",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "Iran",
+    "USA",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Global Markets Today, November 9, 2026: Asia rises, US futures higher, oil slips to $98 as easing Iran tensions lift sentiment",
+     "publisher": "HDFC Sky",
+     "url": "https://hdfcsky.com/news/global-markets-today-november-9-2026-asia-rises-us-futures-higher-oil-slips-to-98-as-easing-iran-tensions-lift-sentiment",
+     "type": "news",
+     "date": "2026-11-09"
+    },
+    {
+     "id": 2,
+     "title": "Middle East conflict: Trump says Iran Task Force Iron Gate is in effect, expects Xi and Putin meeting next week",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-says-iran-task-force-iron-gate-is-in-effect-expects-xi-and-putin-meeting-next-week-1.500740691",
+     "type": "news",
+     "date": "2026-11-09"
+    },
+    {
+     "id": 3,
+     "title": "China's CPI up 0.7 pct in October",
+     "publisher": "Xinhua",
+     "url": "https://english.news.cn/20261109/8cba51c016304f11a089bb1d290bf020/c.html",
+     "type": "official",
+     "date": "2026-11-09"
+    }
+   ],
+   "words": 759,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-08-abend"
+  },
   {
    "id": "2026-11-08-abend",
    "file": "2026-11-08-abend.md",
