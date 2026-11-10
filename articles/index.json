@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-09T17:10:00+00:00",
+ "generated": "2026-11-10T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-10-morgen",
+   "file": "2026-11-10-morgen.md",
+   "title": "Trump setzt auf Status quo, Wall Street mit kräftigem Plus, Chinas Importe springen",
+   "summary": "Nach dem Treffen mit Katars Premier verzichtet Trump vorerst auf eine neue Offensive gegen Iran, der S&P 500 steigt um 2,35 Prozent, Brent fällt auf 92,57 Dollar, und Chinas Importe wachsen um fast 42 Prozent. Heute kommen die US-Verbraucherpreise.",
+   "date": "2026-11-10",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Iran",
+    "USA",
+    "Märkte",
+    "Wirtschaft",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Liveblog November 10, 2026",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-10-2026/",
+     "type": "news",
+     "date": "2026-11-10"
+    },
+    {
+     "id": 2,
+     "title": "The S&P 500 jumps 2.35% as Nvidia's board investigates Jensen Huang, AMD soars 13.26%, and oil tumbles",
+     "publisher": "The Wall Street Republic",
+     "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias",
+     "type": "analysis",
+     "date": "2026-11-09"
+    },
+    {
+     "id": 3,
+     "title": "China's trade surplus tops $1 trillion for second time ever as AI boom powers exports",
+     "publisher": "ThePrint",
+     "url": "https://theprint.in/world/chinas-trade-surplus-tops-1-trillion-for-second-time-ever-as-ai-boom-powers-exports/3094779/",
+     "type": "news",
+     "date": "2026-11-10"
+    },
+    {
+     "id": 4,
+     "title": "Live Updates: Trump says U.S. keeping Iran war at status quo",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/",
+     "type": "news",
+     "date": "2026-11-09"
+    }
+   ],
+   "words": 721,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-09-abend"
+  },
   {
    "id": "2026-11-09-abend",
    "file": "2026-11-09-abend.md",
