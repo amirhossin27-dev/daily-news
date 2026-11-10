@@ -1,6 +1,22 @@
 {
- "generated": "2026-11-10T06:05:00+00:00",
+ "generated": "2026-11-10T11:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-10-mittag-1",
+   "article_id": "2026-11-10-mittag",
+   "title": "Europas Börsen ziehen an, Öl fällt Richtung 90 Dollar, US-Inflation ohne Jahresrate",
+   "date": "2026-11-10",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Energie",
+    "Zinsen",
+    "USA",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "text": "Die Kernrate lässt die stark schwankenden Preise für Energie und Lebensmittel weg. Notenbanken achten besonders auf sie, weil sie zeigt, wie hartnäckig die Teuerung im Rest der Wirtschaft ist. Gerade jetzt, wo der Ölpreis stark fällt, kann die Gesamtrate ein zu freundliches Bild zeichnen."
+  },
   {
    "id": "2026-11-10-morgen-1",
    "article_id": "2026-11-10-morgen",

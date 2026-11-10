@@ -1,6 +1,53 @@
 {
- "generated": "2026-11-10T06:05:00+00:00",
+ "generated": "2026-11-10T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-10-mittag",
+   "file": "2026-11-10-mittag.md",
+   "title": "Europas Börsen ziehen an, Öl fällt Richtung 90 Dollar, US-Inflation ohne Jahresrate",
+   "summary": "DAX und CAC legen deutlich zu, Brent nähert sich 90 Dollar, SoftBank springt fast 14 Prozent, und die US-Verbraucherpreise kommen am Nachmittag erstmals ohne offizielle Jahresrate. Bitcoin hält sich bei rund 74.600 Dollar.",
+   "date": "2026-11-10",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Europa",
+    "Märkte",
+    "Energie",
+    "Zinsen",
+    "USA",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European stocks rise as tech rally spreads and oil prices fall",
+     "publisher": "Euronews",
+     "url": "https://www.euronews.com/2026/11/10/european-stocks-rise-as-tech-rally-spreads-and-oil-prices-fall",
+     "type": "news",
+     "date": "2026-11-10"
+    },
+    {
+     "id": 2,
+     "title": "US CPI preview: 43-day shutdown leaves no official annual rate as monthly pace seen easing",
+     "publisher": "investingLive",
+     "url": "https://investinglive.com/news/us-cpi-preview-43-day-shutdown-leaves-no-official-annual-rate-as-monthly-pace-seen-easing/",
+     "type": "analysis",
+     "date": "2026-11-10"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin price $74,600: US CPI without an annual rate",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
+     "type": "news",
+     "date": "2026-11-10"
+    }
+   ],
+   "words": 759,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-10-morgen"
+  },
   {
    "id": "2026-11-10-morgen",
    "file": "2026-11-10-morgen.md",
