@@ -1,6 +1,53 @@
 {
- "generated": "2026-11-10T11:10:00+00:00",
+ "generated": "2026-11-10T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-10-abend",
+   "file": "2026-11-10-abend.md",
+   "title": "US-Inflation höher als erwartet, Trump nennt Iran-Krieg „praktisch vorbei“, Brent unter 90 Dollar",
+   "summary": "Die US-Verbraucherpreise stiegen im Oktober um 0,4 Prozent, Bitcoin fiel daraufhin unter 73.500 Dollar. Trump sieht den Iran-Krieg militärisch „praktisch vorbei“, Teheran dementiert geplante Gespräche, und Brent fällt erstmals seit August unter 90 Dollar.",
+   "date": "2026-11-10",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Iran",
+    "Naher Osten",
+    "Energie",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US CPI Released: October Inflation Beats Expectations",
+     "publisher": "Coinpedia",
+     "url": "https://coinpedia.org/news/us-cpi-released-october-inflation-beats-expectations/",
+     "type": "news",
+     "date": "2026-11-10"
+    },
+    {
+     "id": 2,
+     "title": "Trump says Iran war 'effectively over' as Tehran denies planned talks",
+     "publisher": "Euronews",
+     "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
+     "type": "news",
+     "date": "2026-11-10"
+    },
+    {
+     "id": 3,
+     "title": "Live: Iran warns of possible nationwide winter gas cuts",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611077068",
+     "type": "news",
+     "date": "2026-11-10"
+    }
+   ],
+   "words": 729,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-10-mittag"
+  },
   {
    "id": "2026-11-10-mittag",
    "file": "2026-11-10-mittag.md",
