@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-11T11:10:00+00:00",
+ "generated": "2026-11-11T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-11-abend",
+   "file": "2026-11-11-abend.md",
+   "title": "Tankerangriffe nehmen zu, Iran nennt Gesprächsberichte „Lüge“, OPEC+ fördert fast wie vor dem Krieg",
+   "summary": "Im Golf werden erneut Tanker getroffen, darunter ein Supertanker mit indischer Besatzung. Teheran bestreitet Gespräche mit den USA und hält Hormus geschlossen, Rubio setzt auf wirtschaftlichen Druck. Die OPEC+ förderte im Oktober 97 Prozent ihrer Vorkriegsmenge.",
+   "date": "2026-11-11",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Energie",
+    "USA",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
+     "type": "news",
+     "date": "2026-11-11"
+    },
+    {
+     "id": 2,
+     "title": "Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/why-is-iran-attacking-tankers-during-peace-talks-the-high-risk-strategy-behind-the-hormuz-escalation-1.500743616",
+     "type": "analysis",
+     "date": "2026-11-11"
+    },
+    {
+     "id": 3,
+     "title": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia",
+     "publisher": "CP24 / Reuters",
+     "url": "https://www.cp24.com/news/money/2026/11/11/opec-oil-output-in-october-nears-pre-iran-war-rate-led-by-saudi-arabia/",
+     "type": "news",
+     "date": "2026-11-11"
+    }
+   ],
+   "words": 732,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-11-mittag"
+  },
   {
    "id": "2026-11-11-mittag",
    "file": "2026-11-11-mittag.md",
