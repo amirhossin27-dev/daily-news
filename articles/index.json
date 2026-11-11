@@ -1,6 +1,53 @@
 {
- "generated": "2026-11-11T06:05:00+00:00",
+ "generated": "2026-11-11T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-11-mittag",
+   "file": "2026-11-11-mittag.md",
+   "title": "Bessent zieht auf Militärbasis, Märkte preisen Zinserhöhung voll ein, Ether um 2.060 Dollar",
+   "summary": "US-Finanzminister Bessent ist nach Berichten über iranische Drohungen auf einen Militärstützpunkt umgezogen. Die Märkte rechnen nun fest mit einer Zinserhöhung im Dezember und zwei weiteren bis Juni. Bitcoin liegt nahe einem Elfwochentief, Ether verliert in einer Woche gut acht Prozent.",
+   "date": "2026-11-11",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "USA",
+    "Iran",
+    "Zinsen",
+    "Märkte",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US Treasury chief Bessent moved to military base after 'Iranian threats'",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/11/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats",
+     "type": "news",
+     "date": "2026-11-11"
+    },
+    {
+     "id": 2,
+     "title": "Market Quick Take - US Treasury yields rip higher - 11 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/content/articles/macro/market-quick-take---us-treasury-yields-rip-higher---11-november-2026-11112026",
+     "type": "analysis",
+     "date": "2026-11-11"
+    },
+    {
+     "id": 3,
+     "title": "Here's why Ethereum price is falling, but could ETH rebound before hitting $2,000?",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/why-is-ethereum-price-down-today-cpi-etf-liquidations/",
+     "type": "news",
+     "date": "2026-11-11"
+    }
+   ],
+   "words": 718,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-11-morgen"
+  },
   {
    "id": "2026-11-11-morgen",
    "file": "2026-11-11-morgen.md",
