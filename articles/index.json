@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-11T17:05:00+00:00",
+ "generated": "2026-11-12T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-12-morgen",
+   "file": "2026-11-12-morgen.md",
+   "title": "Bericht über Huang-Ablösung schickt Nvidia nachbörslich auf Talfahrt, Israel bereitet sich auf Iran-Angriff vor",
+   "summary": "Die Wall Street schloss dank CoreWeave deutlich höher, doch nachbörslich brach Nvidia nach einem Bericht über die mögliche Ablösung von Jensen Huang ein. Israels Sicherheitskabinett soll Vorbereitungen für einen Angriff auf Iran angeordnet haben, Teheran droht allen beteiligten Stützpunkten.",
+   "date": "2026-11-12",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Tech",
+    "KI",
+    "Märkte",
+    "Israel",
+    "Iran",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Tech Stocks Closed Higher in the Stock Market Today, November 11, 2026, Then Nvidia Fell After Hours",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026",
+     "type": "news",
+     "date": "2026-11-11"
+    },
+    {
+     "id": 2,
+     "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+     "type": "news",
+     "date": "2026-11-12"
+    },
+    {
+     "id": 3,
+     "title": "Asia Market Quick Take - 12 November 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take--12-november-2026-12112026",
+     "type": "analysis",
+     "date": "2026-11-12"
+    }
+   ],
+   "words": 718,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-11-abend"
+  },
   {
    "id": "2026-11-11-abend",
    "file": "2026-11-11-abend.md",
