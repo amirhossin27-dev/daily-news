@@ -1,6 +1,21 @@
 {
- "generated": "2026-11-12T06:05:00+00:00",
+ "generated": "2026-11-12T11:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-12-mittag-1",
+   "article_id": "2026-11-12-mittag",
+   "title": "DAX knapp unter 27.000 auf Rekord, Siemens und Allianz glänzen, Nvidia verliert in Frankfurt sieben Prozent",
+   "date": "2026-11-12",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "text": "Der DAX ist ein Performance-Index: Dividenden werden rechnerisch wieder angelegt. Deshalb steigt er über lange Zeiträume stärker als Kursindizes wie der amerikanische Dow Jones, die Dividenden nicht berücksichtigen. Rekordstände sind beim DAX daher etwas häufiger."
+  },
   {
    "id": "2026-11-12-morgen-1",
    "article_id": "2026-11-12-morgen",

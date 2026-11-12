@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-12T06:05:00+00:00",
+ "generated": "2026-11-12T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-12-mittag",
+   "file": "2026-11-12-mittag.md",
+   "title": "DAX knapp unter 27.000 auf Rekord, Siemens und Allianz glänzen, Nvidia verliert in Frankfurt sieben Prozent",
+   "summary": "Der DAX steigt auf ein Rekordhoch von 26.998 Punkten, angeführt von Siemens nach einem Rekordgeschäftsjahr. Allianz meldet einen Rekordgewinn, Nvidia fällt auf Tradegate um sieben Prozent. Bitcoin hält sich bei rund 73.700 Dollar, Analysten warnen vor weiterem Verkaufsdruck.",
+   "date": "2026-11-12",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Dax 26.998,32 Punkte am Vormittag: Rekord am 12.11.2026",
+     "publisher": "Wirtschaftsjournal",
+     "url": "https://wirtschaftsjournal.com/siemens-fuehrt-den-dax-am-vormittag-auf-26-998/",
+     "type": "news",
+     "date": "2026-11-12"
+    },
+    {
+     "id": 2,
+     "title": "Allianz Posts Record €14.1B Nine-Month Result, Raises 2026 Outlook",
+     "publisher": "wallstreet-online",
+     "url": "https://www.wallstreet-online.de/nachricht/21679449-allianz-posts-record-14-1b-nine-month-result-raises-2026-outlook",
+     "type": "news",
+     "date": "2026-11-12"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin price holds near $73,700, but analysts warn of more selling",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-stuck-73700-leverage-etf-outflows/",
+     "type": "news",
+     "date": "2026-11-12"
+    }
+   ],
+   "words": 731,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-12-morgen"
+  },
   {
    "id": "2026-11-12-morgen",
    "file": "2026-11-12-morgen.md",
