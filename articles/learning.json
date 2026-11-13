@@ -1,6 +1,21 @@
 {
- "generated": "2026-11-13T06:05:00+00:00",
+ "generated": "2026-11-13T11:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-13-mittag-1",
+   "article_id": "2026-11-13-mittag",
+   "title": "Bitcoin stürzt unter 69.000 Dollar, Ether unter 2.000, DAX nach Rekord leichter",
+   "date": "2026-11-13",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Deutschland",
+    "Märkte",
+    "Zinsen"
+   ],
+   "text": "Bei einer Liquidation schließt eine Börse eine gehebelte Position zwangsweise, weil das hinterlegte Geld die Verluste nicht mehr deckt. Viele solcher Zwangsverkäufe auf einmal drücken den Kurs weiter, was weitere Liquidationen auslöst. So können Kursrückgänge sich in kurzer Zeit verstärken."
+  },
   {
    "id": "2026-11-13-morgen-1",
    "article_id": "2026-11-13-morgen",
