@@ -1,6 +1,53 @@
 {
- "generated": "2026-11-13T11:10:00+00:00",
+ "generated": "2026-11-13T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-13-abend",
+   "file": "2026-11-13-abend.md",
+   "title": "Erzeugerpreise steigen um 6,5 Prozent, Mossad-Chef in Washington, DAX beendet starke Woche",
+   "summary": "Die US-Erzeugerpreise lagen im Oktober 6,5 Prozent über dem Vorjahr, so hoch wie seit 2022 nicht, der Monatsanstieg fiel aber etwas geringer aus als erwartet. Israels Mossad-Chef verhandelt in Washington, während Trump dem Druck Netanyahus widersteht. Der DAX geht nach einem Rekord stabil ins Wochenende.",
+   "date": "2026-11-13",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "USA",
+    "Zinsen",
+    "Wirtschaft",
+    "Israel",
+    "Iran",
+    "Deutschland",
+    "Märkte"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "PPI Report Shows Producer Prices Rose Only 0.3%, Less Than Expected, and 6.5% Over a Year",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/october-2026-ppi-report",
+     "type": "news",
+     "date": "2026-11-13"
+    },
+    {
+     "id": 2,
+     "title": "Mossad official arrives in US for high-level talks as Netanyahu pushes for resumed war against Iran",
+     "publisher": "The Tribune / ANI",
+     "url": "https://www.tribuneindia.com/news/cia/mossad-official-arrives-in-us-for-high-level-talks-as-netanyahu-pushes-for-resumed-war-against-iran-report",
+     "type": "news",
+     "date": "2026-11-13"
+    },
+    {
+     "id": 3,
+     "title": "Aktien Frankfurt Schluss: DAX geht stabil ins Wochenende",
+     "publisher": "wallstreet-online / dpa-AFX",
+     "url": "https://www.wallstreet-online.de/nachricht/21690141-aktien-frankfurt-schluss-dax-stabil-wochenende-verkaufswelle-us-techs",
+     "type": "news",
+     "date": "2026-11-13"
+    }
+   ],
+   "words": 750,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-13-mittag"
+  },
   {
    "id": "2026-11-13-mittag",
    "file": "2026-11-13-mittag.md",
