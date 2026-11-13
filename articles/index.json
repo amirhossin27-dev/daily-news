@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-12T17:05:00+00:00",
+ "generated": "2026-11-13T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-13-morgen",
+   "file": "2026-11-13-morgen.md",
+   "title": "Rendite steigt auf 5,10 Prozent, Huthi greifen saudische Pipeline an, Explosionen in Sirik",
+   "summary": "Die Wall Street schloss nach dem Huang-Rücktritt leicht tiefer, die zehnjährige US-Rendite kletterte auf 5,10 Prozent und Brent sprang über 95 Dollar. Die Huthi melden Angriffe auf die saudische Ost-West-Pipeline, in Irans Hafenstadt Sirik schlug ein Angriff ein. Heute kommen die US-Erzeugerpreise.",
+   "date": "2026-11-13",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Märkte",
+    "Zinsen",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "USA"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Jensen Huang resigns as Nvidia falls 4.34% and the S&P 500 slips 0.35%",
+     "publisher": "The Wall Street Republic",
+     "url": "https://thewallstreetrepublic.substack.com/p/jensen-huang-resigns-as-nvidia-falls",
+     "type": "analysis",
+     "date": "2026-11-12"
+    },
+    {
+     "id": 2,
+     "title": "US-Israel-Iran war: 'Enemy' strike hits Iran's Sirik as Trump warns Tehran over threats to US officials; Houthis claim attack on Saudi pipeline",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/us-israel-iran-war-enemy-strike-hits-irans-sirik-as-trump-warns-tehran-over-threats-to-us-officials-houthis-claim-attack-on-saudi-pipeline-1.500745854",
+     "type": "news",
+     "date": "2026-11-13"
+    },
+    {
+     "id": 3,
+     "title": "Global Markets Today, November 13, 2026: India stares at muted open as Asia stages recovery and oil pulls back",
+     "publisher": "HDFC Sky",
+     "url": "https://hdfcsky.com/news/global-markets-today-november-13-2026-india-stares-at-muted-open-as-asia-stages-recovery-and-oil-pulls-back",
+     "type": "news",
+     "date": "2026-11-13"
+    }
+   ],
+   "words": 706,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-12-abend"
+  },
   {
    "id": "2026-11-12-abend",
    "file": "2026-11-12-abend.md",
