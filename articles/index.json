@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-14T06:05:00+00:00",
+ "generated": "2026-11-14T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-14-mittag",
+   "file": "2026-11-14-mittag.md",
+   "title": "Anthropic peilt Börsengang am 19. November an, US-Luftverkehr nach Ausfall gestört, IEA sieht Ölüberschuss",
+   "summary": "Anthropic will seine Aktien zu 70 bis 78 Dollar an die Nasdaq bringen, der Handel soll am 19. November beginnen. In den USA legte ein Telekommunikationsausfall den Luftverkehr lahm. Die Internationale Energieagentur meldet erstmals seit Kriegsbeginn mehr Ölangebot als Nachfrage.",
+   "date": "2026-11-14",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "KI",
+    "Tech",
+    "USA",
+    "Energie",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Anthropic IPO 2026: $70-78 Price Band, Listing Date, Valuation",
+     "publisher": "INDmoney",
+     "url": "https://www.indmoney.com/blog/us-stocks/anthropic-ipo-price-band-valuation-listing-date",
+     "type": "analysis",
+     "date": "2026-11-14"
+    },
+    {
+     "id": 2,
+     "title": "Liveblog November 14, 2026",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-14-2026/",
+     "type": "news",
+     "date": "2026-11-14"
+    },
+    {
+     "id": 3,
+     "title": "Live: Rubio warns nuclear Iran could hold region hostage; IRGC claims two tankers hit mines",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611077068",
+     "type": "news",
+     "date": "2026-11-14"
+    }
+   ],
+   "words": 762,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-14-morgen"
+  },
   {
    "id": "2026-11-14-morgen",
    "file": "2026-11-14-morgen.md",

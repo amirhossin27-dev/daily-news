@@ -1,6 +1,21 @@
 {
- "generated": "2026-11-14T06:05:00+00:00",
+ "generated": "2026-11-14T11:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-14-mittag-1",
+   "article_id": "2026-11-14-mittag",
+   "title": "Anthropic peilt Börsengang am 19. November an, US-Luftverkehr nach Ausfall gestört, IEA sieht Ölüberschuss",
+   "date": "2026-11-14",
+   "labels": [
+    "KI",
+    "Tech",
+    "USA",
+    "Energie",
+    "Iran",
+    "Naher Osten"
+   ],
+   "text": "Bei einem Börsengang verkauft ein Unternehmen erstmals Aktien an die Öffentlichkeit. Die Preisspanne ist ein Angebot; der endgültige Preis hängt davon ab, wie viele Investoren zu welchem Preis kaufen wollen. „Verwässert“ heißt, dass bei der Bewertung auch Aktien mitgezählt werden, die erst später entstehen, etwa aus Optionen für Beschäftigte."
+  },
   {
    "id": "2026-11-14-morgen-1",
    "article_id": "2026-11-14-morgen",
