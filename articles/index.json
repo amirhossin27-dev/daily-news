@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-14T11:10:00+00:00",
+ "generated": "2026-11-14T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-14-abend",
+   "file": "2026-11-14-abend.md",
+   "title": "Veraltete Router legen US-Luftraum lahm, Bitcoin auf Tief seit August, dritter Flugzeugträger unterwegs",
+   "summary": "Überlastete Netztechnik hat in den USA mehr als 4.700 Flugausfälle ausgelöst. Bitcoin fiel unter 67.000 Dollar und verlor in einer Woche fast 12 Prozent, der Angst-Index steht bei 13. Israel bereitet drei Szenarien für neue Kämpfe vor, ein weiterer US-Flugzeugträger ist auf dem Weg in die Region.",
+   "date": "2026-11-14",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "USA",
+    "Krypto",
+    "Bitcoin",
+    "Iran",
+    "Israel",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+     "type": "news",
+     "date": "2026-11-14"
+    },
+    {
+     "id": 2,
+     "title": "Bitcoin price at lowest since August: levels to watch",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/",
+     "type": "news",
+     "date": "2026-11-14"
+    },
+    {
+     "id": 3,
+     "title": "Middle East War: 7 things UAE residents need to know tonight, November 14",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/uae/middle-east-war-7-things-uae-residents-need-to-know-tonight-november-14-1.500747461",
+     "type": "news",
+     "date": "2026-11-14"
+    }
+   ],
+   "words": 823,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-14-mittag"
+  },
   {
    "id": "2026-11-14-mittag",
    "file": "2026-11-14-mittag.md",
