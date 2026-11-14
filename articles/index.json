@@ -1,6 +1,60 @@
 {
- "generated": "2026-11-13T17:05:00+00:00",
+ "generated": "2026-11-14T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-14-morgen",
+   "file": "2026-11-14-morgen.md",
+   "title": "Trump: „Wir brauchen keinen Deal mit Iran“, IAEA sorgt sich um Isfahan, Bitcoin bei rund 68.000 Dollar",
+   "summary": "Trump erklärt ein Abkommen mit Iran für unnötig, die Atomenergiebehörde ist besorgt über einen unterirdischen Standort in Isfahan, und Katar und die Türkei schließen einen Beistandspakt. An der Wall Street gab der Nasdaq 100 zum Wochenschluss nach, Bitcoin fiel weiter auf rund 68.000 Dollar.",
+   "date": "2026-11-14",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Iran",
+    "USA",
+    "Naher Osten",
+    "Märkte",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Live Updates: U.N. agency pushes for access to key Iran nuclear site as Trump says deal to end war unnecessary",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
+     "type": "news",
+     "date": "2026-11-13"
+    },
+    {
+     "id": 2,
+     "title": "Stocks Close Lower in the Stock Market Today, November 13, 2026, After a Higher Open",
+     "publisher": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026",
+     "type": "news",
+     "date": "2026-11-13"
+    },
+    {
+     "id": 3,
+     "title": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal",
+     "type": "news",
+     "date": "2026-11-14"
+    },
+    {
+     "id": 4,
+     "title": "BTC price insight, November 14, 2026",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/insight/BTC/6af7c24540903b0007adf392",
+     "type": "data",
+     "date": "2026-11-14"
+    }
+   ],
+   "words": 743,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-13-abend"
+  },
   {
    "id": "2026-11-13-abend",
    "file": "2026-11-13-abend.md",
