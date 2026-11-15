@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-14T17:05:00+00:00",
+ "generated": "2026-11-15T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-15-morgen",
+   "file": "2026-11-15-morgen.md",
+   "title": "Bitcoin stürzt auf 62.000 Dollar, Huthi zielen erneut auf Riad, die Woche der KI-Tests beginnt",
+   "summary": "Bitcoin verlor in 24 Stunden fast neun Prozent und notiert so tief wie seit Juli nicht, der Angst-Index steht bei 10. Saudi-Arabien fing zwei Huthi-Raketen über Riad ab, Bahrain gab eine Warnung aus. In der neuen Woche folgen Nvidias Zahlen, das Fed-Protokoll und der geplante Börsenstart von Anthropic.",
+   "date": "2026-11-15",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Naher Osten",
+    "Zinsen",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Bitcoin Price Crashes to $62,000: Will the $60,000 Level Hold?",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-62000-crash-fed-hike-60000-level-november-15-2026/",
+     "type": "news",
+     "date": "2026-11-15"
+    },
+    {
+     "id": 2,
+     "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh as Bahrain issues threat alert",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
+     "type": "news",
+     "date": "2026-11-15"
+    },
+    {
+     "id": 3,
+     "title": "ECONOMIC WEEK AHEAD: November 16-20",
+     "publisher": "Yardeni QuickTakes",
+     "url": "https://www.yardeniquicktakes.com/economic-week-ahead-november-16-20/",
+     "type": "analysis",
+     "date": "2026-11-14"
+    }
+   ],
+   "words": 735,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-14-abend"
+  },
   {
    "id": "2026-11-14-abend",
    "file": "2026-11-14-abend.md",
