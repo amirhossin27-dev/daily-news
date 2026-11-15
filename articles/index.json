@@ -1,6 +1,63 @@
 {
- "generated": "2026-11-15T11:10:00+00:00",
+ "generated": "2026-11-15T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-15-abend",
+   "file": "2026-11-15-abend.md",
+   "title": "Iran greift erneut US-Radar in Bahrain an, Bitcoin vor schwachem Wochenschluss, Woche der Nvidia-Zahlen beginnt",
+   "summary": "Bahrain hat am Sonntag erneut iranische Drohnen abgefangen, die laut Revolutionsgarden einer US-Radaranlage galten. Teheran kündigt an, keinen Angriff unbeantwortet zu lassen, Außenminister Araghchi reist am Dienstag nach Oman. Bitcoin steuert auf einen Wochenverlust von gut 13 Prozent zu. In der neuen Woche stehen Nvidia-Zahlen, Fed-Protokolle und der Börsengang von Anthropic an.",
+   "date": "2026-11-15",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "USA",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Märkte",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Bahrain air defenses foil IRGC strike on US base radar installations",
+     "publisher": "Fox News",
+     "url": "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
+     "type": "news",
+     "date": "2026-11-15"
+    },
+    {
+     "id": 2,
+     "title": "Live - Iran's FM to visit Oman as Bahrain urges UN action over attacks",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611143682",
+     "type": "news",
+     "date": "2026-11-15"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin price: overnight low and the weekly close",
+     "publisher": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-overnight-low-weekly-close-november-15-2026/",
+     "type": "analysis",
+     "date": "2026-11-15"
+    },
+    {
+     "id": 4,
+     "title": "NVIDIA Earnings, Anthropic IPO, and Fed Minutes to Watch the Week of November 16",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/nvidia-earnings-anthropic-ipo-and-fed-minutes-to-watch-in-week-of-nov-16",
+     "type": "news",
+     "date": "2026-11-15"
+    }
+   ],
+   "words": 917,
+   "reading_minutes": 5,
+   "previous_id": "2026-11-15-mittag"
+  },
   {
    "id": "2026-11-15-mittag",
    "file": "2026-11-15-mittag.md",
