@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-15T06:05:00+00:00",
+ "generated": "2026-11-15T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-15-mittag",
+   "file": "2026-11-15-mittag.md",
+   "title": "Bitcoin erholt sich leicht auf knapp 65.000 Dollar, Eisenkot ringt um Mehrheit, Irans Expertenrat will Doktrin überprüfen",
+   "summary": "Nach einem Tief bei 62.112 Dollar hat sich Bitcoin am Sonntagmorgen auf knapp 65.000 Dollar erholt, Ether fiel zeitweise auf 1.711 Dollar. In Israel versucht Gadi Eisenkot, das Bündnis Vereinigtes Thora-Judentum für eine Minderheitsregierung zu gewinnen. In Iran fordert der Expertenrat eine Überprüfung der Verteidigungsdoktrin.",
+   "date": "2026-11-15",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Israel",
+    "Iran",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify",
+     "publisher": "Investing.com",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667",
+     "type": "news",
+     "date": "2026-11-15"
+    },
+    {
+     "id": 2,
+     "title": "Gadi Eisenkot pushes to bring UTJ into government as Benjamin Netanyahu seeks to block deal",
+     "publisher": "The Jerusalem Post",
+     "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914903",
+     "type": "news",
+     "date": "2026-11-15"
+    },
+    {
+     "id": 3,
+     "title": "Iran's top clerical governing body calls for nuclear doctrine review",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/202611121701",
+     "type": "news",
+     "date": "2026-11-12"
+    }
+   ],
+   "words": 720,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-15-morgen"
+  },
   {
    "id": "2026-11-15-morgen",
    "file": "2026-11-15-morgen.md",
