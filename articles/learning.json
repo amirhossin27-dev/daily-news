@@ -1,6 +1,23 @@
 {
- "generated": "2026-11-16T11:05:00+00:00",
+ "generated": "2026-11-16T17:05:00+00:00",
  "items": [
+  {
+   "id": "2026-11-16-abend-1",
+   "article_id": "2026-11-16-abend",
+   "title": "Tech-Ausverkauf vor Nvidia-Zahlen: Nasdaq fällt, DAX gibt nach, Bitcoin rutscht unter 65.000 Dollar",
+   "date": "2026-11-16",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Deutschland",
+    "Tech",
+    "KI",
+    "Krypto",
+    "Bitcoin",
+    "Zinsen"
+   ],
+   "text": "Ein ETF wie QQQ oder SPY ist ein börsengehandelter Fonds, der einen Index nachbildet. Weil er den ganzen Tag gehandelt wird, zeigen seine Kursbewegungen in Echtzeit, wie sich der Index entwickelt. Deshalb nutzen viele Berichte solche Fonds als schnelle Messlatte für den Markt."
+  },
   {
    "id": "2026-11-16-mittag-1",
    "article_id": "2026-11-16-mittag",

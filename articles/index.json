@@ -1,6 +1,54 @@
 {
- "generated": "2026-11-16T11:05:00+00:00",
+ "generated": "2026-11-16T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-16-abend",
+   "file": "2026-11-16-abend.md",
+   "title": "Tech-Ausverkauf vor Nvidia-Zahlen: Nasdaq fällt, DAX gibt nach, Bitcoin rutscht unter 65.000 Dollar",
+   "summary": "Einen Tag vor Nvidias Quartalszahlen haben Technologiewerte die Börsen belastet. An der Wall Street fielen Chipwerte wie Micron und Intel um rund 6 Prozent, der DAX schloss mit Abgaben, und auch Bitcoin gab nach. Ein schwacher Industrieindex aus New York verstärkte die Sorgen.",
+   "date": "2026-11-16",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Deutschland",
+    "Tech",
+    "KI",
+    "Krypto",
+    "Bitcoin",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stock Market Today Live, November 16, 2026: Tech Stocks Pull the Market Lower Before Nvidia's Results",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026",
+     "type": "news",
+     "date": "2026-11-16"
+    },
+    {
+     "id": 2,
+     "title": "Aktien Frankfurt Schluss: DAX ohne Schwung",
+     "publisher": "wallstreet-online",
+     "url": "https://www.wallstreet-online.de/nachricht/21700992-aktien-frankfurt-schluss-dax-schwung-technologieaktien-belasten-zinsaengste-bremsen",
+     "type": "news",
+     "date": "2026-11-16"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin Drifts Lower With US Stocks as Traders Eye Nvidia, Anthropic IPO",
+     "publisher": "Finwire",
+     "url": "https://finwire.io/news/crypto-news/bitcoin-drifts-lower-with-us-stocks-as-traders-eye-nvidia-anthropic-ipo",
+     "type": "news",
+     "date": "2026-11-16"
+    }
+   ],
+   "words": 720,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-16-mittag"
+  },
   {
    "id": "2026-11-16-mittag",
    "file": "2026-11-16-mittag.md",
