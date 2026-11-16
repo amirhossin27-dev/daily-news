@@ -1,6 +1,71 @@
 {
- "generated": "2026-11-15T17:05:00+00:00",
+ "generated": "2026-11-16T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-16-morgen",
+   "file": "2026-11-16-morgen.md",
+   "title": "Revolutionsgarden melden weitere Minentreffer in Hormus, Asiens Börsen fallen, Bitcoin hält sich über 65.000 Dollar",
+   "summary": "Irans Revolutionsgarden melden zwei weitere Tanker, die in der Straße von Hormus auf Minen gelaufen sind, insgesamt sechs Brände seit Sonntag. In Asien geben Nikkei und Kospi deutlich nach, Brent fällt auf rund 95 Dollar, die zehnjährige US-Rendite liegt bei etwa 5,14 Prozent. Bitcoin startet mit rund 65.360 Dollar in die Woche, die Stimmung bleibt bei extremer Angst.",
+   "date": "2026-11-16",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Energie",
+    "Märkte",
+    "Zinsen",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Two oil tankers hit mines in the Strait of Hormuz, IRGC says",
+     "publisher": "The Jerusalem Post / Reuters",
+     "url": "https://www.jpost.com/middle-east/article-915014",
+     "type": "news",
+     "date": "2026-11-16"
+    },
+    {
+     "id": 2,
+     "title": "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount",
+     "publisher": "UN News",
+     "url": "https://news.un.org/en/story/2026/11/1168804",
+     "type": "official",
+     "date": "2026-11-14"
+    },
+    {
+     "id": 3,
+     "title": "Global markets today: Asia declines, oil eases, Dalal Street eyes higher start",
+     "publisher": "HDFC Sky",
+     "url": "https://hdfcsky.com/news/global-markets-today-november-16-2026-asia-declines-oil-eases-dalal-street-eyes-higher-start",
+     "type": "news",
+     "date": "2026-11-16"
+    },
+    {
+     "id": 4,
+     "title": "Crypto Daily Market Report, November 16, 2026",
+     "publisher": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026",
+     "type": "analysis",
+     "date": "2026-11-16"
+    },
+    {
+     "id": 5,
+     "title": "NVIDIA Earnings, Anthropic IPO, and Fed Minutes to Watch the Week of November 16",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/nvidia-earnings-anthropic-ipo-and-fed-minutes-to-watch-in-week-of-nov-16",
+     "type": "news",
+     "date": "2026-11-15"
+    }
+   ],
+   "words": 796,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-15-abend"
+  },
   {
    "id": "2026-11-15-abend",
    "file": "2026-11-15-abend.md",
