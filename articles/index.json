@@ -1,6 +1,54 @@
 {
- "generated": "2026-11-16T06:05:00+00:00",
+ "generated": "2026-11-16T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-16-mittag",
+   "file": "2026-11-16-mittag.md",
+   "title": "Iran und Oman fast einig über Hormus-Korridor, dritter US-Flugzeugträger kommt, DAX wartet auf Nvidia",
+   "summary": "Iran und Oman haben laut iranischen Abgeordneten einen gemeinsamen Plan für die Schifffahrt durch die Straße von Hormus fast fertig. Gleichzeitig soll ein dritter US-Flugzeugträger in der Region eintreffen. Der DAX tritt vor den Nvidia-Zahlen am Dienstag auf der Stelle, Rheinmetall legt zu, Infineon und Siemens geben nach.",
+   "date": "2026-11-16",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "USA",
+    "Deutschland",
+    "Märkte",
+    "Energie",
+    "Tech"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Iran, Oman near agreement on Hormuz navigation",
+     "publisher": "Anews / Reuters",
+     "url": "https://anewz.tv/world/world-news/26760/iran-oman-near-agreement-on-hormuz-navigation/news",
+     "type": "news",
+     "date": "2026-11-16"
+    },
+    {
+     "id": 2,
+     "title": "Iran Says Door to Peace Still Open after Strikes on Bahrain",
+     "publisher": "Rigzone / Bloomberg",
+     "url": "https://www.rigzone.com/news/wire/iran_says_door_to_peace_still_open_after_strikes_on_bahrain-16-nov-2026-185086-article/",
+     "type": "news",
+     "date": "2026-11-16"
+    },
+    {
+     "id": 3,
+     "title": "Frankfurt Stocks Open: DAX Barely Moves Ahead of Nvidia Earnings",
+     "publisher": "MarketScreener / dpa-AFX",
+     "url": "https://www.marketscreener.com/news/frankfurt-stocks-open-dax-barely-moves-ahead-of-nvidia-earnings-ce785eded18ef724",
+     "type": "news",
+     "date": "2026-11-16"
+    }
+   ],
+   "words": 812,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-16-morgen"
+  },
   {
    "id": "2026-11-16-morgen",
    "file": "2026-11-16-morgen.md",
