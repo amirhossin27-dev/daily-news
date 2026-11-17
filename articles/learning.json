@@ -1,6 +1,24 @@
 {
- "generated": "2026-11-16T17:05:00+00:00",
+ "generated": "2026-11-17T06:05:00+00:00",
  "items": [
+  {
+   "id": "2026-11-17-morgen-1",
+   "article_id": "2026-11-17-morgen",
+   "title": "Nasdaq fällt um 2,5 Prozent, Nvidia auf Tief seit Juli 2025, US-Geheimdienste warnen vor iranischen Anschlagsplänen",
+   "date": "2026-11-17",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "text": "Der VIX misst, welche Schwankungen Anleger in den nächsten 30 Tagen beim S&P 500 erwarten. Er wird aus Optionspreisen berechnet. Steigt er stark, sichern sich viele Anleger gegen Kursverluste ab. Deshalb heißt er oft „Angstbarometer“."
+  },
   {
    "id": "2026-11-16-abend-1",
    "article_id": "2026-11-16-abend",

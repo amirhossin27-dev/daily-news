@@ -1,6 +1,55 @@
 {
- "generated": "2026-11-16T17:05:00+00:00",
+ "generated": "2026-11-17T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-17-morgen",
+   "file": "2026-11-17-morgen.md",
+   "title": "Nasdaq fällt um 2,5 Prozent, Nvidia auf Tief seit Juli 2025, US-Geheimdienste warnen vor iranischen Anschlagsplänen",
+   "summary": "Die Wall Street hat am Montag deutlich verloren: Der Nasdaq fiel um 2,49 Prozent, Nvidia schloss bei 156,14 Dollar. Neue US-Exportregeln für Chips belasteten zusätzlich, der Ölpreis fiel kräftig. Laut CNN sehen US-Geheimdienste Hinweise auf iranische Pläne für Anschläge auf Regierungsvertreter in Washington, das Weiße Haus sieht derzeit keine glaubwürdige Bedrohung. Heute legt Nvidia Zahlen vor.",
+   "date": "2026-11-17",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Stock Market Today: Nasdaq Slides 2.5% as Nvidia Turmoil and Chip Restrictions Hit Tech",
+     "publisher": "Eurasia Business News",
+     "url": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
+     "type": "news",
+     "date": "2026-11-17"
+    },
+    {
+     "id": 2,
+     "title": "Iran potentially planning 'dirty bomb' attack in DC, US intelligence suggests",
+     "publisher": "The Jerusalem Post",
+     "url": "https://www.jpost.com/middle-east/iran-news/article-915109",
+     "type": "news",
+     "date": "2026-11-17"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today Live, November 16, 2026: Tech Stocks Pull the Market Lower Before Nvidia's Results",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026",
+     "type": "news",
+     "date": "2026-11-16"
+    }
+   ],
+   "words": 702,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-16-abend"
+  },
   {
    "id": "2026-11-16-abend",
    "file": "2026-11-16-abend.md",
