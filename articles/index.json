@@ -1,6 +1,61 @@
 {
- "generated": "2026-11-17T11:05:00+00:00",
+ "generated": "2026-11-17T17:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-17-abend",
+   "file": "2026-11-17-abend.md",
+   "title": "DAX rutscht unter 26.300 Punkte, US-Kerneinzelhandel überrascht positiv, Importpreise steigen stärker als erwartet",
+   "summary": "Der DAX hat seine Verluste am Nachmittag auf rund 1,4 Prozent ausgeweitet, SAP und Deutsche Bank fielen jeweils um gut 4 Prozent. In den USA stiegen die Einzelhandelsumsätze im Oktober wie erwartet um 0,2 Prozent, der Kernbereich legte aber stärker zu. Die Importpreise kletterten um 1,1 Prozent. Heute Abend legt Nvidia Zahlen vor.",
+   "date": "2026-11-17",
+   "edition": "abend",
+   "time": "18:05",
+   "labels": [
+    "Deutschland",
+    "Märkte",
+    "USA",
+    "Wirtschaft",
+    "Zinsen",
+    "Tech",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Schwacher Handel in Frankfurt: DAX sackt ab",
+     "publisher": "finanzen.ch",
+     "url": "https://www.finanzen.ch/nachrichten/aktien/schwacher-handel-in-frankfurt-dax-sackt-ab-1036774138",
+     "type": "news",
+     "date": "2026-11-17"
+    },
+    {
+     "id": 2,
+     "title": "KI-Bedenken machen Dax zu schaffen - Deutsche-Bank-Aktien auf Tauchstation",
+     "publisher": "MarketScreener / Reuters",
+     "url": "https://de.marketscreener.com/boerse-nachrichten/ki-bedenken-machen-dax-zu-schaffen-deutsche-bank-aktien-auf-tauchstation-ce785edfd08ef32d",
+     "type": "news",
+     "date": "2026-11-17"
+    },
+    {
+     "id": 3,
+     "title": "US retail sales increase moderately; import prices rise above expectations",
+     "publisher": "KFGO / Reuters",
+     "url": "https://kfgo.com/2026/11/17/us-retail-sales-increase-moderately-in-october/",
+     "type": "news",
+     "date": "2026-11-17"
+    },
+    {
+     "id": 4,
+     "title": "Stock Market Today Live, November 16, 2026: Tech Stocks Pull the Market Lower Before Nvidia's Results",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026",
+     "type": "news",
+     "date": "2026-11-16"
+    }
+   ],
+   "words": 707,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-17-mittag"
+  },
   {
    "id": "2026-11-17-mittag",
    "file": "2026-11-17-mittag.md",

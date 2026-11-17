@@ -1,6 +1,22 @@
 {
- "generated": "2026-11-17T11:05:00+00:00",
+ "generated": "2026-11-17T17:05:00+00:00",
  "items": [
+  {
+   "id": "2026-11-17-abend-1",
+   "article_id": "2026-11-17-abend",
+   "title": "DAX rutscht unter 26.300 Punkte, US-Kerneinzelhandel überrascht positiv, Importpreise steigen stärker als erwartet",
+   "date": "2026-11-17",
+   "labels": [
+    "Deutschland",
+    "Märkte",
+    "USA",
+    "Wirtschaft",
+    "Zinsen",
+    "Tech",
+    "KI"
+   ],
+   "text": "Die Kerneinzelhandelsumsätze, auch „Control Group“ genannt, lassen schwankende Bereiche wie Autos und Benzin weg. Ökonomen nutzen sie, weil sie direkt in die Berechnung des Wirtschaftswachstums einfließen. Ein starker Kernwert zeigt, dass Verbraucher trotz hoher Preise weiter Geld ausgeben."
+  },
   {
    "id": "2026-11-17-mittag-1",
    "article_id": "2026-11-17-mittag",
