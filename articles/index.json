@@ -1,6 +1,54 @@
 {
- "generated": "2026-11-17T06:05:00+00:00",
+ "generated": "2026-11-17T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-17-mittag",
+   "file": "2026-11-17-mittag.md",
+   "title": "Datenleck belastet Deutsche Bank, DAX verliert ein Prozent, Iran und Oman beraten über Hormus",
+   "summary": "Der DAX ist am Dienstagvormittag um rund ein Prozent gefallen, die Deutsche Bank verlor nach Berichten über mehr als 15 Millionen geleakte Dokumente gut 6 Prozent. In Maskat sprachen die Außenminister Irans und Omans über die Sicherheit der Schifffahrt, ohne konkrete Einigung. Vor der Küste Omans wurde erneut ein Tanker angegriffen.",
+   "date": "2026-11-17",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "USA",
+    "Tech"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "MÄRKTE EUROPA/DAX verliert 1% - Deutsche Bank stark unter Druck",
+     "publisher": "finanzen.ch / Dow Jones",
+     "url": "https://www.finanzen.ch/nachrichten/aktien/maerkte-europa-dax-verliert-1percent-ein-deutsche-bank-stark-unter-druck-1036773172",
+     "type": "news",
+     "date": "2026-11-17"
+    },
+    {
+     "id": 2,
+     "title": "Iran and Oman discuss maritime security amid rising attacks in Strait of Hormuz",
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/",
+     "type": "news",
+     "date": "2026-11-17"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today Live, November 16, 2026: Tech Stocks Pull the Market Lower Before Nvidia's Results",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026",
+     "type": "news",
+     "date": "2026-11-16"
+    }
+   ],
+   "words": 762,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-17-morgen"
+  },
   {
    "id": "2026-11-17-morgen",
    "file": "2026-11-17-morgen.md",
