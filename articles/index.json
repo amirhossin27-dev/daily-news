@@ -1,6 +1,64 @@
 {
- "generated": "2026-11-18T06:05:00+00:00",
+ "generated": "2026-11-18T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-18-mittag",
+   "file": "2026-11-18-mittag.md",
+   "title": "USA greifen Raketenstellung auf Qeschm an, Iran beschießt Ziele in Bahrain und Kuwait, DAX stabilisiert sich nach Nvidia",
+   "summary": "Zwischen den USA und Iran ist es erneut zu einem direkten Schusswechsel gekommen: US-Kampfjets griffen eine Raketenstellung der Revolutionsgarden auf der Insel Qeschm an, Iran feuerte Drohnen auf US-Stellungen in Bahrain und Kuwait. Der DAX erholt sich leicht, doch nach den starken Nvidia-Zahlen bleibt die Euphorie aus. Bitcoin pendelt um 64.700 Dollar.",
+   "date": "2026-11-18",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Iran",
+    "USA",
+    "Naher Osten",
+    "Geopolitik",
+    "Deutschland",
+    "Märkte",
+    "KI",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "US, Iran exchange fire despite talks with mediators",
+     "publisher": "Hawaii Tribune-Herald / Reuters",
+     "url": "https://www.hawaiitribune-herald.com/2026/11/18/nation-world-news/us-iran-exchange-fire-despite-talks-with-mediators/",
+     "type": "news",
+     "date": "2026-11-18"
+    },
+    {
+     "id": 2,
+     "title": "Gulf Crisis Deepens: Iran Targets Bahrain, ADNOC Vessel Attacked, US Responds with Strikes",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444",
+     "type": "news",
+     "date": "2026-11-18"
+    },
+    {
+     "id": 3,
+     "title": "Dax stabilisiert sich - Keine Euphorie nach Nvidia-Zahlen",
+     "publisher": "MarketScreener / Reuters",
+     "url": "https://de.marketscreener.com/boerse-nachrichten/dax-stabilisiert-sich-keine-euphorie-nach-nvidia-zahlen-ce785edcd08ef323",
+     "type": "news",
+     "date": "2026-11-18"
+    },
+    {
+     "id": 4,
+     "title": "Crypto Market Analysis Nov 18 2026: BTC ETH SOL Prices",
+     "publisher": "Pickaxe",
+     "url": "https://www.pickaxe.io/resources/news/crypto-markets-hold-steady-on-nov-18-2026-with-sol-surge",
+     "type": "analysis",
+     "date": "2026-11-18"
+    }
+   ],
+   "words": 720,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-18-morgen"
+  },
   {
    "id": "2026-11-18-morgen",
    "file": "2026-11-18-morgen.md",
