@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-18T17:05:00+00:00",
+ "generated": "2026-11-19T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-19-morgen",
+   "file": "2026-11-19-morgen.md",
+   "title": "Anthropic platziert Aktien zu 83 Dollar im größten Börsengang der Geschichte, Fed-Protokolle deuten auf weitere Zinserhöhungen",
+   "summary": "Anthropic hat seine Aktien zu 83 Dollar ausgegeben, über der Preisspanne, und 81,3 Milliarden Dollar eingenommen, so viel wie kein Börsengang zuvor. Heute beginnt der Handel an der Nasdaq. Die Protokolle der Fed zeigen, dass fast alle Mitglieder weitere Zinserhöhungen für möglich halten. Der S&P 500 fiel unter seinen 200-Tage-Durchschnitt, Gold verlor mehr als 3 Prozent.",
+   "date": "2026-11-19",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "KI",
+    "Tech",
+    "Märkte",
+    "USA",
+    "Zinsen"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
+     "publisher": "Investing.com / Reuters",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
+     "type": "news",
+     "date": "2026-11-18"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+     "publisher": "The Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/",
+     "type": "news",
+     "date": "2026-11-18"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today Live, November 18, 2026: The Dow Slides in Late Morning Trading",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026",
+     "type": "news",
+     "date": "2026-11-18"
+    }
+   ],
+   "words": 705,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-18-abend"
+  },
   {
    "id": "2026-11-18-abend",
    "file": "2026-11-18-abend.md",
