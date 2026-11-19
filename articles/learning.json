@@ -1,6 +1,20 @@
 {
- "generated": "2026-11-19T11:10:00+00:00",
+ "generated": "2026-11-19T17:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-19-abend-1",
+   "article_id": "2026-11-19-abend",
+   "title": "Anthropic-Aktie vor dem Start deutlich über Ausgabepreis taxiert, DAX schließt im Minus, Nasdaq-Futures steigen",
+   "date": "2026-11-19",
+   "labels": [
+    "KI",
+    "Tech",
+    "Märkte",
+    "USA",
+    "Deutschland"
+   ],
+   "text": "Bei einem Börsengang gibt es zwei Preise. Der Ausgabepreis ist der Preis, zu dem große Anleger die Aktien vorab zugeteilt bekommen, hier 83 Dollar. Der erste Kurs an der Börse entsteht dann aus Angebot und Nachfrage. Liegt er höher, sprechen Fachleute von einem „Pop“, also einem Kurssprung am ersten Tag."
+  },
   {
    "id": "2026-11-19-mittag-1",
    "article_id": "2026-11-19-mittag",

@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-19T11:10:00+00:00",
+ "generated": "2026-11-19T17:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-19-abend",
+   "file": "2026-11-19-abend.md",
+   "title": "Anthropic-Aktie vor dem Start deutlich über Ausgabepreis taxiert, DAX schließt im Minus, Nasdaq-Futures steigen",
+   "summary": "Am ersten Handelstag von Anthropic deuteten Vorab-Kurse auf einen Start deutlich über dem Ausgabepreis von 83 Dollar hin, an der Nasdaq wurde eine Indikation von rund 105 Dollar gemeldet. Die Nasdaq-Futures lagen vor US-Handelsbeginn rund 2 Prozent im Plus. Der DAX konnte davon nicht profitieren und lag am späten Nachmittag 0,72 Prozent im Minus, SAP und Rheinmetall gaben nach.",
+   "date": "2026-11-19",
+   "edition": "abend",
+   "time": "18:10",
+   "labels": [
+    "KI",
+    "Tech",
+    "Märkte",
+    "USA",
+    "Deutschland"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Anthropic Shares Set to Jump 30% to $108 in Nasdaq Debut (Update)",
+     "publisher": "Trending Topics",
+     "url": "https://www.trendingtopics.eu/anthropic-shares-105-dollars-nasdaq-debut/",
+     "type": "news",
+     "date": "2026-11-19"
+    },
+    {
+     "id": 2,
+     "title": "Anthropic IPO Live Updates: Nasdaq Futures Surge Ahead Of Record $81 Billion Trading Debut",
+     "publisher": "Forbes",
+     "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-nasdaq-futures-jump-2-ahead-of-record-stock-debut/",
+     "type": "news",
+     "date": "2026-11-19"
+    },
+    {
+     "id": 3,
+     "title": "Anthropic IPO Live: ANT's First Day of Trading, Updated Step by Step",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
+     "type": "news",
+     "date": "2026-11-18"
+    },
+    {
+     "id": 4,
+     "title": "Extreme Ausschläge im DAX: Gewinner und Verlierer am 19.11.2026",
+     "publisher": "wallstreet-online",
+     "url": "https://www.wallstreet-online.de/nachricht/21719931-top-flop-extreme-ausschlaege-dax-gewinner-verlierer-19-11-2026",
+     "type": "news",
+     "date": "2026-11-19"
+    }
+   ],
+   "words": 709,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-19-mittag"
+  },
   {
    "id": "2026-11-19-mittag",
    "file": "2026-11-19-mittag.md",
