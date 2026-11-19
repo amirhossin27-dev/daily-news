@@ -1,6 +1,53 @@
 {
- "generated": "2026-11-19T06:05:00+00:00",
+ "generated": "2026-11-19T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-19-mittag",
+   "file": "2026-11-19-mittag.md",
+   "title": "Erstes Dreiertreffen von Trump, Xi und Putin in Shenzhen, DAX erholt sich vor dem Anthropic-Debüt",
+   "summary": "In Shenzhen haben sich Donald Trump, Xi Jinping und Wladimir Putin erstmals zu dritt getroffen; Ergebnisse wurden zunächst nicht bekannt. Die Ukraine besteht darauf, an Gesprächen über ihre Zukunft beteiligt zu werden. Der DAX erholt sich leicht vom Kursrutsch, Anleger hoffen auf Rückenwind durch den Börsengang von Anthropic.",
+   "date": "2026-11-19",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Geopolitik",
+    "USA",
+    "Europa",
+    "Deutschland",
+    "Märkte",
+    "KI",
+    "Tech"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Trump, Xi, And Putin Hold First-Ever Trilateral Meeting",
+     "publisher": "Radio Free Europe/Radio Liberty",
+     "url": "https://www.rferl.org/a/trump-and-putin-hold-brief-apec-meeting/33901539.html",
+     "type": "news",
+     "date": "2026-11-19"
+    },
+    {
+     "id": 2,
+     "title": "Aktien Frankfurt Eröffnung: Erholungsversuch - Anthropic-IPO hebt Tech-Laune",
+     "publisher": "MarketScreener / dpa-AFX",
+     "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-eroeffnung-erholungsversuch-anthropic-ipo-hebt-tech-laune-ce785eddd08af622",
+     "type": "news",
+     "date": "2026-11-19"
+    },
+    {
+     "id": 3,
+     "title": "APEC live: Trump, Xi and Putin to meet in historic three-way China summit",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
+     "type": "news",
+     "date": "2026-11-19"
+    }
+   ],
+   "words": 710,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-19-morgen"
+  },
   {
    "id": "2026-11-19-morgen",
    "file": "2026-11-19-morgen.md",
