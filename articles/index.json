@@ -1,6 +1,55 @@
 {
- "generated": "2026-11-20T11:10:00+00:00",
+ "generated": "2026-11-20T17:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-20-abend",
+   "file": "2026-11-20-abend.md",
+   "title": "DAX fällt unter 25.000 Punkte, Chipwerte brechen ein, Anthropic-Aktie nähert sich dem Ausgabepreis",
+   "summary": "Der Ausverkauf bei Technologiewerten hat sich am Freitag verschärft. Der DAX fiel den sechsten Tag in Folge und rutschte unter 25.000 Punkte, in Asien brachen Nikkei, Kospi und Taiex um mehr als 5 Prozent ein. An der Wall Street verloren Nvidia, AMD und Micron deutlich. Die Anthropic-Aktie gab am zweiten Handelstag gut 11 Prozent nach. Bitcoin fiel unter 60.000 Dollar.",
+   "date": "2026-11-20",
+   "edition": "abend",
+   "time": "18:10",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "USA",
+    "Zinsen",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Aktien Frankfurt: Sechster Verlusttag wirft den Dax unter 25.000 Punkte zurück",
+     "publisher": "finanzen.at / dpa-AFX",
+     "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-sechster-verlusttag-wirft-den-dax-unter-25-000-punkte-zurueck-1036787641",
+     "type": "news",
+     "date": "2026-11-20"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today Live, November 20, 2026: Chip Stocks Sink Deeper by Late Morning",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+     "type": "news",
+     "date": "2026-11-20"
+    },
+    {
+     "id": 3,
+     "title": "Anthropic Slides 10.8% on Day Two as Bitcoin (BTC) Sinks",
+     "publisher": "Coinotag",
+     "url": "https://en.coinotag.com/anthropic-slides-day-two-as-bitcoin-sinks",
+     "type": "news",
+     "date": "2026-11-20"
+    }
+   ],
+   "words": 769,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-20-mittag"
+  },
   {
    "id": "2026-11-20-mittag",
    "file": "2026-11-20-mittag.md",

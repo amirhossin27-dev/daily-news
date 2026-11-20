@@ -1,6 +1,24 @@
 {
- "generated": "2026-11-20T11:10:00+00:00",
+ "generated": "2026-11-20T17:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-20-abend-1",
+   "article_id": "2026-11-20-abend",
+   "title": "DAX fällt unter 25.000 Punkte, Chipwerte brechen ein, Anthropic-Aktie nähert sich dem Ausgabepreis",
+   "date": "2026-11-20",
+   "labels": [
+    "Deutschland",
+    "Europa",
+    "Märkte",
+    "Tech",
+    "KI",
+    "USA",
+    "Zinsen",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "text": "„Überverkauft“ bedeutet, dass Kurse in kurzer Zeit so stark gefallen sind, dass viele Analysten eine Gegenbewegung für wahrscheinlich halten. Es ist aber keine Garantie: Ein überverkaufter Markt kann noch weiter fallen, wenn die Gründe für die Verkäufe bestehen bleiben."
+  },
   {
    "id": "2026-11-20-mittag-1",
    "article_id": "2026-11-20-mittag",
