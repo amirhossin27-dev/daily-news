@@ -1,6 +1,22 @@
 {
- "generated": "2026-11-19T17:10:00+00:00",
+ "generated": "2026-11-20T06:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-20-morgen-1",
+   "article_id": "2026-11-20-morgen",
+   "title": "Anthropic schließt ersten Handelstag 17 Prozent über Ausgabepreis, Dow verliert mehr als 1.100 Punkte",
+   "date": "2026-11-20",
+   "labels": [
+    "KI",
+    "Tech",
+    "Märkte",
+    "USA",
+    "Zinsen",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "text": "Gewinnmitnahmen bedeuten, dass Anleger Aktien verkaufen, nachdem der Kurs gestiegen ist, um den Gewinn zu sichern. Bei Börsengängen passiert das oft am ersten Tag: Wer Aktien zum Ausgabepreis bekommen hat, verkauft einen Teil direkt nach dem Kurssprung. Deshalb fällt der Kurs nach einem starken Start häufig wieder."
+  },
   {
    "id": "2026-11-19-abend-1",
    "article_id": "2026-11-19-abend",
