@@ -1,6 +1,6 @@
 /* Daily Brief offline shell. The build stamps this file when shell assets change. */
-// build-version: f83961d57d546b8a
-const BUILD_VERSION = 'f83961d57d546b8a';
+// build-version: 02ca2a19c0a7a732
+const BUILD_VERSION = '02ca2a19c0a7a732';
 const PREFIX = 'daily-brief-shell-';
 const ARTICLES = 'daily-brief-articles-v1';
 const META = 'daily-brief-cache-meta-v1';
