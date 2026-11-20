@@ -1,6 +1,54 @@
 {
- "generated": "2026-11-20T06:10:00+00:00",
+ "generated": "2026-11-20T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-20-mittag",
+   "file": "2026-11-20-mittag.md",
+   "title": "Huthi-Angriff beschädigt höchsten Turm Saudi-Arabiens, Trump will Iran-Krieg nach Neujahr neu bewerten, DAX fällt weiter",
+   "summary": "Ein Angriff der Huthi hat in Riad den PIF-Turm beschädigt, das höchste Gebäude Saudi-Arabiens. Weitere Raketen und Drohnen wurden abgefangen. Trump sagte, Washington werde nach dem 1. Januar sehen, wie es im Iran-Konflikt weitergehe. Der DAX fiel zum Handelsstart um gut ein Prozent auf rund 25.190 Punkte, Chipwerte brachen ein.",
+   "date": "2026-11-20",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Naher Osten",
+    "Iran",
+    "USA",
+    "Geopolitik",
+    "Deutschland",
+    "Märkte",
+    "Tech",
+    "KI"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Middle East conflicts: Trump delays Iran decision as Houthi attacks put Saudi Arabia on alert",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/us-israel-war-on-iran-saudi-faces-houthi-missiles-trump-delays-iran-decision-1.500754425",
+     "type": "news",
+     "date": "2026-11-20"
+    },
+    {
+     "id": 2,
+     "title": "Dax setzt Talfahrt fort - Tech-Werte stürzen erneut ab",
+     "publisher": "onvista / Reuters",
+     "url": "https://www.onvista.de/news/2026/11-20-dax-setzt-talfahrt-fort-tech-werte-stuerzen-erneut-ab-0-20-26578728",
+     "type": "news",
+     "date": "2026-11-20"
+    },
+    {
+     "id": 3,
+     "title": "Stock Market Today, November 19, 2026: Stocks Close Lower on the Day Anthropic Begins Trading",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026",
+     "type": "news",
+     "date": "2026-11-19"
+    }
+   ],
+   "words": 700,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-20-morgen"
+  },
   {
    "id": "2026-11-20-morgen",
    "file": "2026-11-20-morgen.md",
