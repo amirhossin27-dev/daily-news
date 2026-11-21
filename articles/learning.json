@@ -1,6 +1,21 @@
 {
- "generated": "2026-11-20T17:10:00+00:00",
+ "generated": "2026-11-21T06:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-21-morgen-1",
+   "article_id": "2026-11-21-morgen",
+   "title": "Nasdaq stürzt um 5,3 Prozent, S&P 500 und Dow in der Korrektur, Nvidia verliert fast 14 Prozent",
+   "date": "2026-11-21",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Tech",
+    "KI",
+    "Zinsen",
+    "Energie"
+   ],
+   "text": "Von einer „Korrektur“ sprechen Börsianer, wenn ein Index mehr als 10 Prozent unter seinem Höchststand liegt. Ab 20 Prozent spricht man von einem Bärenmarkt. Korrekturen kommen in den meisten Jahrzehnten mehrfach vor, ihre Dauer und Tiefe sind aber kaum vorherzusagen."
+  },
   {
    "id": "2026-11-20-abend-1",
    "article_id": "2026-11-20-abend",

@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-20T17:10:00+00:00",
+ "generated": "2026-11-21T06:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-21-morgen",
+   "file": "2026-11-21-morgen.md",
+   "title": "Nasdaq stürzt um 5,3 Prozent, S&P 500 und Dow in der Korrektur, Nvidia verliert fast 14 Prozent",
+   "summary": "Die Wall Street hat am Freitag einen der schwersten Tage seit Jahren erlebt. Der Nasdaq fiel um 5,3 Prozent und liegt nun für das Jahr im Minus, der S&P 500 verlor 3,7 Prozent und ist mehr als 10 Prozent unter seinem Rekord. Nvidia brach um fast 14 Prozent ein. Die Anthropic-Aktie gab rund 9 Prozent nach, blieb aber über dem Ausgabepreis.",
+   "date": "2026-11-21",
+   "edition": "morgen",
+   "time": "07:10",
+   "labels": [
+    "Märkte",
+    "USA",
+    "Tech",
+    "KI",
+    "Zinsen",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+     "publisher": "Spectrum News / AP",
+     "url": "https://spectrumlocalnews.com/us/snplus/business/2026/11/20/wall-street-nov-20-2026",
+     "type": "news",
+     "date": "2026-11-20"
+    },
+    {
+     "id": 2,
+     "title": "Stock Market Today, November 20, 2026: US Stocks Close Sharply Lower",
+     "publisher": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+     "type": "news",
+     "date": "2026-11-20"
+    },
+    {
+     "id": 3,
+     "title": "Aktien Frankfurt: Sechster Verlusttag wirft den Dax unter 25.000 Punkte zurück",
+     "publisher": "finanzen.at / dpa-AFX",
+     "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-sechster-verlusttag-wirft-den-dax-unter-25-000-punkte-zurueck-1036787641",
+     "type": "news",
+     "date": "2026-11-20"
+    }
+   ],
+   "words": 729,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-20-abend"
+  },
   {
    "id": "2026-11-20-abend",
    "file": "2026-11-20-abend.md",
