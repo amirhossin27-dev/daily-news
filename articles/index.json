@@ -1,6 +1,55 @@
 {
- "generated": "2026-11-21T06:10:00+00:00",
+ "generated": "2026-11-21T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-21-mittag",
+   "file": "2026-11-21-mittag.md",
+   "title": "Bitcoin stürzt unter 56.000 Dollar, USA und Israel erwägen neue Angriffe auf Iran, Bessent: Irans Ölschiff sinkt",
+   "summary": "Bitcoin ist am Samstagmorgen auf rund 55.500 Dollar gefallen, erstmals seit mehr als zwei Jahren unter 56.000 Dollar. Der größte Unternehmens-Anleger Strategy liegt mit seinem Bestand rund 17 Milliarden Dollar im Minus. Laut CBS erwägen die USA und Israel kurzfristig neue Angriffe auf Iran. US-Finanzminister Bessent erklärte, Iran werde für bereits verkauftes Öl womöglich nie bezahlt.",
+   "date": "2026-11-21",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Iran",
+    "Israel",
+    "USA",
+    "Naher Osten",
+    "Geopolitik",
+    "Energie"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Why Is Bitcoin Dropping? Strategy Faces $17B Loss",
+     "publisher": "Bitcoin Foundation",
+     "url": "https://bitcoinfoundation.org/news/analysis/why-is-bitcoin-crashing-btc-price-plunges-toward-55-500/",
+     "type": "analysis",
+     "date": "2026-11-21"
+    },
+    {
+     "id": 2,
+     "title": "Live - US, Israel weigh strikes, Bessent says Iran may never be paid for oil already sold",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611214578",
+     "type": "news",
+     "date": "2026-11-21"
+    },
+    {
+     "id": 3,
+     "title": "Iran war live: Saudi-led coalition repels Houthi missiles",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles",
+     "type": "news",
+     "date": "2026-11-21"
+    }
+   ],
+   "words": 784,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-21-morgen"
+  },
   {
    "id": "2026-11-21-morgen",
    "file": "2026-11-21-morgen.md",
