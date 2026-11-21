@@ -1,6 +1,53 @@
 {
- "generated": "2026-11-21T11:10:00+00:00",
+ "generated": "2026-11-21T17:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-21-abend",
+   "file": "2026-11-21-abend.md",
+   "title": "Bitcoin erholt sich auf über 60.000 Dollar nach Liquidationen von 2,7 Milliarden, US-Militär drängt Trump zu Iran-Entscheidung",
+   "summary": "Nach seinem Absturz auf rund 55.100 Dollar hat sich Bitcoin am Samstag wieder über 60.000 Dollar erholt. Binnen 24 Stunden wurden Positionen von rund 2,7 Milliarden Dollar zwangsweise aufgelöst. Laut Financial Times drängen US- und israelische Vertreter Trump zu neuen Angriffen auf Iran, weil die Einsatzbereitschaft nach Dezember nachlassen könnte. Trump will erst nach Neujahr entscheiden.",
+   "date": "2026-11-21",
+   "edition": "abend",
+   "time": "18:10",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Iran",
+    "USA",
+    "Israel",
+    "Geopolitik"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Bitcoin Crashes Below $56,000 as $2.7 Billion Crypto Liquidation Wipes Out Traders",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/21/bitcoin-crashes-below-56000-as-2-7-billion-crypto-liquidation-wipes-out-traders/",
+     "type": "news",
+     "date": "2026-11-21"
+    },
+    {
+     "id": 2,
+     "title": "Bitcoin Price Rebounds to $60K After Crash Near $55K, Leaving Billions in Liquidations",
+     "publisher": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+     "type": "news",
+     "date": "2026-11-21"
+    },
+    {
+     "id": 3,
+     "title": "Trump 'considering new strikes on Iran after being warned military is running out of time'",
+     "publisher": "The Independent via Yahoo News",
+     "url": "https://sg.news.yahoo.com/trump-considering-strikes-iran-being-000440648.html",
+     "type": "news",
+     "date": "2026-11-21"
+    }
+   ],
+   "words": 709,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-21-mittag"
+  },
   {
    "id": "2026-11-21-mittag",
    "file": "2026-11-21-mittag.md",

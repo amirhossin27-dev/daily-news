@@ -1,6 +1,22 @@
 {
- "generated": "2026-11-21T11:10:00+00:00",
+ "generated": "2026-11-21T17:10:00+00:00",
  "items": [
+  {
+   "id": "2026-11-21-abend-1",
+   "article_id": "2026-11-21-abend",
+   "title": "Bitcoin erholt sich auf über 60.000 Dollar nach Liquidationen von 2,7 Milliarden, US-Militär drängt Trump zu Iran-Entscheidung",
+   "date": "2026-11-21",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Iran",
+    "USA",
+    "Israel",
+    "Geopolitik"
+   ],
+   "text": "Eine Liquidation passiert, wenn jemand mit geliehenem Geld auf Kurse gewettet hat und der Kurs gegen ihn läuft. Reicht die hinterlegte Sicherheit nicht mehr, schließt die Börse die Position automatisch. Viele solcher Zwangsverkäufe auf einmal können einen Kurssturz beschleunigen, so wie in der Nacht zum Samstag."
+  },
   {
    "id": "2026-11-21-mittag-1",
    "article_id": "2026-11-21-mittag",
