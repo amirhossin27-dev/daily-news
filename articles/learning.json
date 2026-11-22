@@ -1,6 +1,22 @@
 {
- "generated": "2026-11-22T11:10:00+00:00",
+ "generated": "2026-11-22T17:15:00+00:00",
  "items": [
+  {
+   "id": "2026-11-22-abend-1",
+   "article_id": "2026-11-22-abend",
+   "title": "Zwei Verletzte in Bahrain, Katar vermittelt in Teheran, Bitcoin wieder über 60.000 Dollar",
+   "date": "2026-11-22",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Energie",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "text": "Rollierende Stromabschaltungen heißen, dass der Strom nicht überall gleichzeitig ausfällt, sondern abwechselnd in einzelnen Gebieten für einige Stunden. So verteilt ein Versorger einen Mangel möglichst gleichmäßig, statt das ganze Netz zu gefährden. Iran erzeugt einen großen Teil seines Stroms mit Gas; fehlt Gas, fehlt deshalb schnell auch Strom."
+  },
   {
    "id": "2026-11-22-mittag-1",
    "article_id": "2026-11-22-mittag",

@@ -1,6 +1,61 @@
 {
- "generated": "2026-11-22T11:10:00+00:00",
+ "generated": "2026-11-22T17:15:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-22-abend",
+   "file": "2026-11-22-abend.md",
+   "title": "Zwei Verletzte in Bahrain, Katar vermittelt in Teheran, Bitcoin wieder über 60.000 Dollar",
+   "summary": "Bahrain meldet nach dem iranischen Angriff vom Samstag nun zwei Verletzte, darunter einen Pakistaner in kritischem Zustand. Eine Delegation aus Katar führte in Teheran zwei Stunden Gespräche, Iran knüpft eine Öffnung von Hormus aber weiter an seine Forderungen. Im Land selbst beginnen Stromabschaltungen. Bitcoin kletterte am Sonntag wieder über 60.000 Dollar.",
+   "date": "2026-11-22",
+   "edition": "abend",
+   "time": "18:15",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "Energie",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Pakistani among two injured in Iranian attacks, Bahrain says",
+     "publisher": "Dawn / AFP",
+     "url": "https://www.dawn.com/news/2046321/pakistani-among-two-injured-in-iranian-attacks-bahrain-says",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 2,
+     "title": "Two tankers struck in Hormuz; Iran holds talks with Qatar",
+     "publisher": "Business Recorder / AFP",
+     "url": "https://www.brecorder.com/news/40450177/two-tankers-struck-in-hormuz-iran-holds-talks-with-qatar",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 3,
+     "title": "Bitcoin price stalls near $60K as Pi Network rebounds, VVV jumps 20%: Market watch",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-pi-network-vvv-weekend-recovery/",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 4,
+     "title": "Bitcoin Tests 300- and 350-Week Averages Near Historic Support Zone",
+     "publisher": "BitcoinWorld",
+     "url": "https://bitcoinworld.co.in/bitcoin-300-350-week-moving-averages-support-zone/",
+     "type": "news",
+     "date": "2026-11-22"
+    }
+   ],
+   "words": 756,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-22-mittag"
+  },
   {
    "id": "2026-11-22-mittag",
    "file": "2026-11-22-mittag.md",
