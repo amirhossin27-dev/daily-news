@@ -1,6 +1,63 @@
 {
- "generated": "2026-11-21T17:10:00+00:00",
+ "generated": "2026-11-22T06:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-22-morgen",
+   "file": "2026-11-22-morgen.md",
+   "title": "Bitcoin pendelt um 59.000 Dollar, Huthi zielen auf Saudi-Arabiens Ölküste, Senat stoppt Iran-Resolution knapp",
+   "summary": "Bitcoin hat sich über Nacht weiter erholt und lag am frühen Sonntag bei rund 59.500 Dollar, knapp 6 Prozent über dem Vortag. Händler sehen eine Fed-Zinserhöhung im Dezember als fast sicher. Die Huthi haben eine Rakete auf Saudi-Arabiens Westregion mit wichtigen Ölanlagen gefeuert. Im US-Senat scheiterte eine Resolution zur Begrenzung des Iran-Kriegs mit 48 zu 51 Stimmen.",
+   "date": "2026-11-22",
+   "edition": "morgen",
+   "time": "07:10",
+   "labels": [
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Zinsen",
+    "Naher Osten",
+    "Iran",
+    "USA",
+    "Israel",
+    "Europa"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Bitcoin Hits Two-Year Low Near $55,000 as AI Stocks Slide",
+     "publisher": "BitcoinWorld",
+     "url": "https://bitcoinworld.co.in/bitcoin-two-year-low-55000-ai-stocks-slide/",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 2,
+     "title": "$1.603 billion in crypto futures liquidations in 24 hours",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/data-1-603-billion-in-crypto-futures-liquidations-in-24-hours",
+     "type": "data",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 3,
+     "title": "Live Updates: Trump says next move on Iran may not come until 2027 as Tehran denies chemical weapons claim",
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
+     "type": "news",
+     "date": "2026-11-21"
+    },
+    {
+     "id": 4,
+     "title": "Times of Israel liveblog, November 22, 2026",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-22-2026",
+     "type": "news",
+     "date": "2026-11-22"
+    }
+   ],
+   "words": 703,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-21-abend"
+  },
   {
    "id": "2026-11-21-abend",
    "file": "2026-11-21-abend.md",
