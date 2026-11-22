@@ -1,6 +1,61 @@
 {
- "generated": "2026-11-22T06:10:00+00:00",
+ "generated": "2026-11-22T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-22-mittag",
+   "file": "2026-11-22-mittag.md",
+   "title": "Bahrain meldet Brand nach iranischem Angriff, Teheran beansprucht Hormus, Krypto mit breiter Erholung",
+   "summary": "Bahrain macht Iran für einen Brand in einer zivilen Industrieanlage verantwortlich, die Revolutionsgarden behaupten Treffer auf US-Radaranlagen. Iran beansprucht die Kontrolle über die Straße von Hormus und nennt eine Öffnung „nicht schwierig“, wenn die USA Bedingungen akzeptieren. Am Kryptomarkt legten 91 Prozent der Coins binnen 24 Stunden zu.",
+   "date": "2026-11-22",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Iran",
+    "Naher Osten",
+    "Geopolitik",
+    "USA",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Houthi missiles target Saudi Arabia, Iran restates Hormuz terms",
+     "publisher": "The New Arab",
+     "url": "https://www.newarab.com/news/houthi-missiles-target-saudi-arabia-iran-restates-hormuz-terms",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 2,
+     "title": "Saudi Arabia Intercepts Houthi Missile Near Mecca, Bahrain Blames Iran for Fire",
+     "publisher": "House of Saud",
+     "url": "https://houseofsaud.com/houthi-missile-mecca-iran-bahrain-fire-nov22/",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 3,
+     "title": "Iran asserts control over Hormuz as strikes on Bahrain, Saudi Arabia escalate",
+     "publisher": "finwire.io / Investing.com",
+     "url": "https://finwire.io/news/economy-news/iran-asserts-control-over-hormuz-as-strikes-on-bahrain-saudi-arabia-escalate",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 4,
+     "title": "Daily Market Update for Nov 22, 2026",
+     "publisher": "CoinCodex",
+     "url": "https://coincodex.com/article/95777/daily-market-update-for-november-22-2026/",
+     "type": "data",
+     "date": "2026-11-22"
+    }
+   ],
+   "words": 778,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-22-morgen"
+  },
   {
    "id": "2026-11-22-morgen",
    "file": "2026-11-22-morgen.md",
