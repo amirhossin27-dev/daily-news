@@ -1,6 +1,63 @@
 {
- "generated": "2026-11-22T17:15:00+00:00",
+ "generated": "2026-11-23T06:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-23-morgen",
+   "file": "2026-11-23-morgen.md",
+   "title": "US-Futures erholen sich nach Crash-Woche, Asien stützt seine Börsen, Iran meldet brennende Tanker",
+   "summary": "Nach einer schweren Börsenwoche zeigen die US-Terminkontrakte am Montag nach oben, Südkorea und Taiwan greifen zur Stützung ihrer Märkte ein. Bitcoin hält sich über 60.000 Dollar, die Stimmung bleibt aber auf Angstniveau. Iran meldet zwei brennende Tanker in einem „Sperrgebiet“ östlich von Hormus.",
+   "date": "2026-11-23",
+   "edition": "morgen",
+   "time": "07:05",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "Zinsen",
+    "USA",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum",
+    "Iran",
+    "Naher Osten"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Asia Market Quick Take – 23 November, 2026",
+     "publisher": "Saxo",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--23-november-2026-23112026",
+     "type": "analysis",
+     "date": "2026-11-23"
+    },
+    {
+     "id": 2,
+     "title": "Crypto Daily Market Report – November 23, 2026",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-23-2026",
+     "type": "data",
+     "date": "2026-11-23"
+    },
+    {
+     "id": 3,
+     "title": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
+     "publisher": "Al Jazeera",
+     "url": "https://aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat",
+     "type": "news",
+     "date": "2026-11-22"
+    },
+    {
+     "id": 4,
+     "title": "Bitcoin Shorts Take 74% of $134 Million in 24-Hour Liquidations",
+     "publisher": "COINOTAG",
+     "url": "https://en.coinotag.com/bitcoin-shorts-74-percent-134-million-liquidations",
+     "type": "news",
+     "date": "2026-11-23"
+    }
+   ],
+   "words": 761,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-22-abend"
+  },
   {
    "id": "2026-11-22-abend",
    "file": "2026-11-22-abend.md",
