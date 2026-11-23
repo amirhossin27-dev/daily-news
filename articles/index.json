@@ -1,6 +1,64 @@
 {
- "generated": "2026-11-23T06:05:00+00:00",
+ "generated": "2026-11-23T11:10:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-23-mittag",
+   "file": "2026-11-23-mittag.md",
+   "title": "Europas Börsen erholen sich vorsichtig, Iran meldet explodierte Supertanker, Ether über 1.700 Dollar",
+   "summary": "Europas Aktien starten nach der schwersten Woche seit März 2025 leicht im Plus, Chipwerte wie ASML führen die Erholung an. Irans Revolutionsgarden melden zwei „regelwidrige“ Supertanker, die nach Minentreffern explodiert seien; ein Abgeordneter spricht von rund zehn angegriffenen Tankern pro Tag. Bitcoin hält sich bei rund 61.000 Dollar.",
+   "date": "2026-11-23",
+   "edition": "mittag",
+   "time": "12:10",
+   "labels": [
+    "Märkte",
+    "Europa",
+    "Deutschland",
+    "Tech",
+    "Iran",
+    "Naher Osten",
+    "Energie",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European stocks recover after steep technology-led selloff",
+     "publisher": "MarketScreener / Reuters",
+     "url": "https://www.marketscreener.com/news/european-stocks-recover-after-steep-technology-led-selloff-ce7851dad98cf522",
+     "type": "news",
+     "date": "2026-11-23"
+    },
+    {
+     "id": 2,
+     "title": "Iran's IRGC says two 'violating' supertankers exploded after hitting mines in Hormuz Strait",
+     "publisher": "Telangana Today / IANS",
+     "url": "https://telanganatoday.com/irans-irgc-says-two-violating-supertankers-exploded-after-hitting-mines-in-hormuz-strait",
+     "type": "news",
+     "date": "2026-11-23"
+    },
+    {
+     "id": 3,
+     "title": "Iran claims to hit 10 'violating' tankers daily in Strait of Hormuz",
+     "publisher": "Arab Times",
+     "url": "https://www.arabtimesonline.com/news/iran-claims-to-hit-10-violating-tankers-daily-in-strait-of-hormuz/",
+     "type": "news",
+     "date": "2026-11-23"
+    },
+    {
+     "id": 4,
+     "title": "Crypto Price Analysis, BTC, ETH, VVV, TAO and LIT, Nov. 23",
+     "publisher": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/11/23/crypto-price-analysis-btc-eth-vvv-tao-and-lit-nov-23-ethereum-reclaims-1710-as-venice-outruns-bitcoins-rebound/",
+     "type": "analysis",
+     "date": "2026-11-23"
+    }
+   ],
+   "words": 714,
+   "reading_minutes": 4,
+   "previous_id": "2026-11-23-morgen"
+  },
   {
    "id": "2026-11-23-morgen",
    "file": "2026-11-23-morgen.md",
