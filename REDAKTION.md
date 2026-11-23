@@ -10,9 +10,7 @@ Amir: Wirtschaftsingenieur (RWTH), IT-Projektmanager bei BASF (Intranet-Portale,
 
 | Ausgabe | Datei | Zeit (Europe/Berlin) | Schwerpunkt |
 |---|---|---|---|
-| Morgen | `articles/JJJJ-MM-TT-morgen.md` | ca. 07:00 | Was über Nacht passiert ist (USA, Asien, Nahost) und was heute ansteht |
-| Mittag | `articles/JJJJ-MM-TT-mittag.md` | ca. 12:00 | Entwicklungen seit dem Morgen, Europa-Handel, neue Daten |
-| Abend | `articles/JJJJ-MM-TT-abend.md` | ca. 18:00 | Tagesbilanz, Einordnung, Ausblick auf morgen |
+| Tagesausgabe | `articles/JJJJ-MM-TT-mittag.md` | ca. 12:00 | Seit 24.11.2026 die einzige Ausgabe am Tag: alles Wichtige seit der letzten Ausgabe (Nacht, Asien, Europa, USA, Nahost, Krypto), ausführlich, mit Terminen des Tages |
 
 Jede Ausgabe bringt **neue** Informationen. Vorher die letzten zwei Ausgaben lesen und nichts wiederholen, außer es gibt eine echte Entwicklung (dann kurz darauf verweisen).
 
@@ -26,7 +24,7 @@ Nach „Kurz gesagt“ folgt `## Neu seit der letzten Ausgabe`: kurz und konkret
 4. **Zum Lernen:** ein Kasten `[!LERNEN]`, der einen Begriff oder Mechanismus aus der Ausgabe erklärt (z. B. Kerninflation, Staking, Rendite einer Anleihe, Ölpreis und Inflation).
 5. **Zum Nachdenken:** ein Kasten `[!FRAGE]` mit einer offenen Frage, gern mit Bezug zu Amirs Arbeit oder Nebenprojekt. Keine Ratschläge, keine Lebensweisheiten.
 
-Länge: 700 bis 1.200 Wörter. Sprache: Deutsch, klar, sachlich, ganze Sätze, keine Gedankenstriche als Satzzeichen.
+Länge: 700 bis 2.500 Wörter. Die tägliche Hauptausgabe (mittag) darf ausführlich sein, bis zu acht Hauptthemen. Sprache: Deutsch, klar, sachlich, ganze Sätze, keine Gedankenstriche als Satzzeichen.
 
 Diese Länge, genau drei Stichpunkte unter `## Kurz gesagt`, drei bis vier nummerierte Hauptthemen sowie nichtleere `[!LERNEN]`- und `[!FRAGE]`-Kästen werden für neue und bearbeitete Artikel verbindlich geprüft. Schwache Themen nicht künstlich auffüllen: Bei unzureichender Nachrichtenlage die Veröffentlichung redaktionell klären. Unveränderte historische Artikel bleiben über einen eingefrorenen Inhaltsvergleich lesbar und erzeugen Hinweise. Die Datei `scripts/legacy_articles.json` darf dafür nicht erweitert oder neu erzeugt werden.
 

@@ -42,7 +42,7 @@ class EditorialTests(unittest.TestCase):
         self.write(*edition())
         article, errors, _ = check(self.path)
         self.assertFalse(errors)
-        self.assertTrue(700 <= article["words"] <= 1200)
+        self.assertTrue(700 <= article["words"] <= 2500)
         first = build(self.root, check)
         self.assertEqual(first, build(self.root, check))
         self.assertEqual(first["index.json"]["generated"], "2026-11-01T06:00:00+00:00")
@@ -58,7 +58,7 @@ class EditorialTests(unittest.TestCase):
         self.assertTrue(any("Quelle [9]" in e for e in check(self.path)[1]))
 
     def test_editorial_structure_and_word_limits(self):
-        for transform in (lambda b: b.replace("- Aussage drei. [3]", ""), lambda b: b.replace("[!LERNEN]", "[!SOCIAL]"), lambda b: b.replace("[!FRAGE]", "[!SOCIAL]"), lambda b: b.replace("## 3.", "## Thema drei"), lambda b: b + "Lang " * 1300, lambda b: b[:120]):
+        for transform in (lambda b: b.replace("- Aussage drei. [3]", ""), lambda b: b.replace("[!LERNEN]", "[!SOCIAL]"), lambda b: b.replace("[!FRAGE]", "[!SOCIAL]"), lambda b: b.replace("## 3.", "## Thema drei"), lambda b: b + "Lang " * 2600, lambda b: b[:120]):
             meta, body = edition(); self.write(meta, transform(body))
             self.assertTrue(check(self.path)[1])
 

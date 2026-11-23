@@ -98,13 +98,13 @@ def validate(path, legacy, base):
     target = warnings if legacy else errors
     if len(meta["labels"]) != len(set(meta["labels"])):
         target.append("Labels dürfen nicht doppelt vorkommen")
-    if article and not 700 <= article["words"] <= 1200:
-        target.append(f"{article['words']} Wörter, erforderlich sind 700–1.200")
+    if article and not 700 <= article["words"] <= 2500:
+        target.append(f"{article['words']} Wörter, erforderlich sind 700–2.500")
     short = re.search(r"^## Kurz gesagt\s*\n(.*?)(?=^## |\Z)", body, re.M | re.S)
     if not short or len(re.findall(r"^\s*[-*+]\s+", short[1], re.M)) != 3:
         target.append("Kurz gesagt muss genau drei Stichpunkte enthalten")
-    if not 3 <= len(re.findall(r"^## \d+\.\s+\S", body, re.M)) <= 4:
-        target.append("Drei bis vier nummerierte Hauptthemen erforderlich")
+    if not 3 <= len(re.findall(r"^## \d+\.\s+\S", body, re.M)) <= 8:
+        target.append("Drei bis acht nummerierte Hauptthemen erforderlich")
     for tag in ("LERNEN", "FRAGE"):
         if not re.search(rf"^>\s*\[!{tag}\]\s*\n>\s*\S", body, re.M):
             target.append(f"Nichtleerer [!{tag}]-Kasten fehlt")
