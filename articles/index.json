@@ -1,6 +1,84 @@
 {
- "generated": "2026-11-23T11:10:00+00:00",
+ "generated": "2026-11-24T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-24-mittag",
+   "file": "2026-11-24-mittag.md",
+   "title": "Huang kehrt zu Nvidia zurück und löst eine Rekordrally aus, Iran nennt sieben Bedingungen, Bitcoin bleibt bei 61.000 Dollar",
+   "summary": "Jensen Huangs Rückkehr an die Spitze von Nvidia hat der Wall Street den besten Tag seit April 2025 beschert, Asiens Chipwerte zogen am Dienstag kräftig nach. Europa legt nach der Erholung vom Montag eine Pause ein, der Blick richtet sich auf die US-Inflationsdaten am Mittwoch und die nahezu sicher erwartete Zinserhöhung der Fed. Iran will erst verhandeln, wenn sieben Bedingungen erfüllt sind, und meldet drei weitere Tanker, die auf Minen gelaufen seien. Bitcoin hält sich knapp über 60.000 Dollar.",
+   "date": "2026-11-24",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "Zinsen",
+    "USA",
+    "Europa",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Israel",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia's CEO",
+     "publisher": "AP / KSAT",
+     "url": "https://www.ksat.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/",
+     "type": "news",
+     "date": "2026-11-24"
+    },
+    {
+     "id": 2,
+     "title": "European shares pause after month-best rally on Nvidia euphoria",
+     "publisher": "Investing.com / Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/european-shares-pause-month-best-083749877.html",
+     "type": "news",
+     "date": "2026-11-24"
+    },
+    {
+     "id": 3,
+     "title": "Iran insists no talks with the US until its 7 conditions are met, and other Mideast news",
+     "publisher": "AP / WDIV",
+     "url": "https://www.clickondetroit.com/news/world/2026/11/24/iran-insists-no-talks-with-the-us-until-its-7-conditions-are-met-and-other-mideast-news/",
+     "type": "news",
+     "date": "2026-11-24"
+    },
+    {
+     "id": 4,
+     "title": "Iran summons Qatari envoy as Rubio prepares to meet Qatar's prime minister (Liveblog)",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611214578",
+     "type": "news",
+     "date": "2026-11-23"
+    },
+    {
+     "id": 5,
+     "title": "Crypto Daily Market Report – November 24, 2026",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-24-2026",
+     "type": "data",
+     "date": "2026-11-24"
+    },
+    {
+     "id": 6,
+     "title": "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24",
+     "publisher": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/",
+     "type": "analysis",
+     "date": "2026-11-24"
+    }
+   ],
+   "words": 1540,
+   "reading_minutes": 7,
+   "previous_id": "2026-11-23-mittag"
+  },
   {
    "id": "2026-11-23-mittag",
    "file": "2026-11-23-mittag.md",
