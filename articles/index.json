@@ -1,6 +1,84 @@
 {
- "generated": "2026-11-24T11:05:00+00:00",
+ "generated": "2026-11-25T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-25-mittag",
+   "file": "2026-11-25-mittag.md",
+   "title": "KI-Rally verpufft, Asiens Chipwerte stürzen ab, Bitcoin fällt unter 60.000 Dollar, Rial auf Rekordtief",
+   "summary": "Die Nvidia-Euphorie vom Montag hielt nur einen Tag: Der Nasdaq fiel am Dienstag um 1,5 Prozent, in Asien brachen Chipwerte am Mittwoch ein. Europa steigt dagegen dank Luxus- und Konsumwerten, alle warten auf die US-Inflationsdaten und mögliche neue Zölle. Bitcoin schloss unter 60.000 Dollar. In Iran kostet ein Dollar erstmals mehr als 2,8 Millionen Rial, Washington verhängt neue Sanktionen.",
+   "date": "2026-11-25",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "Zinsen",
+    "USA",
+    "Europa",
+    "Deutschland",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "How major US stock indexes fared Tuesday 11/24/2026",
+     "publisher": "AP / myMotherLode",
+     "url": "https://mymotherlode.com/news/national/11337878/how-major-us-stock-indexes-fared-tuesday-11-24-2026.html",
+     "type": "data",
+     "date": "2026-11-24"
+    },
+    {
+     "id": 2,
+     "title": "Global stocks are mixed as AI shares tumble after a retreat on Wall Street",
+     "publisher": "AP / WDIV",
+     "url": "https://www.clickondetroit.com/business/2026/11/25/asian-stocks-mostly-decline-as-ai-shares-fall-following-a-retreat-on-wall-street/",
+     "type": "news",
+     "date": "2026-11-25"
+    },
+    {
+     "id": 3,
+     "title": "European shares rise on consumer boost; markets await US tariffs, inflation",
+     "publisher": "Reuters / 93.3 The Drive",
+     "url": "https://www.933thedrive.com/2026/11/25/european-shares-rise-on-consumer-boost-markets-await-us-tariffs-inflation/",
+     "type": "news",
+     "date": "2026-11-25"
+    },
+    {
+     "id": 4,
+     "title": "Brent Crude Slides 4.6% as Supply Surplus Fears Outweigh Hormuz Risks",
+     "publisher": "JournalArta",
+     "url": "https://journalarta.com/en/2026/11/25/brent-crude-slides-4-6-as-supply-surplus-fears-outweigh-hormuz-risks/",
+     "type": "news",
+     "date": "2026-11-25"
+    },
+    {
+     "id": 5,
+     "title": "Live - Dollar tops 2.8 million rials after Bessent says Iran's leaders are panicking",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611214578",
+     "type": "news",
+     "date": "2026-11-24"
+    },
+    {
+     "id": 6,
+     "title": "November 25 Crypto Market Review: Bitcoin Closes Below 60,000 as All Eight Major Coins Fall",
+     "publisher": "Goodman Macro",
+     "url": "https://www.goodman-macro.com/en/articles/20261125-crypto-market/",
+     "type": "data",
+     "date": "2026-11-25"
+    }
+   ],
+   "words": 1464,
+   "reading_minutes": 7,
+   "previous_id": "2026-11-24-mittag"
+  },
   {
    "id": "2026-11-24-mittag",
    "file": "2026-11-24-mittag.md",
