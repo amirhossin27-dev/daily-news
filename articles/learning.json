@@ -1,6 +1,30 @@
 {
- "generated": "2026-11-25T11:05:00+00:00",
+ "generated": "2026-11-26T11:05:00+00:00",
  "items": [
+  {
+   "id": "2026-11-26-mittag-1",
+   "article_id": "2026-11-26-mittag",
+   "title": "US-Inflation steigt auf 3,8 Prozent, Trump plant neue Zölle auch gegen die EU, Huthi zielen erneut auf Riad",
+   "date": "2026-11-26",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "Zinsen",
+    "USA",
+    "Europa",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Israel",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "text": "Der PCE-Index misst, wie sich die Preise aller Waren und Dienstleistungen entwickeln, die private Haushalte in den USA kaufen. Er erfasst mehr Ausgaben als der bekanntere Verbraucherpreisindex CPI, etwa Gesundheitskosten, die Arbeitgeber oder Versicherungen zahlen. Deshalb nutzt die Fed ihn als Hauptmaßstab für ihr Inflationsziel von 2 Prozent. Die Kernrate lässt schwankende Energie- und Lebensmittelpreise weg und zeigt den Grundtrend."
+  },
   {
    "id": "2026-11-25-mittag-1",
    "article_id": "2026-11-25-mittag",

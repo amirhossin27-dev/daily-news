@@ -1,6 +1,85 @@
 {
- "generated": "2026-11-25T11:05:00+00:00",
+ "generated": "2026-11-26T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-26-mittag",
+   "file": "2026-11-26-mittag.md",
+   "title": "US-Inflation steigt auf 3,8 Prozent, Trump plant neue Zölle auch gegen die EU, Huthi zielen erneut auf Riad",
+   "summary": "Die von der Fed bevorzugte Inflationsrate PCE stieg im Oktober auf 3,8 Prozent, die Kernrate lag über den Erwartungen. Die Wall Street machte ihre frühen Verluste großteils wett, Asien erholte sich am Donnerstag. Die USA planen neue Zölle gegen China, die EU und weitere Partner. Saudi-Arabien fing erneut Raketen auf Riad ab, und Irans Währung fiel auf ein weiteres Rekordtief.",
+   "date": "2026-11-26",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "Zinsen",
+    "USA",
+    "Europa",
+    "Tech",
+    "KI",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Israel",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "How major US stock indexes fared Wednesday 11/25/2026",
+     "publisher": "AP / myMotherLode",
+     "url": "https://mymotherlode.com/news/national/11340405/how-major-us-stock-indexes-fared-wednesday-11-25-2026.html",
+     "type": "data",
+     "date": "2026-11-25"
+    },
+    {
+     "id": 2,
+     "title": "Asian shares rebound led by AI stocks after Wall Street pares sharp losses",
+     "publisher": "AP / WDIV",
+     "url": "https://www.clickondetroit.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/",
+     "type": "news",
+     "date": "2026-11-26"
+    },
+    {
+     "id": 3,
+     "title": "Asian markets rose on November 26 in tandem with U.S. index futures, defying Trump's tariffs",
+     "publisher": "Oninvest",
+     "url": "https://en.oninvest.com/article/asian-markets-rose-in-tandem-with-u-s-index-futures",
+     "type": "news",
+     "date": "2026-11-26"
+    },
+    {
+     "id": 4,
+     "title": "Crypto Daily Market Report – November 26, 2026",
+     "publisher": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-26-2026",
+     "type": "data",
+     "date": "2026-11-26"
+    },
+    {
+     "id": 5,
+     "title": "Iran-backed Houthis claim attack on Riyadh as Iran plays down naval blockade concerns (Liveblog)",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611214578",
+     "type": "news",
+     "date": "2026-11-25"
+    },
+    {
+     "id": 6,
+     "title": "Middle East conflict: Saudi Arabia intercepts missiles and drones as Trump keeps Iran options open",
+     "publisher": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-missiles-and-drones-as-trump-keeps-iran-options-open-1.500761343",
+     "type": "news",
+     "date": "2026-11-26"
+    }
+   ],
+   "words": 1449,
+   "reading_minutes": 7,
+   "previous_id": "2026-11-25-mittag"
+  },
   {
    "id": "2026-11-25-mittag",
    "file": "2026-11-25-mittag.md",
