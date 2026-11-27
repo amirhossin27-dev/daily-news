@@ -1,6 +1,93 @@
 {
- "generated": "2026-11-26T11:05:00+00:00",
+ "generated": "2026-11-27T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-27-mittag",
+   "file": "2026-11-27-mittag.md",
+   "title": "DAX springt um 2 Prozent nach Zoll-Entwarnung, zwei Rheinmetall-Mitarbeiter in Kuwait getötet, Festnahmen wegen Anschlagsplänen in Köln",
+   "summary": "Die USA wollen neue Zölle auf die Sätze bestehender Handelsabkommen begrenzen, Europas Börsen reagierten mit kräftigen Gewinnen, der DAX stieg um mehr als 500 Punkte. Asien legte am Freitag nach Stützungssignalen aus China und Südkorea zu. Bei einem Drohnenangriff in Kuwait, für den Kuwait Iran verantwortlich macht, starben zwei italienische Rheinmetall-Mitarbeiter. In Deutschland wurden zwei Männer festgenommen, die Anschläge auf Synagogen geplant haben sollen.",
+   "date": "2026-11-27",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "Zinsen",
+    "Europa",
+    "Deutschland",
+    "USA",
+    "Tech",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Israel",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin",
+    "Ethereum"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
+     "publisher": "Reuters / Businesstimes via Longbridge",
+     "url": "https://longbridge.com/en/news/306942418",
+     "type": "news",
+     "date": "2026-11-26"
+    },
+    {
+     "id": 2,
+     "title": "European Stocks Rise Nearly 2%, DAX Soars 513 Points as Tariff Concerns Ease",
+     "publisher": "Bastille Post via Longbridge",
+     "url": "https://longbridge.com/en/news/306950195",
+     "type": "news",
+     "date": "2026-11-27"
+    },
+    {
+     "id": 3,
+     "title": "Asian shares mostly rise ahead of Wall Street's reopening after the Thanksgiving holiday",
+     "publisher": "AP / WDIV",
+     "url": "https://www.clickondetroit.com/business/2026/11/27/asian-shares-mostly-rise-ahead-of-wall-streets-reopening-after-the-thanksgiving-holiday/",
+     "type": "news",
+     "date": "2026-11-27"
+    },
+    {
+     "id": 4,
+     "title": "Asian stocks rally as China, South Korea signal market support",
+     "publisher": "Malay Mail / dpa-AFX",
+     "url": "https://www.malaymail.com/news/money/2026/11/27/asian-stocks-rally-as-china-south-korea-signal-market-support/245032",
+     "type": "news",
+     "date": "2026-11-27"
+    },
+    {
+     "id": 5,
+     "title": "Israeli military says it is ready to strike Iran without US support (Liveblog)",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611214578",
+     "type": "news",
+     "date": "2026-11-26"
+    },
+    {
+     "id": 6,
+     "title": "Nov. 26: Yashar, UTJ reportedly reach agreement on key principles of Haredi draft law",
+     "publisher": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-26-2026/",
+     "type": "news",
+     "date": "2026-11-26"
+    },
+    {
+     "id": 7,
+     "title": "Bitcoin and Altcoins: Market Overview (November 27, 2026)",
+     "publisher": "Koin Bülteni",
+     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-27-2026-293509.html",
+     "type": "data",
+     "date": "2026-11-27"
+    }
+   ],
+   "words": 1274,
+   "reading_minutes": 6,
+   "previous_id": "2026-11-26-mittag"
+  },
   {
    "id": "2026-11-26-mittag",
    "file": "2026-11-26-mittag.md",
