@@ -1,6 +1,81 @@
 {
- "generated": "2026-11-27T11:05:00+00:00",
+ "generated": "2026-11-28T11:05:00+00:00",
  "articles": [
+  {
+   "id": "2026-11-28-mittag",
+   "file": "2026-11-28-mittag.md",
+   "title": "Wall Street mit bester Woche seit April 2025, Bitcoin mit Rekordabflüssen, Opec+ entscheidet am Sonntag über 2027",
+   "summary": "Der S&P 500 schloss die verkürzte Thanksgiving-Woche mit einem Plus von 5,6 Prozent ab, der DAX stieg am Freitag auf 25.441 Punkte. Bitcoin verlor binnen eines Monats rund 26 Prozent, aus den US-Bitcoin-ETFs flossen im November so viel Geld ab wie nie zuvor. Am Sonntag legt die Opec+ ihre Förderpolitik für 2027 fest. Kuwait bestellte nach dem tödlichen Drohnenangriff den iranischen Botschafter ein, Israels Armee sieht sich bereit, Iran notfalls allein anzugreifen.",
+   "date": "2026-11-28",
+   "edition": "mittag",
+   "time": "12:05",
+   "labels": [
+    "Märkte",
+    "Wirtschaft",
+    "USA",
+    "Deutschland",
+    "Energie",
+    "Iran",
+    "Naher Osten",
+    "Israel",
+    "Geopolitik",
+    "Krypto",
+    "Bitcoin"
+   ],
+   "sources": [
+    {
+     "id": 1,
+     "title": "How major US stock indexes fared Friday 11/27/2026",
+     "publisher": "AP / myMotherLode",
+     "url": "https://mymotherlode.com/news/national/11344241/how-major-us-stock-indexes-fared-friday-11-27-2026.html",
+     "type": "data",
+     "date": "2026-11-27"
+    },
+    {
+     "id": 2,
+     "title": "DAX Closes 0.90% Higher as Tech Rebound Extends",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-closes-0-90-prozent-higher-as-tech-rebound-extends/70562869",
+     "type": "news",
+     "date": "2026-11-27"
+    },
+    {
+     "id": 3,
+     "title": "OPEC+ Meeting on 29 November 2026: What to Expect for 2027 Output and Oil Prices",
+     "publisher": "Admirals",
+     "url": "https://admiralmarkets.com/analytics/traders-blog/opec-meeting-november-29-2026-preview",
+     "type": "analysis",
+     "date": "2026-11-27"
+    },
+    {
+     "id": 4,
+     "title": "Bitcoin falls 26% in a month as ETF outflows hit $5.78B",
+     "publisher": "crypto.news",
+     "url": "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026/",
+     "type": "news",
+     "date": "2026-11-28"
+    },
+    {
+     "id": 5,
+     "title": "Trump backs efforts to bring all Iraq weapons under state control, end oil smuggling (Liveblog)",
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/liveblog/202611214578",
+     "type": "news",
+     "date": "2026-11-27"
+    },
+    {
+     "id": 6,
+     "title": "Iran News in Brief – November 28, 2026",
+     "publisher": "NCRI (iranische Oppositionsgruppe)",
+     "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-november-28-2026/",
+     "type": "news",
+     "date": "2026-11-28"
+    }
+   ],
+   "words": 1159,
+   "reading_minutes": 6,
+   "previous_id": "2026-11-27-mittag"
+  },
   {
    "id": "2026-11-27-mittag",
    "file": "2026-11-27-mittag.md",
